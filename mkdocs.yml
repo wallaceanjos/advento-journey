@@ -1,0 +1,123 @@
+site_name: "Advento"
+site_description: "Lore e documentação oficial do MMORPG cristão Advento"
+site_url: "https://SEU_USUARIO.github.io/advento-journey/"
+repo_url: "https://github.com/SEU_USUARIO/advento-journey"
+repo_name: "advento-journey"
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/SEU_USUARIO/advento-journey"
+
+nav:
+  - 'Home': index.md
+  - 'Visão Geral':
+    - 'Pilares':
+      - 'Conceito Central': visao-geral/pilares/conceito-central.md
+      - 'Intro': visao-geral/pilares/intro.md
+      - 'Objetivo do jogo': visao-geral/pilares/objetivo-do-jogo.md
+      - 'Diferencial': visao-geral/pilares/diferencial.md
+      - 'Manifesto do Projeto (Rascunho 1.0)': visao-geral/pilares/manifesto-do-projeto-rascunho-10.md
+    - 'Experiência':
+      - 'Experiência do Jogador': visao-geral/experiencia/experiencia-do-jogador.md
+      - 'Experiência Emocional': visao-geral/experiencia/experiencia-emocional.md
+      - 'Público-Alvo': visao-geral/experiencia/publico-alvo.md
+      - 'Sensação Desejada': visao-geral/experiencia/sensacao-desejada.md
+    - 'Estrutura e Técnica':
+      - 'Conflito Central': visao-geral/estrutura-e-tecnica/conflito-central.md
+      - 'Estrutura do Mundo': visao-geral/estrutura-e-tecnica/estrutura-do-mundo.md
+      - 'Linha Filosófica': visao-geral/estrutura-e-tecnica/linha-filosofica.md
+      - 'Plataforma': visao-geral/estrutura-e-tecnica/plataforma.md
+      - 'Abordagem Técnica': visao-geral/estrutura-e-tecnica/abordagem-tecnica.md
+    - 'Visão Geral': visao-geral/01-visao-geral.md
+  - 'Lore':
+    - 'Capítulos':
+      - 'O Véu': lore/capitulos/01-o-veu.md
+      - 'Principados': lore/capitulos/02-principados.md
+      - 'O Adversário': lore/capitulos/03-o-adversario.md
+      - 'A Queda': lore/capitulos/04-a-queda.md
+      - 'O Chamado': lore/capitulos/05-o-chamado.md
+      - 'A Guerra Invisível': lore/capitulos/06-a-guerra-invisivel.md
+    - 'Bestiário e Entidades':
+      - 'Matriz de Monstros Originais': lore/bestiario-e-entidades/matriz-de-monstros-originais.md
+      - 'Economia Espiritual': lore/bestiario-e-entidades/economia-espiritual.md
+      - 'Os Corrompidos': lore/bestiario-e-entidades/07-os-corrompidos.md
+    - 'Glossário e Termos':
+      - 'Glossário Base': lore/glossario-e-termos/glossario-base.md
+    - 'NPCs e Personagens':
+      - 'NPCs Principais': lore/npcs-e-personagens/npcs-principais.md
+    - 'Lore': lore/02-lore.md
+  - 'Mundo':
+    - 'Mundo': mundo/03-mundo.md
+    - 'Geografia do Caminho': mundo/geografia-do-caminho.md
+  - 'Gameplay':
+    - 'Classes':
+      - 'Caçador': gameplay/classes/cacador.md
+      - 'Clerigo': gameplay/classes/clerigo.md
+      - 'Guerreiro': gameplay/classes/guerreiro.md
+      - 'Justiceiro': gameplay/classes/justiceiro.md
+      - 'Sábio': gameplay/classes/sabio.md
+    - 'Gameplay': gameplay/04-gameplay.md
+    - 'Classes e Evoluções': gameplay/classes-e-evolucoes.md
+  - 'Sistema Técnico':
+    - 'Arquitetura':
+      - 'Comunicação Client-Server': sistema-tecnico/arquitetura/comunicacao-client-server.md
+      - 'Arquitetura Geral': sistema-tecnico/arquitetura/arquitetura-geral.md
+    - 'Módulos':
+      - 'HUD Técnica': sistema-tecnico/modulos/hud-tecnica.md
+      - 'Sistema de Login': sistema-tecnico/modulos/sistema-de-login.md
+    - 'Sistema Técnico': sistema-tecnico/05-sistema-tecnico.md
+  - 'Arte & Estilo':
+    - 'Arte & Estilo': arte-e-estilo/06-arte-e-estilo.md
+  - 'UI':
+    - 'UI': ui/07-ui.md
+  - 'Roadmap':
+    - 'Roadmap': roadmap/08-roadmap.md
+  - 'Ideias Soltas':
+    - 'Ideias Soltas': ideias-soltas/09-ideias-soltas.md
