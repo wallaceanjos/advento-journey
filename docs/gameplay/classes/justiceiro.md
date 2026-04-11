@@ -20,4 +20,4 @@
 ---
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🛡️ Classes e Evoluções]]
+- ⬅️ **Pai:** [Classes e Evoluções](../classes-e-evolucoes.md)

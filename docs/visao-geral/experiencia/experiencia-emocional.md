@@ -14,5 +14,5 @@ O jogo busca ressoar com a experiência humana autêntica, proporcionando:
 Não é sobre grind infinito; é sobre os marcos emocionais que o jogador encontra pelo caminho.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

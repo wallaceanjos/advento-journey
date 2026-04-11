@@ -15,5 +15,5 @@ O projeto se fundamenta em pilares teológicos sólidos:
 Toda essa filosofia é apresentada **organicamente** através do ambiente, diálogos de NPCs e eventos, sem nunca ser imposta de forma didática ou religiosa.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

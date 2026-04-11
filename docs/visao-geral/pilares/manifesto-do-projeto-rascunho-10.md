@@ -14,8 +14,8 @@ Este projeto não existe para competir no mercado ou alimentar egos, mas para cu
 O objetivo é criar algo que sempre permaneça fiel ao seu propósito original: gerar **beleza, profundidade e verdade** em forma jogável, mantendo intacta a diversão clássica do MMORPG.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

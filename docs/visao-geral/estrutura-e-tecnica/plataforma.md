@@ -15,5 +15,5 @@ A escolha das plataformas direciona decisões fundamentais de design:
 O foco é garantir que o jogador possa mergulhar na jornada do ADVENTO onde quer que esteja.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

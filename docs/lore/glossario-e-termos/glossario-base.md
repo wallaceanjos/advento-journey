@@ -19,8 +19,8 @@ A limitação espiritual que obscurece a realidade plena. No jogo, justifica a U
 ---
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 

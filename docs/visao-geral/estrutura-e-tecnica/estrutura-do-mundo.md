@@ -20,5 +20,5 @@ Três cidades estruturam o começo do jogo, cada uma introduzindo um tipo difere
 O mapa base do Ragnarok é preservado para manter a familiaridade, mas cada centímetro é **reinterpretado narrativamente**.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

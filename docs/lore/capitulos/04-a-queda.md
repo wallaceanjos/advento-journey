@@ -13,8 +13,8 @@ Houve um momento em que a percepção humana era plena. A Queda não destruiu o 
 - **Estrutural:** A corrupção tornou-se inerente às estruturas do mundo, afetando tudo o que é visível.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

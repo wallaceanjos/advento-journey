@@ -20,5 +20,5 @@ Servidor (rAthena)
 
 ## 🔗 Relacionado
 
-- [[🧱 Arquitetura Geral]]
-- [[# 🔐 Sistema de Login]]
+- [Arquitetura Geral](arquitetura-geral.md)
+- *#  Sistema de Login*

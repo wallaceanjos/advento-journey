@@ -11,8 +11,8 @@ O mundo de ADVENTO sempre teve duas camadas: a que todos veem e a que poucos per
 A jornada começa na normalidade, até que uma **fissura** na percepção — causada pelo encontro com o Livro — revela que nada é apenas físico. Existem forças disputando territórios invisíveis, e existe um **Rei** que ainda não foi reconhecido por este mundo.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

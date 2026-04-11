@@ -25,8 +25,8 @@ MMORPG é um mundo em constante movimento, e a Lore do ADVENTO justifica isso te
 - **A Esperança da Parusia:** A purificação real e definitiva ocorrerá apenas quando o **Rei (Jesus Cristo)** retornar. Somente na Sua volta o mal será extirpado de uma vez por todas. Até lá, o papel do jogador é atuar como um agente de contenção e resistência, impedindo que a escuridão consuma tudo.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

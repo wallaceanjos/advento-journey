@@ -15,6 +15,6 @@ Elementos principais:
 
 ## 🔗 Relacionado
 
-- [[🖥 UI Base]]
-- [[Sistema de Inventário]]
-- [[Sistema de Skills]]
+- *UI Base*
+- *Sistema de Inventário*
+- *Sistema de Skills*

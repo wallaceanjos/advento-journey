@@ -83,6 +83,44 @@ def slugify_image(filename: str) -> str:
     return slugify(p.stem) + p.suffix.lower()
 
 
+# ─── Índice de páginas markdown ───────────────────────────────────────────────
+
+def build_md_index(gdd_path: Path) -> dict:
+    """
+    Percorre o GDD e mapeia cada stem original de arquivo .md ao caminho
+    relativo que ele terá em docs/ após a slugificação.
+
+    Usado para resolver links internos Obsidian [[Nome da Página]].
+
+    Parâmetros:
+        gdd_path (Path): Raiz do GDD (advento-gdd/src/ADVENTO).
+
+    Retorno:
+        dict: {'🧠 01 - Visão Geral': 'visao-geral/01-visao-geral.md', ...}
+    """
+    index = {}
+    for root, dirs, files in os.walk(gdd_path):
+        dirs.sort()
+        root_path = Path(root)
+        rel_root = root_path.relative_to(gdd_path)
+
+        for filename in sorted(files):
+            if not filename.endswith('.md'):
+                continue
+            stem = filename[:-3]
+
+            if rel_root == Path('.') and filename == 'ADVENTO.md':
+                dest_rel = 'index.md'
+            else:
+                slug_parts = [slugify(p) for p in rel_root.parts]
+                file_slug = slugify(stem)
+                dest_rel = '/'.join(slug_parts + [file_slug]) + '.md' if slug_parts else f'{file_slug}.md'
+
+            index[stem] = dest_rel
+
+    return index
+
+
 # ─── Índice de imagens ────────────────────────────────────────────────────────
 
 def build_image_index(gdd_root: Path) -> dict:
@@ -148,17 +186,63 @@ def rewrite_obsidian_images(content: str, dest_file: Path, docs_root: Path,
     return re.sub(r'!\[\[([^\]]+)\]\]', replace_link, content)
 
 
+def rewrite_obsidian_links(content: str, dest_file: Path, docs_root: Path,
+                            md_index: dict) -> str:
+    """
+    Substitui links internos Obsidian [[Página]] e [[Página|Alias]] por
+    markdown padrão [Alias](caminho/relativo.md).
+
+    Links para páginas inexistentes ficam como texto em itálico.
+
+    Parâmetros:
+        content (str): Conteúdo markdown do arquivo.
+        dest_file (Path): Caminho do arquivo .md em docs/.
+        docs_root (Path): Raiz de docs/.
+        md_index (dict): Índice stem→caminho gerado por build_md_index().
+
+    Retorno:
+        str: Conteúdo com os links reescritos.
+    """
+    def replace_link(match):
+        inner = match.group(1).strip()
+
+        # Separa target e alias: [[Target|Alias]] ou [[Target]]
+        if '|' in inner:
+            target, alias = inner.split('|', 1)
+            target = target.strip()
+            alias = alias.strip()
+        else:
+            target, alias = inner, None
+
+        if target not in md_index:
+            # Página não existe no GDD — exibe como texto
+            display = alias or clean_display(target) or target
+            return f'*{display}*'
+
+        target_rel = md_index[target]
+        target_abs = docs_root / target_rel
+        rel = os.path.relpath(target_abs, dest_file.parent).replace('\\', '/')
+
+        display = alias or clean_display(target) or target
+        return f'[{display}]({rel})'
+
+    # (?<!!) garante que ![[img]] já tratado não seja reprocessado
+    return re.sub(r'(?<!!)(?<!\[)\[\[([^\]]+)\]\]', replace_link, content)
+
+
 # ─── Cópia de arquivos ────────────────────────────────────────────────────────
 
-def walk_and_copy(gdd_path: Path, docs_path: Path, image_index: dict) -> list:
+def walk_and_copy(gdd_path: Path, docs_path: Path,
+                  image_index: dict, md_index: dict) -> list:
     """
     Percorre o GDD, copia todos os .md para docs/ com nomes slugificados,
-    reescreve links Obsidian e retorna a estrutura de navegação.
+    reescreve links Obsidian de imagens e páginas, e retorna a navegação.
 
     Parâmetros:
         gdd_path (Path): Pasta raiz do GDD (advento-gdd/src/ADVENTO).
         docs_path (Path): Pasta de destino (advento-journey/docs/).
         image_index (dict): Índice de imagens gerado por build_image_index().
+        md_index (dict): Índice de páginas gerado por build_md_index().
 
     Retorno:
         list: Lista de nav nodes.
@@ -170,40 +254,43 @@ def walk_and_copy(gdd_path: Path, docs_path: Path, image_index: dict) -> list:
             continue
 
         if entry.is_dir():
-            node = _process_dir(entry, docs_path, docs_path, gdd_path, image_index)
+            node = _process_dir(entry, docs_path, docs_path, gdd_path, image_index, md_index)
             if node:
                 nav.append(node)
 
         elif entry.is_file() and entry.suffix == '.md':
             if entry.name == 'ADVENTO.md':
                 dest = docs_path / 'index.md'
-                _copy_md(entry, dest, docs_path, image_index)
+                _copy_md(entry, dest, docs_path, image_index, md_index)
                 print(f"  {entry.name} -> index.md")
                 nav.insert(0, {'label': 'Home', 'file': 'index.md'})
 
     return nav
 
 
-def _copy_md(src: Path, dest: Path, docs_root: Path, image_index: dict):
+def _copy_md(src: Path, dest: Path, docs_root: Path,
+             image_index: dict, md_index: dict):
     """
-    Copia um arquivo .md reescrevendo links Obsidian de imagens.
+    Copia um arquivo .md reescrevendo links Obsidian de imagens e páginas.
 
     Parâmetros:
         src (Path): Arquivo de origem no GDD.
         dest (Path): Arquivo de destino em docs/.
         docs_root (Path): Raiz de docs/.
         image_index (dict): Índice de imagens.
+        md_index (dict): Índice de páginas markdown.
     """
     content = src.read_text(encoding='utf-8', errors='replace')
     content = rewrite_obsidian_images(content, dest, docs_root, image_index)
+    content = rewrite_obsidian_links(content, dest, docs_root, md_index)
     dest.write_text(content, encoding='utf-8')
 
 
 def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path,
-                 gdd_root: Path, image_index: dict):
+                 gdd_root: Path, image_index: dict, md_index: dict):
     """
     Processa um diretório do GDD recursivamente: cria pasta slugificada,
-    copia arquivos .md (com reescrita de imagens) e retorna o nav node.
+    copia arquivos .md (com reescrita de imagens e links) e retorna o nav node.
 
     Parâmetros:
         src_dir (Path): Pasta de origem no GDD.
@@ -211,6 +298,7 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path,
         docs_root (Path): Raiz de docs/.
         gdd_root (Path): Raiz do GDD (para log).
         image_index (dict): Índice de imagens.
+        md_index (dict): Índice de páginas markdown.
 
     Retorno:
         dict | None: Nav node com 'label' e 'children', ou None se vazio.
@@ -227,7 +315,7 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path,
             continue
 
         if entry.is_dir():
-            child = _process_dir(entry, dest_dir, docs_root, gdd_root, image_index)
+            child = _process_dir(entry, dest_dir, docs_root, gdd_root, image_index, md_index)
             if child:
                 children.append(child)
 
@@ -235,7 +323,7 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path,
             file_label = clean_display(entry.stem)
             file_slug = slugify(entry.stem)
             dest_file = dest_dir / f"{file_slug}.md"
-            _copy_md(entry, dest_file, docs_root, image_index)
+            _copy_md(entry, dest_file, docs_root, image_index, md_index)
             rel = str(dest_file.relative_to(docs_root)).replace('\\', '/')
             children.append({'label': file_label, 'file': rel})
             src_rel = str(entry.relative_to(gdd_root)).replace('\\', '/')
@@ -390,8 +478,12 @@ def main():
     image_index = build_image_index(args.gdd_root)
     print(f"  {len(image_index)} imagem(ns) encontrada(s).")
 
+    print("Indexando paginas...")
+    md_index = build_md_index(args.gdd_path)
+    print(f"  {len(md_index)} pagina(s) indexada(s).")
+
     print("\nCopiando arquivos...")
-    nav = walk_and_copy(args.gdd_path, DOCS_DIR, image_index)
+    nav = walk_and_copy(args.gdd_path, DOCS_DIR, image_index, md_index)
 
     img_count = sum(1 for _ in IMAGES_DIR.rglob('*') if _.is_file()) if IMAGES_DIR.exists() else 0
     print(f"\n  {img_count} imagem(ns) copiada(s) para docs/assets/images/")

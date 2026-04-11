@@ -13,8 +13,8 @@ Batalhas espirituais constantes acontecem enquanto cidades prosperam. A maioria 
 - **O Combate:** O conflito é constante, silencioso e molda cada detalhe da vida física.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

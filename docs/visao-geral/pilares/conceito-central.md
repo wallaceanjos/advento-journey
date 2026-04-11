@@ -20,8 +20,8 @@ O conceito central de ADVENTO propõe que a realidade visível é apenas uma cam
 O Livro é o que torna o humano um **Player**. Ele fornece os dados técnicos (Interface, Atributos, Skills) necessários para navegar e sobreviver na Guerra Invisível.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

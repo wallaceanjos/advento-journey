@@ -49,8 +49,8 @@ União do MySQL com a UI.
 ---
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[ADVENTO]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [ADVENTO](../index.md)
+- 🏠 **Home:** [ADVENTO](../index.md)
 
 ---
 ## 🧠 Análise do Agente

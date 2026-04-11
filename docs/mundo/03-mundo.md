@@ -7,7 +7,7 @@
 
 ## 🗺️ Geografia Central
 Para entender a estrutura do continente e suas lições:
-- [[🗺️ Geografia do Caminho]] - O guia completo dos 3 Reinos e 9 Cidades.
+- [Geografia do Caminho](geografia-do-caminho.md) - O guia completo dos 3 Reinos e 9 Cidades.
 
 ---
 
@@ -19,8 +19,8 @@ Para entender a estrutura do continente e suas lições:
 ---
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[ADVENTO]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [ADVENTO](../index.md)
+- 🏠 **Home:** [ADVENTO](../index.md)
 
 ---
 

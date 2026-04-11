@@ -14,5 +14,5 @@ O objetivo sensorial do ADVENTO é equilibrar o conhecido com o inexplorado:
 O jogador deve se sentir um explorador descobrindo uma verdade antiga que sempre esteve lá, mas que agora se torna visível.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

@@ -13,8 +13,8 @@ Existe um eixo central de rebelião acima dos principados. O **Adversário** nã
 - **Identidade:** É a antiga serpente, buscando consolidar um domínio invisível absoluto sobre a humanidade.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

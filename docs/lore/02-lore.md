@@ -9,16 +9,16 @@
 A Lore do ADVENTO não é apenas um pano de fundo, mas o motor que justifica cada mecânica do jogo. Abaixo estão os marcos fundamentais da nossa mitologia:
 
 ### 🏛️ 01 - Capítulos (História)
-- [[📖 01 - O Véu]]
-- [[📖 02 - Principados]]
-- [[📖 03 - O Adversário]]
-- [[📖 04 - A Queda]]
-- [[📖 05 - O Chamado]]
-- [[📖 06 - A Guerra Invisível]]
+- [O Véu](capitulos/01-o-veu.md)
+- [Principados](capitulos/02-principados.md)
+- [O Adversário](capitulos/03-o-adversario.md)
+- [A Queda](capitulos/04-a-queda.md)
+- [O Chamado](capitulos/05-o-chamado.md)
+- [A Guerra Invisível](capitulos/06-a-guerra-invisivel.md)
 
 ### 👹 02 - Bestiário e Entidades
-- [[📖 07 - Os Corrompidos]]
-- [[01 - Matriz de Monstros Originais]]
+- [Os Corrompidos](bestiario-e-entidades/07-os-corrompidos.md)
+- [Matriz de Monstros Originais](bestiario-e-entidades/matriz-de-monstros-originais.md)
 
 ### 📚 03 - Glossário e Termos
 > *Definições fundamentais do universo.*
@@ -30,8 +30,8 @@ A Lore do ADVENTO não é apenas um pano de fundo, mas o motor que justifica cad
 ---
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[ADVENTO]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [ADVENTO](../index.md)
+- 🏠 **Home:** [ADVENTO](../index.md)
 
 ---
 ## 🧠 Análise do Agente

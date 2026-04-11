@@ -16,5 +16,5 @@ A jornada do jogador é estruturada em fases de percepção:
 O jogador deve sentir mistério leve, curiosidade e uma progressão mecânica satisfatória que sustenta a revelação gradual da lore. Nada deve parecer complexo demais no início.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

@@ -15,8 +15,8 @@ Nem todos que cruzam o Véu o fazem pela luz da Verdade. Existem aqueles que bus
 Enquanto o jogador usa o Livro para enfraquecer o Véu através da santidade, o Corrompido rasga o Véu através do pecado. Isso os torna visualmente e espiritualmente monstruosos, servindo como bucha de canhão ou generais menores na Guerra Invisível.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

@@ -11,5 +11,5 @@ Existe um eixo rebelde central liderado por **O Adversário**, que articula as a
 O conflito não é explosivo ou óbvio no início; ele se revela de forma **gradual**. A guerra acontece nos detalhes estruturais do mundo, e o jogador participa dela ativamente, mesmo que inicialmente não compreenda a magnitude da disputa espiritual em curso.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

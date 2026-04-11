@@ -15,5 +15,5 @@ O ADVENTO foi projetado para:
 **O que o ADVENTO não é:** Não é focado em PvP hardcore competitivo puro ou mecânicas de "e-sport". É um jogo centrado em **atmosfera e jornada**.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

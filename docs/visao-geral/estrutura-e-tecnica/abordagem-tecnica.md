@@ -15,5 +15,5 @@ A engenharia do projeto segue a filosofia de **estabilidade acima de inovação 
 O objetivo é entregar um MMORPG estável onde o brilho está na **escrita e na ambientação**.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)

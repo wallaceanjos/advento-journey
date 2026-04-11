@@ -15,8 +15,8 @@ O grande valor do ADVENTO reside na sua profundidade interpretativa:
 Aqui, o grind não é apenas um número, mas parte de uma **guerra territorial com peso espiritual** que culminará apenas com a Parusia.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

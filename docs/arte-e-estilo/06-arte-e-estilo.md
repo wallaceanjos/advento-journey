@@ -1,9 +1,9 @@
 > Identidade visual.
 
 ├── Arte & Estilo  
-│ ├── [[Iluminação Stylized]]
-│ ├── [[UI Estilo MMO]]  
-│ └── [[Sistema de Animação]]
+│ ├── *Iluminação Stylized*
+│ ├── *UI Estilo MMO*  
+│ └── *Sistema de Animação*
 
 Coloque:
 

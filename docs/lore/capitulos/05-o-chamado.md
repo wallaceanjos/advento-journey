@@ -21,8 +21,8 @@ O item da Bíblia apresentado ao jogador não é apenas um item de inventário; 
 O Véu só pode ser enfraquecido pela **santidade**. O Livro atua como um guia de santificação que torna o Véu menos opaco. À medida que o jogador "upa", sua "Lente da Verdade" recalibra: o que antes era uma sombra vermelha aterrorizante torna-se uma aura laranja e, eventualmente, uma figura comum sem cor, refletindo sua autoridade espiritual crescente.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

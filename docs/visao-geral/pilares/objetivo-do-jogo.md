@@ -22,8 +22,8 @@ O objetivo de ADVENTO é proporcionar a experiência de um MMORPG robusto (basea
 Em ADVENTO, o jogo é "sem fim" porque a batalha é constante. A vitória definitiva (a limpeza total do mal) ocorrerá apenas na Parusia. Até lá, o objetivo é ser sal e luz dentro do servidor, combatendo a corrupção uma dungeon de cada vez.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[🧠 01 - Visão Geral]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente

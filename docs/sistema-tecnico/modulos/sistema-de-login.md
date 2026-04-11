@@ -11,6 +11,6 @@ Login → Seleção de personagem → Carregar mapa inicial
 
 ## 🔗 Relacionado
 
-- [[🧱 Arquitetura Geral]]
-- [[🧠 Comunicação Client-Server]]
-- [[Criação de Personagem]]
+- [Arquitetura Geral](../arquitetura/arquitetura-geral.md)
+- [Comunicação Client-Server](../arquitetura/comunicacao-client-server.md)
+- *Criação de Personagem*

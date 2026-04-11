@@ -13,8 +13,8 @@ O mundo físico é apenas a superfície da realidade. Após a Queda, a humanidad
 - Fissuras repentinas podem ocorrer, revelando distorções momentâneas que nem todos conseguem interpretar.
 
 ## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [[📖 02 - Lore]]
-- 🏠 **Home:** [[ADVENTO]]
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
 
 ---
 ## 🧠 Análise do Agente
