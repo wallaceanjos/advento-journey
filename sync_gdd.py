@@ -3,6 +3,10 @@
 sync_gdd.py — Sincroniza advento-gdd/src/ADVENTO → advento-journey/docs/
 e regenera o mkdocs.yml com a navegação atualizada.
 
+Inclui suporte a imagens no formato Obsidian (![[img.png]]):
+- Copia as imagens para docs/assets/images/
+- Reescreve os links para markdown padrão com caminho relativo correto
+
 Uso:
     python sync_gdd.py
     python sync_gdd.py --gdd-path ../advento-gdd/src/ADVENTO
@@ -13,12 +17,18 @@ import os
 import re
 import shutil
 import argparse
+import unicodedata
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
 GDD_DEFAULT = SCRIPT_DIR.parent / "advento-gdd" / "src" / "ADVENTO"
+# Pasta raiz do GDD completo (onde ficam assets/, não só ADVENTO/)
+GDD_ROOT_DEFAULT = SCRIPT_DIR.parent / "advento-gdd"
 DOCS_DIR = SCRIPT_DIR / "docs"
+IMAGES_DIR = DOCS_DIR / "assets" / "images"
 MKDOCS_YML = SCRIPT_DIR / "mkdocs.yml"
+
+IMAGE_EXTS = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'}
 
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -33,18 +43,15 @@ def clean_display(name: str) -> str:
     Retorno:
         str: Nome limpo para exibição na navegação.
     """
-    # Remove qualquer caractere acima de U+024F (emojis, símbolos especiais)
-    # U+0000–U+024F cobre ASCII + Latin-1 + Latin Extended (inclui todos acentos PT)
+    # U+0000–U+024F cobre ASCII + Latin-1 + Latin Extended (todos acentos PT)
     name = re.sub(r'[^\u0000-\u024F\s\-_.()\[\]]', '', name).strip()
-    # Remove prefixo numérico "01 - ", "02 - ", etc.
     name = re.sub(r'^\d+\s*[-–]\s*', '', name).strip()
     return name or 'Sem Título'
 
 
 def slugify(text: str) -> str:
     """
-    Converte texto em slug ASCII URL-safe para uso em nomes de arquivo/pasta.
-    Transliteração de acentos: 'ã' → 'a', 'ç' → 'c', etc.
+    Converte texto em slug ASCII URL-safe. Transliteração: 'ã'→'a', 'ç'→'c'.
 
     Parâmetros:
         text (str): Texto original (pode conter emojis, acentos, espaços).
@@ -52,13 +59,9 @@ def slugify(text: str) -> str:
     Retorno:
         str: Slug minúsculo com hífens, ex: 'visao-geral'.
     """
-    import unicodedata
-    # Remove prefixo numérico
     text = re.sub(r'^\d+\s*[-–]\s*', '', text).strip()
     text = text.lower().replace('&', 'e')
-    # Remove emojis (acima de U+024F) antes de decompor
     text = re.sub(r'[^\u0000-\u024F\s\-_]', '', text)
-    # Decompõe acentos: 'ã' → 'a' + combining tilde, depois descarta combining
     text = unicodedata.normalize('NFKD', text)
     text = text.encode('ascii', 'ignore').decode()
     text = re.sub(r'[^\w\s-]', '', text)
@@ -66,20 +69,99 @@ def slugify(text: str) -> str:
     return re.sub(r'-+', '-', text).strip('-') or 'pagina'
 
 
+def slugify_image(filename: str) -> str:
+    """
+    Gera nome de arquivo seguro para imagens, preservando a extensão original.
+
+    Parâmetros:
+        filename (str): Nome original da imagem, ex: 'Pasted image 20260225.png'.
+
+    Retorno:
+        str: Nome slugificado, ex: 'pasted-image-20260225.png'.
+    """
+    p = Path(filename)
+    return slugify(p.stem) + p.suffix.lower()
+
+
+# ─── Índice de imagens ────────────────────────────────────────────────────────
+
+def build_image_index(gdd_root: Path) -> dict:
+    """
+    Percorre todo o repositório GDD e mapeia cada nome de imagem ao seu caminho.
+    Em caso de nomes duplicados, prevalece o primeiro encontrado.
+
+    Parâmetros:
+        gdd_root (Path): Raiz do repositório advento-gdd (não só src/ADVENTO).
+
+    Retorno:
+        dict: {'nome_original.png': Path('/caminho/completo/nome_original.png')}
+    """
+    index = {}
+    for root, _, files in os.walk(gdd_root):
+        for f in files:
+            if Path(f).suffix.lower() in IMAGE_EXTS:
+                if f not in index:
+                    index[f] = Path(root) / f
+    return index
+
+
+# ─── Reescrita de links Obsidian ──────────────────────────────────────────────
+
+def rewrite_obsidian_images(content: str, dest_file: Path, docs_root: Path,
+                             image_index: dict) -> str:
+    """
+    Substitui links Obsidian ![[img.png]] por markdown padrão ![img](caminho/relativo).
+    Copia as imagens para docs/assets/images/ durante o processo.
+
+    Parâmetros:
+        content (str): Conteúdo markdown do arquivo.
+        dest_file (Path): Caminho de destino do arquivo .md em docs/.
+        docs_root (Path): Raiz de docs/ (para calcular caminhos relativos).
+        image_index (dict): Índice nome→caminho construído por build_image_index().
+
+    Retorno:
+        str: Conteúdo com os links reescritos.
+    """
+    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Calcula quantos níveis acima de docs_root está o dest_file
+    depth = len(dest_file.relative_to(docs_root).parts) - 1
+    prefix = '../' * depth + 'assets/images/'
+
+    def replace_link(match):
+        original_name = match.group(1).strip()
+
+        if original_name not in image_index:
+            # Imagem não encontrada: mantém como texto de aviso
+            return f'*[imagem não encontrada: {original_name}]*'
+
+        src_path = image_index[original_name]
+        dest_name = slugify_image(original_name)
+        dest_img = IMAGES_DIR / dest_name
+
+        if not dest_img.exists():
+            shutil.copy2(src_path, dest_img)
+
+        alt = Path(original_name).stem
+        return f'![{alt}]({prefix}{dest_name})'
+
+    return re.sub(r'!\[\[([^\]]+)\]\]', replace_link, content)
+
+
 # ─── Cópia de arquivos ────────────────────────────────────────────────────────
 
-def walk_and_copy(gdd_path: Path, docs_path: Path) -> list:
+def walk_and_copy(gdd_path: Path, docs_path: Path, image_index: dict) -> list:
     """
-    Percorre o GDD, copia todos os .md para docs/ com nomes slugificados
-    e retorna a estrutura de navegação como lista de nós.
+    Percorre o GDD, copia todos os .md para docs/ com nomes slugificados,
+    reescreve links Obsidian e retorna a estrutura de navegação.
 
     Parâmetros:
         gdd_path (Path): Pasta raiz do GDD (advento-gdd/src/ADVENTO).
         docs_path (Path): Pasta de destino (advento-journey/docs/).
+        image_index (dict): Índice de imagens gerado por build_image_index().
 
     Retorno:
-        list: Lista de nav nodes — cada nó é {'label': str, 'file': str}
-              ou {'label': str, 'children': list}.
+        list: Lista de nav nodes.
     """
     nav = []
 
@@ -88,30 +170,47 @@ def walk_and_copy(gdd_path: Path, docs_path: Path) -> list:
             continue
 
         if entry.is_dir():
-            node = _process_dir(entry, docs_path, docs_path, gdd_path)
+            node = _process_dir(entry, docs_path, docs_path, gdd_path, image_index)
             if node:
                 nav.append(node)
 
         elif entry.is_file() and entry.suffix == '.md':
             if entry.name == 'ADVENTO.md':
                 dest = docs_path / 'index.md'
-                shutil.copy2(entry, dest)
+                _copy_md(entry, dest, docs_path, image_index)
                 print(f"  {entry.name} -> index.md")
                 nav.insert(0, {'label': 'Home', 'file': 'index.md'})
 
     return nav
 
 
-def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path, gdd_root: Path) -> dict:
+def _copy_md(src: Path, dest: Path, docs_root: Path, image_index: dict):
     """
-    Processa um diretório do GDD recursivamente: cria pasta slugificada em docs/,
-    copia os arquivos .md e retorna o nav node da seção.
+    Copia um arquivo .md reescrevendo links Obsidian de imagens.
+
+    Parâmetros:
+        src (Path): Arquivo de origem no GDD.
+        dest (Path): Arquivo de destino em docs/.
+        docs_root (Path): Raiz de docs/.
+        image_index (dict): Índice de imagens.
+    """
+    content = src.read_text(encoding='utf-8', errors='replace')
+    content = rewrite_obsidian_images(content, dest, docs_root, image_index)
+    dest.write_text(content, encoding='utf-8')
+
+
+def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path,
+                 gdd_root: Path, image_index: dict):
+    """
+    Processa um diretório do GDD recursivamente: cria pasta slugificada,
+    copia arquivos .md (com reescrita de imagens) e retorna o nav node.
 
     Parâmetros:
         src_dir (Path): Pasta de origem no GDD.
         dest_base (Path): Pasta de destino atual em docs/.
-        docs_root (Path): Raiz de docs/ (para calcular caminhos relativos).
-        gdd_root (Path): Raiz do GDD (para exibir caminhos no log).
+        docs_root (Path): Raiz de docs/.
+        gdd_root (Path): Raiz do GDD (para log).
+        image_index (dict): Índice de imagens.
 
     Retorno:
         dict | None: Nav node com 'label' e 'children', ou None se vazio.
@@ -128,7 +227,7 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path, gdd_root: Path
             continue
 
         if entry.is_dir():
-            child = _process_dir(entry, dest_dir, docs_root, gdd_root)
+            child = _process_dir(entry, dest_dir, docs_root, gdd_root, image_index)
             if child:
                 children.append(child)
 
@@ -136,12 +235,11 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path, gdd_root: Path
             file_label = clean_display(entry.stem)
             file_slug = slugify(entry.stem)
             dest_file = dest_dir / f"{file_slug}.md"
-            shutil.copy2(entry, dest_file)
+            _copy_md(entry, dest_file, docs_root, image_index)
             rel = str(dest_file.relative_to(docs_root)).replace('\\', '/')
             children.append({'label': file_label, 'file': rel})
             src_rel = str(entry.relative_to(gdd_root)).replace('\\', '/')
-            src_safe = src_rel.encode('ascii', 'replace').decode()
-            print(f"  {src_safe} -> {rel}")
+            print(f"  {src_rel.encode('ascii', 'replace').decode()} -> {rel}")
 
     if not children:
         return None
@@ -153,11 +251,11 @@ def _process_dir(src_dir: Path, dest_base: Path, docs_root: Path, gdd_root: Path
 
 def nav_to_yaml(nav: list, depth: int = 1) -> str:
     """
-    Converte lista de nav nodes em YAML indentado compatível com mkdocs.yml.
+    Converte lista de nav nodes em YAML indentado para mkdocs.yml.
 
     Parâmetros:
         nav (list): Lista de nav nodes.
-        depth (int): Nível de indentação atual (começa em 1).
+        depth (int): Nível de indentação (começa em 1).
 
     Retorno:
         str: Bloco YAML da seção `nav:`.
@@ -239,11 +337,11 @@ nav:
 
 def write_mkdocs(nav: list, github_user: str):
     """
-    Escreve o arquivo mkdocs.yml completo com navegação gerada.
+    Escreve o mkdocs.yml com a navegação gerada.
 
     Parâmetros:
-        nav (list): Estrutura de navegação gerada por walk_and_copy().
-        github_user (str): Usuário GitHub para compor as URLs do site.
+        nav (list): Estrutura de navegação.
+        github_user (str): Usuário GitHub para as URLs do site.
     """
     nav_yaml = nav_to_yaml(nav)
     content = MKDOCS_TEMPLATE.format(github_user=github_user, nav_yaml=nav_yaml)
@@ -255,22 +353,27 @@ def write_mkdocs(nav: list, github_user: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Sincroniza advento-gdd/src/ADVENTO → advento-journey/docs/'
+        description='Sincroniza advento-gdd/src/ADVENTO -> advento-journey/docs/'
     )
     parser.add_argument(
         '--gdd-path', type=Path, default=GDD_DEFAULT,
         metavar='CAMINHO',
-        help=f'Caminho para a pasta ADVENTO do GDD (padrão: {GDD_DEFAULT})'
+        help=f'Pasta ADVENTO do GDD (padrao: {GDD_DEFAULT})'
+    )
+    parser.add_argument(
+        '--gdd-root', type=Path, default=GDD_ROOT_DEFAULT,
+        metavar='RAIZ',
+        help=f'Raiz do repositorio GDD para busca de imagens (padrao: {GDD_ROOT_DEFAULT})'
     )
     parser.add_argument(
         '--github-user', default='SEU_USUARIO',
         metavar='USUARIO',
-        help='Seu usuário GitHub (usado nas URLs do site)'
+        help='Usuario GitHub (usado nas URLs do site)'
     )
     args = parser.parse_args()
 
     if not args.gdd_path.exists():
-        print(f"ERRO: GDD não encontrado em: {args.gdd_path}")
+        print(f"ERRO: GDD nao encontrado em: {args.gdd_path}")
         print("Use --gdd-path para apontar para advento-gdd/src/ADVENTO")
         return 1
 
@@ -283,15 +386,22 @@ def main():
         shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir()
 
-    print("Copiando arquivos...")
-    nav = walk_and_copy(args.gdd_path, DOCS_DIR)
+    print("Indexando imagens...")
+    image_index = build_image_index(args.gdd_root)
+    print(f"  {len(image_index)} imagem(ns) encontrada(s).")
+
+    print("\nCopiando arquivos...")
+    nav = walk_and_copy(args.gdd_path, DOCS_DIR, image_index)
+
+    img_count = sum(1 for _ in IMAGES_DIR.rglob('*') if _.is_file()) if IMAGES_DIR.exists() else 0
+    print(f"\n  {img_count} imagem(ns) copiada(s) para docs/assets/images/")
 
     print("\nGerando mkdocs.yml...")
     write_mkdocs(nav, args.github_user)
 
-    count = sum(1 for _ in DOCS_DIR.rglob('*.md'))
-    print(f"\n{count} arquivo(s) copiado(s) para docs/")
-    print("\nPróximos passos:")
+    md_count = sum(1 for _ in DOCS_DIR.rglob('*.md'))
+    print(f"\n{md_count} arquivo(s) .md copiado(s) para docs/")
+    print("\nProximos passos:")
     print("  git add docs/ mkdocs.yml")
     print("  git commit -m 'sync: atualiza docs do GDD'")
     print("  git push")

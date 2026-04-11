@@ -24,10 +24,10 @@ Coloque:
 
 # 🎮 Referência Visual
 
-| ![[Pasted image 20260228214903.png]] | ![[Pasted image 20260228214931.png]] |
+| ![Pasted image 20260228214903](../assets/images/pasted-image-20260228214903.png) | ![Pasted image 20260228214931](../assets/images/pasted-image-20260228214931.png) |
 | ------------------------------------ | ------------------------------------ |
 |                                      |                                      |
-![[Pasted image 20260228215150.png]]
+![Pasted image 20260228215150](../assets/images/pasted-image-20260228215150.png)
 
 ---
 

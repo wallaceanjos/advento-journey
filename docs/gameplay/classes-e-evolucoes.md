@@ -20,7 +20,7 @@ Os Discípulos progridem através de dois Tiers de evolução, especializando su
 
 ## 🎨 Identidade Visual e 3D (Godot)
 Diretrizes para a modelagem e shaders das classes:
-![[base-male-female-front.png]]
+![base-male-female-front](../assets/images/base-male-female-front.png)
 ### ⚔️ Linhagem do [[Guerreiro]]
 - **Cavaleiro:** Foco em lanças, armaduras de placas polidas e penachos fluídos.
 - **Paladino:** Foco em escudos imponentes, detalhes em ouro e auras de proteção.

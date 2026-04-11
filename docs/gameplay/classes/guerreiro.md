@@ -4,7 +4,7 @@
 > O braço forte do Rei, focado em proteção, liderança e combate na linha de frente.
 
 ---
-![[class_guerreiro.png]]
+![class_guerreiro](../../assets/images/class-guerreiro.png)
 ## 🔱 Evoluções
 
 ### 🐎 Cavaleiro (ST / Burst)

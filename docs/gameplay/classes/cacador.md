@@ -4,7 +4,7 @@
 > Os olhos do Rei no campo, focados em precisão, vigilância e sobrevivência.
 
 ---
-![[class_cacador.png]]
+![class_cacador](../../assets/images/class-cacador.png)
 ## 🔱 Evoluções
 
 ### 🎯 Elite (ST / Burst)

@@ -4,7 +4,7 @@
 > A mão da justiça e purificação, focada em velocidade, retribuição e agilidade.
 
 ---
-![[class_justiceiro.png]]
+![class_justiceiro](../../assets/images/class-justiceiro.png)
 ## 🔱 Evoluções
 
 ### 🗡️ Executor (ST / Burst)

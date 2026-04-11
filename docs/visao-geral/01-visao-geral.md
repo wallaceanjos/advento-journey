@@ -31,10 +31,10 @@ persona5
 
 
 
-| ![[Pasted image 20260225161935.png]] | ![[Pasted image 20260225161813.png]] |
+| ![Pasted image 20260225161935](../assets/images/pasted-image-20260225161935.png) | ![Pasted image 20260225161813](../assets/images/pasted-image-20260225161813.png) |
 | ------------------------------------ | ------------------------------------ |
-| ![[Pasted image 20260225162810.png]] | ![[Pasted image 20260225162310.png]] |
-| ![[Pasted image 20260225162116.png]] | ![[Pasted image 20260225162144.png]] |
+| ![Pasted image 20260225162810](../assets/images/pasted-image-20260225162810.png) | ![Pasted image 20260225162310](../assets/images/pasted-image-20260225162310.png) |
+| ![Pasted image 20260225162116](../assets/images/pasted-image-20260225162116.png) | ![Pasted image 20260225162144](../assets/images/pasted-image-20260225162144.png) |
 
 ---
 [[ADVENTO|⬅️ Voltar para o Início]]

@@ -46,4 +46,4 @@ Exemplo:
 
 Isso é o coração do MMO.
 
-![[class-tree-depth.png]]
+![class-tree-depth](../assets/images/class-tree-depth.png)
