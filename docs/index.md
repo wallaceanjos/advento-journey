@@ -1,10 +1,12 @@
 # 🏰 ADVENTO
 
+![advento-logo](assets/images/advento-logo.png)
+
 > [!ABSTRACT] 💡 Resumo do Projeto
 > **ADVENTO** é um MMORPG de fantasia sombria e alegoria cristã inspirado em *"O Peregrino"*. O jogo transporta o jogador para o continente de **Aethelgard**, onde a realidade visível é apenas uma fachada (O Véu) que oculta uma batalha espiritual milenar entre a Luz e as Trevas.
 
 ---
-![advento-logo](assets/images/advento-logo.png)
+
 ## 📖 Sinopse da Lore
 Em um mundo fragmentado pela Queda, a humanidade caminha sob o domínio do esquecimento.
 O que antes era uma realidade plena e luminosa, agora é percebido apenas através do "Véu".
