@@ -1,2 +1,2 @@
 # advento-journey
-Diário do desenvolviemnto do Advento
+Diário do desenvolviemnto do Advento v0.0.1
