@@ -44,7 +44,25 @@ As Cartas de Monstros não são objetos físicos mundanos. Elas são **Fragmento
 
 ---
 
+## 📊 Resumo das 4 Camadas Econômicas
+
+| Camada | Nome técnico (rAthena) | Nome de Lore | Base teológica |
+|---|---|---|---|
+| 1 | Zeny / Moeda | Estatério / Provisão | Mt 17:27 ("moeda na boca do peixe") |
+| 2 | Drops (materiais) | Matéria Sequestrada | Criação liberta da corrupção |
+| 3 | Etc Items (lixo) | Resíduos da Queda | Comprados pela Igreja/Ordem para purificação |
+| 4 | Cards (Cartas) | Ecos da Revelação | Autoridade espiritual sobre fraquezas específicas |
+
+## 🔗 Conexões Relacionadas
+
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
+- 🏛️ **Entidades:** *A Ordem*; *A Igreja*
+- ⚙️ **Mecânica:** *Economia*; [Sistema de Combate](../../gameplay/sistema-de-combate.md)
+- 🌍 **Conceito:** Guerra Invisível; A Queda
+
+---
 ## 🧠 Análise do Agente
 > Essa solução resolve o "choque de realidade" entre o farm intenso de um MMORPG e a seriedade da lore teológica. Ao transformar o ato de vender itens em uma forma de "Limpeza do Mundo" e o ato de ganhar moedas em "Provisão Divina", o gameplay de Ragnarok se torna uma extensão da narrativa de santificação.
 
-*Última atualização: {{date}}*
+*Última atualização: 2026-04-19*

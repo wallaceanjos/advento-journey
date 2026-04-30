@@ -57,7 +57,25 @@ Para manter a imersão, resignificamos os termos técnicos do Ragnarok Online pa
 
 ---
 
+## 🎮 Regra de Implementação (Godot + rAthena)
+
+A regra de dupla nomenclatura se aplica em todas as camadas do sistema:
+
+- **rAthena (servidor):** Usa termos técnicos internamente (`base_level`, `hp`, `sp`, `zeny`).
+- **Godot (cliente / UI):** A HUD exibe termos técnicos por padrão para não confundir jogadores veteranos de MMORPG.
+- **Tooltips e Descrições:** Ao hover ou na leitura detalhada, o termo de lore aparece: *"Integridade do Vaso: Representa o vigor físico e espiritual do Discípulo sob o Véu."*
+- **NPCs e Diálogos:** Usam exclusivamente termos de lore. Um NPC nunca diz "você subiu de level" — ele diz "seu Alinhamento Espiritual cresceu."
+- **Fase 5 do Roadmap:** O módulo `advento_translations` SQL + `TranslationServer` do Godot é onde essa injeção de termos ocorre sistematicamente.
+
+## 🔗 Conexões Relacionadas
+
+- ⬅️ **Pai:** [Lore](../02-lore.md)
+- 🏠 **Home:** [ADVENTO](../../index.md)
+- ⚙️ **Técnico:** [Arquitetura Geral](../../sistema-tecnico/arquitetura/arquitetura-geral.md); [HUD Técnica](../../sistema-tecnico/modulos/hud-tecnica.md)
+- ⚙️ **Mecânica:** *Sistema de Analogias*
+
+---
 ## 🧠 Análise do Agente
 > Este glossário de analogias é fundamental para que o desenvolvimento técnico (scripts de NPCs, nomes de itens) caminhe lado a lado com a imersão. Ao falar "ganhei alinhamento" em vez de "upei level", o jogador se sente dentro de um propósito sagrado, não apenas em um simulador de números.
 
-*Última atualização: {{date}}*
+*Última atualização: 2026-04-19*

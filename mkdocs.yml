@@ -92,6 +92,8 @@ nav:
       - 'Glossário Base': lore/glossario-e-termos/glossario-base.md
     - 'NPCs e Personagens':
       - 'NPCs Principais': lore/npcs-e-personagens/npcs-principais.md
+    - 'Cenas':
+      - 'O Despertar': lore/cenas/o-despertar.md
     - 'Lore': lore/02-lore.md
   - 'Mundo':
     - 'Mundo': mundo/03-mundo.md
@@ -104,6 +106,11 @@ nav:
       - 'Justiceiro': gameplay/classes/justiceiro.md
       - 'Sábio': gameplay/classes/sabio.md
     - 'Gameplay': gameplay/04-gameplay.md
+    - 'Sistema de Combate': gameplay/sistema-de-combate.md
+    - 'Inventário e Equipamentos': gameplay/inventario-e-equipamentos.md
+    - 'Criação de Personagem': gameplay/criacao-de-personagem.md
+    - 'Sistema de Grupos': gameplay/sistema-de-grupos.md
+    - 'Sistema de Missões': gameplay/sistema-de-missoes.md
     - 'Classes e Evoluções': gameplay/classes-e-evolucoes.md
   - 'Sistema Técnico':
     - 'Arquitetura':
@@ -121,3 +128,7 @@ nav:
     - 'Roadmap': roadmap/08-roadmap.md
   - 'Ideias Soltas':
     - 'Ideias Soltas': ideias-soltas/09-ideias-soltas.md
+  - 'Áudio':
+    - 'Áudio': audio/10-audio.md
+  - 'Monetização':
+    - 'Monetização': monetizacao/11-monetizacao.md

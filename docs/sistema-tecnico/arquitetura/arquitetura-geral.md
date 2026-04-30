@@ -1,6 +1,6 @@
 ## 🎮 Engine
 
-- *Unity*
+- *Godot* (decisão canônica — referência a Unity em rascunhos anteriores foi descartada)
 
 ## 🌍 Estrutura do Mundo
 
