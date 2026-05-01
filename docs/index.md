@@ -1,4 +1,4 @@
-# *[imagem não encontrada: advento-logo.png|200]*
+# *[imagem não encontrada: advento-logo.png | 200]*
 
 
 > [!ABSTRACT] 💡 Resumo do Projeto
