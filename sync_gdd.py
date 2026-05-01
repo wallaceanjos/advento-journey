@@ -372,14 +372,14 @@ theme:
   language: pt-BR
   palette:
     - scheme: slate
-      primary: light green
-      accent: brown
+      primary: deep purple
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Modo claro
     - scheme: default
-      primary: deep purple
-      accent: cyan
+      primary: light green
+      accent: brown
       toggle:
         icon: material/brightness-7
         name: Modo escuro
