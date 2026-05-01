@@ -1,8 +1,5 @@
-# 🏰 ADVENTO
+# *[imagem não encontrada: advento-logo.png|200]*
 
-<center>
-<img src="advento-logo.png" width="200"/>
-</center>
 
 > [!ABSTRACT] 💡 Resumo do Projeto
 > **ADVENTO** é um MMORPG cristão estilizado sobre a guerra invisível, construído em rAthena + Godot. O jogador assume o papel de um Discípulo que, através da **Visão Verdadeira**, enxerga além da **Visão Natural** para resistir à corrupção dos Principados e libertar Advenia — o Jardim Eterno que aguarda a restauração final na Parusia.
