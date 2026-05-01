@@ -1,4 +1,4 @@
-*[imagem não encontrada: advento-logo.png | 200]*
+![advento-logo](assets/images/advento-logo.png)
 
 ---
 
