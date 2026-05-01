@@ -1,78 +1,67 @@
 # 🔊 10 - Áudio
 
 > [!ABSTRACT] 💡 Em uma frase
-> O áudio do Advento reforça a dualidade cosmológica: a trilha do Mundo de Ilusão é vibrante e acolhedora; a trilha da Visão Verdadeira / Fissuras é tensa e dissonante.
+> O design sonoro de **Advento** materializa a dualidade de **Advenia**: a harmonia reconfortante da **Visão Natural** contrastada com a clareza urgente da **Realidade Superior**.
 
 ---
 
-## 🎵 Filosofia de Áudio
+## 🎵 Filosofia do Som (Realismo Espiritual)
 
-O áudio não é decoração — é uma camada narrativa que precede visualmente a revelação do Mundo Real. Antes do shader de desaturação ativar completamente, o áudio já avisa o jogador que algo mudou.
-
-**Princípio central:** O Mundo de Ilusão soa bonito. O Mundo Real soa verdadeiro — e verdadeiro pode ser perturbador.
+O áudio em Advenia não é apenas fundo musical; é uma camada de discernimento. O som precede o visual: antes do shader de desaturação ativar, a frequência sonora já alerta o Discípulo de que o Reino está transbordando ou que uma Fissura se abriu.
 
 ---
 
-## 🎼 Trilha Sonora por Contexto
+## 🎨 prompt de áudio
 
-### 🌅 Mundo de Ilusão (Exploração)
-- **Tom:** Épico medieval suave, instrumentos de corda, flauta, percussão leve.
-- **Sensação:** Familiar, acolhedora, convidativa.
-- **Variações por reino:**
-  - Orizon: pastoral, hopeful — cordas e flauta celta.
-  - Krost: industrial, forjada — percussão pesada, metais, acordes menores.
-  - Solari: etérea, áurea — cordas altas, orgão suave, vozes corais.
-
-### ⚔️ Visão Verdadeira (Combate)
-- **Tom:** Tensão crescente; dissonância controlada; ritmo urgente.
-- **Transição:** Fade de saturação sonora → versão mais "crua" da trilha de exploração (mesmo tema, arranjo distorcido).
-- **MVPs:** Trilha específica por Principado — mais intensa, com elementos temáticos do reino.
-
-### 🌑 Fissuras (Eventos dinâmicos)
-- **Tom:** Dissonância aguda + bass hum profundo; ambiência de "dois mundos colisando".
-- **Efeito de abertura:** Som de rasgo + eco reverso; claramente diferente de qualquer som do jogo.
-
-### 🕊️ A Presença (Morte / Ressurreição)
-- **Tom:** Silêncio quase completo → voz coral suave; paz absoluta.
-- **Impacto:** O contraste com o combate é total. A morte soa como descanso, não como fracasso.
-
-### ⛪ Cidades e Hubs
-- **Tom:** Ambiente urbano medieval; buzz de conversa; músicos de rua.
-- **Detalhe:** Em cidades com alta influência de Principado (ex: Estige), a música tem notas levemente dissonantes que você nota depois de um tempo — não de imediato.
+"Uma faixa de Progressive Chill-out e Nu-Jazz para um RPG. BPM 90. Baixo fretless muito melódico, piano elétrico Rhodes com acordes de sétima e nona. Batida eletrônica suave estilo trip-hop. Sintetizadores atmosféricos de fundo e uma flauta sintetizada liderando a melodia principal. Clima de aventura nostálgica e exploração."
 
 ---
 
-## 🔊 SFX Principais
+## 🎼 Atmosferas Sonoras
 
-| Ação | SFX | Tom |
+### 🌅 Visão Natural (Exploração e Paz)
+- **Estilo:** Medieval pastoral (cordas, flautas e percussão orgânica).
+- **Sensação:** Segurança, beleza e normalidade.
+- **Variações Regionais:**
+    - **Orizon:** Temas leves e esperançosos.
+    - **Krost:** Sons de metais e percussão rítmica industrial.
+    - **Solari:** Atmosfera etérea com corais distantes.
+
+### ⚔️ Visão Verdadeira (Combate e Revelação)
+- **Transição:** Ao ativar a Visão Verdadeira, as frequências agudas da trilha de exploração sofrem um "low-pass filter", revelando um baixo contínuo (hum) e batidas tribais urgentes.
+- **Sensação:** O fim do conforto; a clareza da guerra espiritual.
+
+### 🕊️ Espaço de Paz (Morte / Ressurreição)
+- **Estilo:** Silêncio quase absoluto, preenchido apenas por uma nota pedal de luz e a voz d'A Presença.
+- **Sensação:** Paz que excede o entendimento. A morte sonora não é um "Game Over" trágico, mas uma transição litúrgica.
+
+---
+
+## 🔊 SFX de Autoridade Ministerial
+
+| Ação do Discípulo | Efeito Sonoro (SFX) | Significado Espiritual |
 |---|---|---|
-| **Expulsão confirmada** | Som de dissolução + vento | Não é uma explosão — é um alívio |
-| **Libertação de Corrompido** | Sino suave + voz breve | Diferente da expulsão; mais emotivo |
-| **Ativação da Visão Verdadeira** | Mudança de "filtro" sonoro; frequência grave | Como uma membrana se rasgando |
-| **Abertura de Fissura** | Racho profundo + harmônico dissonante | Urgência e perturbação |
-| **Level up (Santidade)** | Acorde crescente + sino | Não é fanfarra — é elevação |
-| **Skill ativada** | SFX único por classe; âncora no tema teológico | Guerreiro: impacto pesado; Clérigo: sino sagrado; Sábio: voz/palavra |
-| **Morte do jogador** | Fade out suave | Sem barulho dramático — paz |
-| **Ressurreição** | Sopro de vida + luz sonora | Imediato, caloroso |
+| **Expulsão** | Dissolução de vento + harmônico cristalino. | O mal retornando ao seu lugar árido. |
+| **Revelação (Skill)** | Som de membrana se rasgando + eco nítido. | A verdade sendo exposta sobre a mentira. |
+| **Crescer em Santidade**| Acorde crescente em modo maior + sino Shekinah. | Elevação da autoridade do Discípulo. |
+| **Abertura de Fissura** | Racho profundo + dissonância descendente. | O transbordamento da corrupção. |
 
 ---
 
-## 🎙️ Voz e Narração
+## 🎙️ Vozes de Advenia
 
-- **A Presença:** Voz cálida, direcional (parece vir de dentro do jogador, não dos alto-falantes). Português brasileiro neutro.
-- **O Irmão:** Voz grave, paciente — como alguém que já viu tudo isso antes.
-- **NPCs:** Localização PT-BR. Tom varia por região (Orizon: simples; Krost: direto; Solari: contemplativo).
-- **Narrador do prólogo:** Opcional — voz over para o Ato I de O Despertar.
-
----
+- **A Presença:** Voz cálida e onipresente que parece vir do centro da cabeça do jogador. Nunca grita; sempre guia.
+- **O Irmão:** Voz grave e experiente; o tom de um veterano da Guerra Invisível.
+- **Idiomas:** Totalmente localizado em **Português do Brasil (PT-BR)**, com sotaques regionais que diferenciam os três Reinos.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [ADVENTO](../index.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- 🎨 **Arte:** [Arte & Estilo](../arte-e-estilo/06-arte-e-estilo.md) (dualidade visual + sonora)
-- ⚙️ **Mecânica:** [Sistema de Combate](../gameplay/sistema-de-combate.md) (transição sonora ao ativar Visão Verdadeira)
-- 🎬 **Cena:** [O Despertar](../lore/cenas/o-despertar.md) (sequência de áudio do prólogo)
-- 🧑 **NPC:** [NPCs Principais](../lore/npcs-e-personagens/npcs-principais.md) (A Presença — voz de ressurreição)
+- 🎨 **Arte:** [Arte & Estilo](../arte-e-estilo/06-arte-e-estilo.md)
+- ⚙️ **Mecânica:** [Sistema de Combate](../gameplay/sistema-de-combate.md)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> O sistema de áudio é a ferramenta mais poderosa para vender a ideia de que o "Mundo Natural" é uma ilusão. Ao introduzir dissonâncias sutis nas músicas das cidades oprimidas, criamos um desconforto instintivo no jogador que só é resolvido quando ele ativa a Visão Verdadeira. O som é, portanto, a primeira forma de discernimento espiritual em Advenia.
+
+*Última atualização: 2026-05-01*

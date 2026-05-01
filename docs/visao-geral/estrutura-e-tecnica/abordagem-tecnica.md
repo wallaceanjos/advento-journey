@@ -1,45 +1,45 @@
 # 🛠 Abordagem Técnica
 
 > [!ABSTRACT] 💡 Em uma frase
-> rAthena + Godot + MySQL — pragmatismo técnico que entrega um back-end testado e um cliente customizável, permitindo que o brilho do projeto esteja na escrita e na ambientação.
+> rAthena + Godot + MySQL: pragmatismo técnico no back-end para permitir inovação visual e narrativa no front-end através do Realismo Espiritual.
 
 ---
 
-## 📝 Stack Técnico
+## 📝 Stack Técnica
 
 | Componente | Tecnologia | Função |
 |---|---|---|
-| **Servidor** | rAthena | Cálculo de dano, validação de ações, estado global, persistência |
-| **Cliente** | Godot Engine | Renderização, input, UI/HUD, feedback visual, shaders |
-| **Banco de Dados** | MySQL | Persistência de personagens, inventário, progresso |
-
-**Engine canônica: Godot** (referência a Unity em um rascunho antigo foi descartada).
+| **Servidor** | rAthena (C/C++) | Lógica de combate, validação, persistência e IA. |
+| **Cliente** | Godot Engine (C#) | Renderização Stylized Anime, Shaders de Visão Verdadeira, UI/HUD. |
+| **Banco de Dados** | MySQL | Dados de personagens, inventário e logs de Santificação. |
 
 ---
 
 ## 🎯 Filosofia de Desenvolvimento
 
-- **Estabilidade acima de inovação excessiva:** rAthena garante um back-end sólido e testado. Não reinventamos o que já funciona.
-- **Customização focada:** Foco em lore, reinterpretação de assets (mobs/MVPs), eventos e sistemas de narração. Não em sistemas mecânicos inéditos.
-- **Visual com propósito:** Client customizado para identidade única sem quebrar a mecânica base. Arte 3D Stylized; câmera isométrica; **Pixel Art descartado** (razão: escalabilidade, animações de troca de equipamento, suporte a shaders de Visão Verdadeira).
-- **Cross-play:** HUD adaptada para mobile e PC. Mesma base de servidor.
+- **Visual com Propósito:** Arte 3D **Stylized Anime** (estética Genshin/Zelda) com câmera isométrica fixa ou livre. Pixel art descartado para permitir escalabilidade visual e uso intensivo de Shaders.
+- **Realismo Espiritual (Shader Tech):**
+    - **Visão Verdadeira:** Implementada via Post-Processing Shader que altera a saturação do mundo e destaca a "assinatura espiritual" de cada entidade.
+    - **Palavra como Código-Fonte:** Uso de *Decals* e *Emissive Maps* para projetar versículos bíblicos diretamente na geometria do cenário (pedras, árvores, paredes) apenas quando a Visão Verdadeira está ativa.
+- **Estabilidade:** rAthena fornece um core testado há décadas, permitindo que a equipe foque na customização da Lore e dos Sistemas de Santidade.
 
 ---
 
 ## 🔧 Sistemas Customizados Prioritários
 
-1. **Shader de Visão Verdadeira:** Desaturação global do cenário + overlay de tier de cor por entidade.
-2. **Pacote `clif_spawn_unit` estendido:** Byte customizado `tier_cor` (0, 1, 2) enviado pelo servidor ao cliente.
-3. **Sistema de Analogias de Lore:** Módulo `advento_translations` para injeção de nomes de lore em toda a UI (Fase 5 do Roadmap).
-4. **HUD Dual:** Termos técnicos no display + nomes de lore em tooltips e descrições.
-
----
+1. **Protocolo de Visão:** Extensão do pacote de spawn do rAthena para enviar o `tier_espiritual` do monstro/NPC ao Godot.
+2. **Shader de Revelação:** Algoritmo de "dissolve" ou "transition" que permite ao jogador alternar suavemente entre a **Visão Natural** e a **Visão Verdadeira**.
+3. **Módulo de Terminologia:** Sistema que injeta nomes duais em toda a interface (Ex: Nome Geográfico no Mapa / Nome de Revelação no Livro).
+4. **Cross-Play Otimizado:** Assets 3D com LOD (Level of Detail) agressivo para garantir fluidez em dispositivos mobile sem perder a Glória visual no PC.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
-- ⚙️ **Detalhes:** [Sistema Técnico](../../sistema-tecnico/05-sistema-tecnico.md); [Arquitetura Geral](../../sistema-tecnico/arquitetura/arquitetura-geral.md); [Comunicação Client-Server](../../sistema-tecnico/arquitetura/comunicacao-client-server.md)
-- ⚙️ **Mecânica:** [Sistema de Combate](../../gameplay/sistema-de-combate.md) (shader de Visão Verdadeira)
+- ⚙️ **Detalhes:** [Sistema Técnico](../../sistema-tecnico/05-sistema-tecnico.md); [Arquitetura Geral](../../sistema-tecnico/arquitetura/arquitetura-geral.md)
+- 🎨 **Arte:** *wiki/style-guide.md*
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> A abordagem técnica é "serva" da experiência. O uso de Godot para shaders emissivos e rAthena para a robustez de dados cria o equilíbrio perfeito: um jogo que funciona como um relógio suíço, mas brilha como uma obra de arte sacra.
+
+*Última atualização: 2026-05-01*

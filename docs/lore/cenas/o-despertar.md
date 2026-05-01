@@ -1,103 +1,57 @@
-# 🎬 O Despertar
+# 🎬 O Despertar (Prólogo)
 
 > [!ABSTRACT] 💡 Em uma frase
-> O prólogo do Advento — a sequência de 4 atos que transforma o jogador de humano comum em Discípulo e estabelece o tom emocional de toda a experiência.
+> A sequência de 4 atos que transforma o jogador de um habitante comum em um Discípulo, estabelecendo o tom do **Realismo Espiritual** de **Advenia**.
 
 ---
 
-## 🎯 Função no Jogo
+## 🎯 Função Narrativa
 
-O Despertar é a primeira coisa que o jogador vê após criar seu personagem. Não é um tutorial de controles — é um tutorial de **cosmologia e emoção**. O objetivo é fazer o jogador sentir que o mundo que ele conhecia era uma mentira gentil, e que a verdade é ao mesmo tempo aterrorizante e libertadora.
-
-**Referências de tom:**
-- *O Peregrino* (John Bunyan) — o personagem que recebe a Palavra e não pode mais ignorar o peso que carrega
-- *Attack on Titan* — a revelação de que o mundo seguro era uma ilusão protegida por muros que podem cair
+O Despertar é a porta de entrada para Advenia. Não é apenas um tutorial de controles, mas um tutorial de **percepção**. O objetivo é fazer o jogador sentir o choque entre a beleza segura da **Visão Natural** e a urgência da Guerra Invisível revelada pela **Visão Verdadeira**.
 
 ---
 
-## 🎬 Os 4 Atos
+## 🎬 Os 4 Atos da Revelação
 
 ### Ato I — A Falsa Paz
-
-**Duração:** ~2 minutos  
-**Objetivo emocional:** Conforto, normalidade, leveza
-
-O jogador acorda na cidade inicial (Orizon). O mundo está completamente saturado — vibrante, colorido, com música leve. NPCs caminham, conversam, riem. Tudo parece um MMORPG padrão de alta qualidade.
-
-O jogador pode interagir livremente, explorar brevemente a cidade. Não há ameaças visíveis. A câmera segue normalmente.
-
-**Beat de transição:** O jogador eventualmente entra num beco ou praça onde a câmera tremula por um frame — quase imperceptível. Uma sombra passa atrás de um NPC que ninguém mais parece notar.
-
----
+**Objetivo:** Conforto e Normalidade.
+O jogador acorda em **Orizon**. O mundo é vibrante, saturado e pacífico (Estética Stylized Anime). NPCs vivem suas rotinas, mercadores anunciam seus produtos e a música é leve. Tudo parece um MMORPG clássico de alta fantasia.
+- **Destaque:** O jogador pode explorar a cidade livremente por alguns minutos. Não há monstros, apenas a "ilusão" de um mundo perfeito de doze séculos.
 
 ### Ato II — A Fissura
-
-**Duração:** ~3 minutos  
-**Objetivo emocional:** Confusão, urgência, medo
-
-Uma Fissura se abre no centro da praça. Diferente de qualquer coisa que o jogador já viu: a cor drena da área ao redor, o áudio se distorce, e criaturas que ninguém mais consegue ver começam a aparecer (visíveis apenas para o jogador pelo shader de Visão Verdadeira parcial — nenhum NPC reage, o que é ainda mais perturbador).
-
-O Irmão aparece ao lado do jogador, calmo, olhando diretamente para a Fissura.
-
-> **O Irmão:** *"Você sempre soube que o mundo não era o que parecia. Agora você pode ver."*
-
-NPCs ao redor passam como se nada estivesse acontecendo. O jogador está vendo o que eles não podem.
-
----
+**Objetivo:** Confusão e Assombro.
+Enquanto o jogador caminha, uma **Fissura** se abre na praça central. O áudio se distorce e a realidade "rasga". Criaturas monstruosas (Corrompidos e Entidades Decaídas) aparecem, mas nenhum NPC reage a elas.
+- **O Encontro:** **O Irmão** aparece ao lado do jogador, calmo em meio ao caos invisível para os outros.
+- **Diálogo:** *"Você sempre soube que havia algo mais. Agora, seus olhos não podem mais ignorar a Verdade."*
 
 ### Ato III — O Livro
+**Objetivo:** Revelação e Peso Espiritual.
+O Irmão entrega **O Livro** (A Bíblia). Ao tocá-lo, a **Visão Verdadeira** é ativada permanentemente.
+- **Efeito Visual:** O mundo vibrante torna-se desaturado e nítido. A estrutura espiritual (Realismo Espiritual) torna-se visível. Inimigos recebem o overlay de Tier (Cinza/Âmbar/Vermelho).
+- **O Choque:** O jogador percebe que a cidade "segura" está, na verdade, sob o cerco invisível de um Principado.
 
-**Duração:** ~2 minutos  
-**Objetivo emocional:** Revelação, peso, propósito
+### Ato IV — O Chamado (Escolha do Grau de Ministério)
+**Objetivo:** Identidade e Vocação.
+O Irmão pergunta qual "Grau de Ministério" o jogador é chamado a exercer. As páginas d'O Livro se abrem, revelando as 5 classes iniciais como vocações sagradas:
 
-O Irmão entrega O Livro ao jogador. Cutscene: ao tocar O Livro, a Visão Verdadeira se ativa completamente pela primeira vez.
-
-**Efeito visual:** A cidade inteira fica desaturada (Mundo Real). Os seres que estavam invisíveis ficam visíveis com overlays coloridos (tiers de cor). A cidade "bela" revela sua camada espiritual — bonita mas sob tensão constante.
-
-O Irmão explica rapidamente (1-2 falas) o que o jogador está vendo: o Mundo Real, os servos do Adversário, a Guerra Invisível. Não expõe tudo de uma vez — apenas o suficiente para que o jogador entenda o peso do que recebeu.
-
-> **O Irmão:** *"O Livro revela o que sempre foi real. A partir de agora, você não pode fingir que não viu."*
-
----
-
-### Ato IV — A Escolha (Criação de Personagem Narrativa)
-
-**Duração:** ~2 minutos  
-**Objetivo emocional:** Chamado, identidade, determinação
-
-O Irmão pergunta ao jogador qual é o seu dom — o seu "Grau de Ministério". Esta é a escolha de classe.
-
-A tela de escolha de classe é apresentada dentro da narrativa: O Livro se abre e as 5 classes aparecem como "chamados" escritos nas páginas, cada uma com uma frase de vocação:
-
-| Classe | Frase de vocação |
+| Grau de Ministério | Frase de Vocação |
 |---|---|
-| **Guerreiro** | *"Defendei os fracos e lutai com o braço do Rei."* |
-| **Clérigo** | *"Sede canal da graça — curar é sua batalha."* |
-| **Caçador** | *"Os olhos do Rei enxergam no escuro."* |
-| **Sábio** | *"A Palavra na boca do fiel é uma espada."* |
-| **Justiceiro** | *"A justiça do Rei não dorme."* |
+| **Zeloso (Guerreiro)** | *"A força do Rei é o escudo dos humildes."* |
+| **Intercessor (Clérigo)** | *"A cura é a maior arma contra a corrupção."* |
+| **Vigilante (Caçador)** | *"Os olhos do Rei enxergam através de qualquer sombra."* |
+| **Erudito (Sábio)** | *"A Verdade é a espada que corta a mentira."* |
+| **Executor (Justiceiro)** | *"A justiça do Rei será manifesta através de ti."* |
 
-O jogador escolhe. O Irmão confirma: *"Então está feito. Vá."*
-
-A Fissura se fecha. O mundo volta ao Mundo de Ilusão (saturado). O Irmão desaparece. O jogador está sozinho, O Livro na mão, sabendo o que sabe. O jogo começa.
-
----
-
-## 🎮 Mecânicas Envolvidas
-
-- [Sistema de Combate](../../gameplay/sistema-de-combate.md) — primeira ativação da Visão Verdadeira
-- [O Chamado](../capitulos/05-o-chamado.md) — O Livro como item; Santidade como progressão
-- [Classes e Evoluções](../../gameplay/classes-e-evolucoes.md) — escolha de classe dentro da narrativa
-- *Morte e Ressurreição* — não ocorre no prólogo, mas o jogador é apresentado a A Presença visualmente
-
----
+Após a escolha, a Fissura se fecha. O mundo volta a parecer normal para os outros, mas o Discípulo agora carrega O Livro e a responsabilidade da Guerra Invisível.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
 - 🧑 **NPC:** [NPCs Principais](../npcs-e-personagens/npcs-principais.md) (O Irmão)
-- 🌍 **Local:** *Reino de Orizon* — cidade inicial
-- 🌍 **Conceito:** Fissuras; Visão Verdadeira; O Chamado
+- 🌍 **Conceito:** Visão Natural; Visão Verdadeira; Realismo Espiritual; O Chamado
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Este prólogo é a "pílula vermelha" de Advenia. Ao permitir que o jogador sinta o conforto da Falsa Paz antes de arrancá-lo dali, garantimos que ele nunca mais olhe para o cenário do jogo apenas como decoração. Cada árvore colorida agora é um lembrete do que está oculto.
+
+*Última atualização: 2026-05-01*

@@ -1,125 +1,65 @@
 # ⚔️ 04 - Gameplay
 
 > [!ABSTRACT] 💡 Em uma frase
-> O gameplay do Advento é um MMORPG de resistência espiritual: o jogador não mata inimigos — ele os expulsa, cresce em santidade e aguarda a Parusia em comunhão com outros Discípulos.
+> O gameplay de **Advento** é um exercício de resistência espiritual em **Advenia**: o jogador não apenas mata inimigos — ele os expulsa, cresce em Santidade e ocupa territórios até a Parusia.
 
 ---
 
-## 🎯 Loop Principal do Jogador
+## 🎯 Loop de Santificação (O Ciclo do Discípulo)
 
-O coração de todo MMO é o loop. No Advento, cada etapa tem justificativa teológica:
+O coração do jogo em Advenia transforma o "farm" em um ato de adoração e serviço:
 
 ```
-1. LOGAR → retornar à guerra (o conflito não para quando você dorme)
-2. RECEBER MISSÃO → de A Ordem, A Igreja, ou NPCs de reino
-3. EXPULSAR MONSTROS (farm) → resistência territorial; enfraquece Principados
-4. COLETAR DROPS → Matéria Sequestrada liberta da corrupção
-5. EVOLUIR (Santidade) → Lente da Verdade se recalibra; novo tier de acesso
-6. VENDER / EQUIPAR / CRAFTAR → provisão e preparação para próxima etapa
-7. AVANÇAR PARA NOVA ÁREA → mais fundo na guerra, territórios de maior influência
-8. (REPETIR) → a guerra não tem fim até a Parusia
+1. DESPERTAR (Login) → Retornar à Guerra Invisível.
+2. RECEBER VOCAÇÃO (Missão) → De A Ordem, A Igreja ou NPCs de Reino.
+3. EXPULSAR O MAL (Combate) → Resistência territorial; enfraquece os Principados.
+4. REIVINDICAR MATÉRIA (Drop) → Matéria Sequestrada liberta da corrupção.
+5. CRESCER EM SANTIDADE (Evolução) → A Visão Verdadeira recalibra os Tiers de ameaça.
+6. GESTÃO DE PROVISÃO (Economia) → Preparação para avançar em territórios mais densos.
+7. EXPANSÃO DO REINO → Libertação de novas Masmorras e Cidades.
+8. (REPETIR) → A vigilância é constante até a Parusia.
 ```
 
 ---
 
-## ⚔️ Sistema de Combate
+## ⚔️ Sistema de Combate e Visão
 
-Ver detalhes completos: [Sistema de Combate](sistema-de-combate.md)
-
-Pilares centrais:
-- **O verbo é "expulsar"**, não "matar". Inimigos vão a "lugares áridos" (Mt 12:43) e retornam.
-- **Visão Verdadeira** ativa automaticamente em combate: shader de desaturação + overlay de tier de cor nos inimigos.
-- **Nenhum "kill counter"** — a UI mostra "Expulsões" e "Libertações", nunca mortes.
-- Fundamento bíblico: Ap 20:10 — a destruição final do mal ocorre apenas na Parusia.
+O combate em Advenia é regido pelo **Realismo Espiritual**:
+- **O Verbo é Expulsar:** Inimigos não morrem definitivamente; eles são expulsos para "lugares áridos" (Mt 12:43) e eventualmente retornam, justificando o respawn.
+- **Deteção de Tiers:** A **Visão Verdadeira** ativa-se automaticamente em combate, revelando a periculosidade espiritual (Cinza/Âmbar/Vermelho) através da Lente d'O Livro.
+- **Não-Violência Gratuita:** A UI foca em "Expulsões" e "Libertações". O objetivo é limpar o mundo da distorção, não a aniquilação da matéria.
 
 ---
 
-## 📈 Progressão (Santidade)
+## 🛡️ Graus de Ministério (Classes)
 
-Ver detalhes: [O Chamado](../lore/capitulos/05-o-chamado.md)
+O jogador escolhe sua vocação inicial (5 classes base), cada uma com duas especializações:
 
-- O eixo de progressão se chama **Santidade** (não "Level").
-- Santidade = Alinhamento Espiritual = `base_level` no rAthena.
-- Crescer em Santidade recalibra a Lente da Verdade: inimigos de Tier 2 (vermelho) viram Tier 1 (âmbar) e depois Tier 0 (cinza).
-- O Livro é o guia da santificação — cada habilidade desbloqueada é uma manifestação de autoridade bíblica.
-
----
-
-## 🛡️ Classes (Graus de Ministério)
-
-Ver tabela completa: [Classes e Evoluções](classes-e-evolucoes.md)
-
-5 classes base, cada uma com 2 evoluções (ST/AoE):
-
-| Classe | Evolução ST | Evolução AoE | Papel |
+| Grau (Base) | Especialização ST | Especialização AoE | Papel em Advenia |
 |---|---|---|---|
-| **Guerreiro** | Cavaleiro | Paladino | Linha de frente, proteção |
-| **Clérigo** | Sacerdote | Monge | Suporte, cura, combate sagrado |
-| **Caçador** | Elite | Guardião | Precisão, distância, vigilância |
-| **Sábio** | Profeta | Mártir | Dano mágico, revelação, área |
-| **Justiceiro** | Executor | Inquisitor | Velocidade, purificação, retribuição |
+| **Zeloso (Guerreiro)** | Cavaleiro | Paladino | Linha de frente; defesa e proteção. |
+| **Intercessor (Clérigo)**| Sacerdote | Monge | Suporte; cura e combate sagrado. |
+| **Vigilante (Caçador)** | Elite | Guardião | Precisão; distância e detecção. |
+| **Erudito (Sábio)** | Profeta | Mártir | Dano de área; revelação de fraquezas. |
+| **Executor (Justiceiro)**| Algoz | Inquisidor | Velocidade; purificação e retribuição. |
 
 ---
 
-## 🎒 Inventário e Equipamentos
+## 📈 Progressão e Santidade
 
-Ver detalhes: [Inventário e Equipamentos](inventario-e-equipamentos.md)
-
-- Slots de equipamento padrão rAthena (cabeça, armadura, arma, acessórios).
-- Nomes de lore para todas as categorias: "Vestes do Ministério" (armadura), "Instrumentos do Rei" (armas), "Marcas da Aliança" (acessórios).
-- **Peso** = Fardo (1 Tim 5:18) — capacidade de carga sem perder vigor em combate.
-
----
-
-## 📋 Missões
-
-Ver detalhes: [Sistema de Missões](sistema-de-missoes.md)
-
-Três tipos de missão:
-
-1. **Missões de Reino** — entregues por NPCs das cidades; introduzem o território.
-2. **Missões de A Ordem** — pesquisa espiritual; recompensa em Cartas (Ecos da Revelação).
-3. **Missões de A Igreja** — purificação e resgate; recompensa em bênçãos e buffs de santidade.
-
----
-
-## 💰 Economia
-
-Ver detalhes: [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md)
-
-4 camadas com base teológica:
-1. **Moeda** = Estatério / Provisão (Mt 17:27)
-2. **Drops** = Matéria Sequestrada liberta
-3. **Resíduos** = Comprados por Igreja/Ordem para purificação e estudo
-4. **Cartas** = Ecos da Revelação; Autoridade sobre fraquezas específicas
-
----
-
-## 🧪 Craft
-
-*(Pendente de documentação detalhada)*
-
-- Craft básico: combinar Matéria Sequestrada em equipamentos e consumíveis.
-- Craft avançado (A Ordem): Cartas + Resíduos Purificados = itens únicos de lore.
-- Teocracia de Sábios: o único sistema de craft narrativo de alto nível.
-
----
-
-## 👥 Grupos e Guildas
-
-Ver detalhes: [Sistema de Grupos](sistema-de-grupos.md)
-
-- **Grupo (Comunhão):** 2–5 jogadores; obrigatório para dungeons de alto nível.
-- **Guilda (Congregação/Exército):** Organização formal; pode controlar territórios.
-- Composição recomendada por dungeon: 1 Guerreiro (linha de frente) + 1 Clérigo (suporte) + 3 DPS.
-
----
+O eixo de progressão substitui o termo "Level":
+- **Santidade:** Representa o nível de autoridade delegada ao jogador (`base_level`).
+- **Unção:** Representa a energia espiritual disponível para dons e milagres (`sp`).
+- **Integridade do Vaso:** Representa a resistência física/espiritual do Discípulo (`hp`).
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [ADVENTO](../index.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- 📖 **Lore:** [A Guerra Invisível](../lore/capitulos/06-a-guerra-invisivel.md) (por que o jogador faz o que faz)
-- ⚙️ **Mecânicas detalhadas:** [Sistema de Combate](sistema-de-combate.md); [Classes e Evoluções](classes-e-evolucoes.md); [Sistema de Missões](sistema-de-missoes.md); [Inventário e Equipamentos](inventario-e-equipamentos.md); [Sistema de Grupos](sistema-de-grupos.md)
+- 📖 **Lore:** [A Guerra Invisível](../lore/capitulos/06-a-guerra-invisivel.md)
+- ⚙️ **Detalhes:** [Sistema de Combate](sistema-de-combate.md); [Classes e Evoluções](classes-e-evolucoes.md); [Inventário e Equipamentos](inventario-e-equipamentos.md)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Este documento unifica a técnica com a narrativa. Ao chamar o level de "Santidade", transformamos o grind em um indicador de maturidade espiritual. A tabela de classes agora não mostra apenas funções de combate, mas "Graus de Ministério", dando ao jogador a sensação de que ele tem um cargo oficial na resistência de Advenia.
+
+*Última atualização: 2026-05-01*

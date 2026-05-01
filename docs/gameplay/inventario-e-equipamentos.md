@@ -1,86 +1,59 @@
 # 🎒 Inventário e Equipamentos
 
 > [!ABSTRACT] 💡 Em uma frase
-> O inventário do Discípulo é o testemunho material da guerra — cada item carrega um nome de lore que lembra ao jogador o que ele está fazendo e por quê.
+> O inventário do Discípulo é o testemunho material da resistência — cada item é **Matéria Sequestrada** que foi purificada para servir ao Rei em **Advenia**.
 
 ---
 
-## 🌿 Filosofia
+## 🌿 Filosofia do Equipamento
 
-Em um MMORPG baseado em rAthena, o inventário é um sistema técnico bem estabelecido. No Advento, cada slot, cada categoria de item e cada limitação de peso tem um nome de lore correspondente — para que o jogador nunca esqueça que está equipando um Discípulo em guerra, não um personagem genérico.
+Em Advenia, equipar-se não é apenas aumentar números, mas vestir-se para a Guerra Invisível. Seguindo o **Realismo Espiritual**, cada slot de equipamento corresponde a uma faceta da proteção e autoridade do Discípulo, inspirada na "Armadura de Deus" (Efésios 6).
 
 ---
 
-## 🗃️ Slots de Equipamento
+## 🗃️ Slots de Equipamento (Armadura de Deus)
 
-| Slot técnico (rAthena) | Nome de Lore | Descrição |
+| Slot (rAthena) | Nome de Lore | Significado Espiritual |
 |---|---|---|
-| **Upper Headgear** | Coroa da Mente Renovada | Capuz, elmo, tiaras |
-| **Middle Headgear** | Véu dos Olhos Abertos | Óculos, máscaras, visores |
-| **Lower Headgear** | Selo da Boca | Adornos faciais inferiores |
-| **Armor** | Vestes do Ministério | Armadura principal do corpo |
-| **Weapon** | Instrumento do Rei | Arma principal |
-| **Shield** | Escudo da Fé | Escudo (Ef 6:16) |
-| **Garment** | Manto da Missão | Capa, manto, costas |
-| **Shoes** | Sandálias do Evangelho | Calçados (Ef 6:15) |
-| **Accessory (x2)** | Marca da Aliança | Anéis, brincos, amuletos |
+| **Upper Headgear** | **Capacete da Salvação** | Proteção da mente contra os dardos inflamados. |
+| **Middle Headgear** | **Lente da Verdade** | Aprimoramento da Visão Verdadeira. |
+| **Armor** | **Couraça da Justiça** | Proteção da Integridade do Vaso (Corpo). |
+| **Weapon** | **Instrumento do Rei** | A ferramenta de autoridade (Espada da Palavra). |
+| **Shield** | **Escudo da Fé** | Defesa ativa contra influências de Tiers superiores. |
+| **Garment** | **Manto da Vocação** | Símbolo do chamado e autoridade delegada. |
+| **Shoes** | **Sandálias do Evangelho** | Prontidão para o movimento em territórios áridos. |
+| **Accessory** | **Marca da Aliança** | Anéis e selos que confirmam o pacto com o Rei. |
 
 ---
 
-## 📦 Categorias de Item
+## 📦 Categorias de Itens
 
-| Categoria técnica | Nome de Lore | Origem |
+| Categoria | Nome de Lore | Origem |
 |---|---|---|
-| **Healing Items** | Bálsamos de Provisão | Comprados, drops, craft |
-| **Equipment** | Vestes e Instrumentos | Drops de MVPs, craft, loja |
-| **Ammunition** | Flechas da Proclamação | Caçador; comprado / craft |
-| **Etc Items** | Resíduos da Queda | Drops de monstros comuns |
-| **Cards** | Ecos da Revelação | Drops raros de monstros específicos |
-| **Quest Items** | Evidências da Guerra | Missões; não vendável |
-| **Pet Eggs** | *(pendente de definição de lore)* | — |
+| **Healing** | **Bálsamos de Provisão** | Manifestações da cura do Rei. |
+| **Equipment** | **Vestes e Instrumentos** | Reivindicados da corrupção ou forjados na Ordem. |
+| **Etc** | **Resíduos da Queda** | Fragmentos de matéria que aguardam purificação. |
+| **Cards** | **Ecos da Revelação** | Conhecimento profundo sobre o inimigo (Autoridade). |
+| **Quest** | **Evidências da Guerra** | Registros de missões e testemunhos de libertação. |
 
 ---
 
 ## ⚖️ Sistema de Peso (O Fardo)
 
-> *"Digno é o trabalhador do seu salário."* — 1 Tim 5:18
+> *"Levai as cargas uns dos outros e assim cumprireis a lei de Cristo."* — Gálatas 6:2
 
-- **Fardo Máximo** = capacidade máxima de carga (`max_weight` no rAthena).
-- Ao atingir 50% do Fardo: velocidade reduzida levemente (o peso da guerra pesa).
-- Ao atingir 90% do Fardo: velocidade severamente reduzida + skills bloqueadas.
-- Ao atingir 100%: incapaz de mover (o Discípulo foi sobrecarregado).
-- **Narrativa:** Um Discípulo que carrega demais perde agilidade espiritual — lore para explicar a mecânica de peso.
-
----
-
-## 💎 Sistema de Raridade
-
-| Rarity | Cor do nome | Origem |
-|---|---|---|
-| Comum | Branco | Lojas, drops comuns |
-| Incomum | Verde | Drops de dungeon |
-| Raro | Azul | Drops de MVP; crafts de A Ordem |
-| Épico | Roxo | Drops raros de bosses; missões de cadeia |
-| Lendário | Dourado | Drops únicos; eventos especiais; Sacrário |
-
----
-
-## 🃏 Cartas (Ecos da Revelação)
-
-As Cartas encaixam em slots de Instrumento, Vestes ou Acessórios para conceder bônus especiais:
-
-- Cada Carta representa **Autoridade espiritual sobre uma fraqueza específica** — o Discípulo aprendeu como aquele tipo de corrupção opera e agora pode explorá-la.
-- Ex: Carta de Dragão/Fogo encaixada na arma → +15% dano contra raça Dragão elemento Fogo.
-- Sistema de múltiplas cartas no mesmo item segue o padrão rAthena (1–4 slots dependendo do equipamento).
-
----
+- **O Fardo:** Representa a capacidade do Discípulo de carregar recursos sem comprometer sua prontidão espiritual.
+- **Sobrecarga:** Ultrapassar 50% do fardo impede a recuperação natural da **Unção** (SP). Aos 90%, o Discípulo torna-se incapaz de manifestar Dons (Skills) complexos.
+- **Narrativa:** O peso físico em Advenia afeta o fluxo espiritual — carregar demais o que é terreno dificulta a visão do que é eterno.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Gameplay](04-gameplay.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- 💰 **Economia:** [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md) (drops como Matéria Sequestrada)
-- 📖 **Glossário:** [Glossário Base](../lore/glossario-e-termos/glossario-base.md) (tabela de analogias rAthena↔lore)
-- ⚙️ **Técnico:** [Sistema Técnico](../sistema-tecnico/05-sistema-tecnico.md) (item_db.conf — Fase 3 do roadmap)
+- 💰 **Economia:** [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md)
+- 📖 **Glossário:** [Glossário Base](../lore/glossario-e-termos/glossario-base.md)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Ao alinhar os slots de equipamento com Efésios 6, transformamos a tela de "Equip" em um momento de preparação litúrgica. O sistema de "Fardo" deixa de ser uma chatice de inventário e torna-se um lembrete espiritual: o excesso de "coisas" de Advenia atrapalha a caminhada do Discípulo.
+
+*Última atualização: 2026-05-01*

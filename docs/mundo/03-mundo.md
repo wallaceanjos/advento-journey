@@ -1,13 +1,13 @@
 # 🌍 03 - Mundo
 
 > [!ABSTRACT] 💡 Em uma frase
-> **Aethelgard** ("Jardim Eterno") — o mundo onde a jornada do Discípulo é um retorno profético ao estado original antes da Queda.
+> **Advenia** ("Jardim Eterno") — o mundo onde a jornada do Discípulo é um retorno profético ao estado original antes da Queda.
 
 ---
 
 ## 🗺️ Estrutura do Mundo
 
-Aethelgard é dividido em 3 reinos, cada um representando uma fase da jornada espiritual do Discípulo:
+Advenia é dividido em 3 reinos, cada um representando uma fase da jornada espiritual do Discípulo:
 
 | Reino | Progressão | Tema espiritual | Bioma |
 |---|---|---|---|
@@ -19,10 +19,10 @@ Aethelgard é dividido em 3 reinos, cada um representando uma fase da jornada es
 
 ## 🌐 O Sistema de Nomenclatura Dual
 
-Cada local em Aethelgard tem duas visões:
+Cada local em Advenia tem duas visões:
 
-- **Nome na Visão Natural (NaturalVision):** Como o mundo chama o lugar — o nome histórico, geográfico, visível.
-- **Nome de Revelação:** O que o lugar significa espiritualmente, visível apenas para quem possui a **TrueVision** plena.
+- **Nome na Visão Natural:** Como o mundo chama o lugar — o nome histórico, geográfico, visível.
+- **Nome de Revelação:** O que o lugar significa espiritualmente, visível apenas para quem possui a **Visão Verdadeira** plena.
 
 Esse sistema reforça o contraste cosmológico central: o mesmo lugar físico tem duas verdades. O jogador aprende ambas conforme progride.
 
@@ -34,7 +34,7 @@ Esse sistema reforça o contraste cosmológico central: o mesmo lugar físico te
 
 Para detalhes completos de cada cidade: [Geografia do Caminho](geografia-do-caminho.md)
 
-| Cidade (NaturalVision) | Nome de Revelação | Reino | Níveis |
+| Cidade (Visão Natural) | Nome de Revelação | Reino | Níveis |
 |---|---|---|---|
 | Primórdia | Vila do Despertar | Orizon | 1–15 |
 | Valéria | Campo da Instrução | Orizon | 10–25 |
@@ -50,7 +50,7 @@ Para detalhes completos de cada cidade: [Geografia do Caminho](geografia-do-cami
 
 ## 🌳 A Convergência do Jardim
 
-Aethelgard não é apenas um nome — é a promessa implícita em toda a jornada:
+Advenia não é apenas um nome — é a promessa implícita em toda a jornada:
 
 - O jogador começa em **Orizon** (Jardim Terrestre — fé simples, primeiros passos).
 - Progride pelo **refino de Krost** (provação que forja o caráter).
@@ -70,6 +70,6 @@ A chegada ao **Sacrário Perdido** ("Limiar da Eternidade") é o fim da progress
 
 ---
 ## 🧠 Análise do Agente
-> O mundo de Advento não é apenas um lugar para estar — é um lugar para *tornar-se*. A separação por níveis espelha a progressão de um Discípulo que começa na simplicidade da fé e termina na profundidade da adoração. O sistema de nomenclatura dual é um lembrete constante de que o jogador vive em duas visões (**NaturalVision** e **TrueVision**) simultaneamente.
+> O mundo de Advento não é apenas um lugar para estar — é um lugar para *tornar-se*. A separação por níveis espelha a progressão de um Discípulo que começa na simplicidade da fé e termina na profundidade da adoração. O sistema de nomenclatura dual é um lembrete constante de que o jogador vive em duas visões (**Visão Natural** e **Visão Verdadeira**) simultaneamente.
 
 *Última atualização: 2026-04-30*

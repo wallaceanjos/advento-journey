@@ -1,15 +1,15 @@
 # 👾 01 - Matriz de Monstros Originais
 
 > [!ABSTRACT] 💡 Em uma frase
-> A fundação do ecossistema de inimigos do ADVENTO: 100 manifestações da corrupção espiritual categorizadas por raça e elemento.
+> A fundação do ecossistema de inimigos de **Advenia**: 100 manifestações da corrupção espiritual categorizadas por raça, elemento e distorção teológica.
 
 ---
 
-## 📊 Tabela de Monstros (100 Combinações)
+## 📊 A Matriz da Guerra Invisível (100 Combinações)
 
-Esta tabela representa as manifestações da Guerra Invisível que o jogador enfrentará. Cada nome foi escolhido para refletir como o mal distorce a natureza e a humanidade sob o Véu.
+Esta matriz representa as distorções que o jogador enfrentará em Advenia. Seguindo a **Linha Filosófica** do projeto, nenhum monstro é uma "criação nova" do mal, mas uma criatura original ou um conceito humano que foi torcido e sequestrado pela influência dos Principados sob a **Visão Natural**.
 
-| #   | Nome Original                          | Raça          | Elemento    | Descrição de Lore                                            |
+| #   | Nome Original                          | Raça          | Elemento    | Descrição de Realismo Espiritual                             |
 | :-- | :------------------------------------- | :------------ | :---------- | :----------------------------------------------------------- |
 | 1   | **Ecos da Vaidade (Susther)**          | 🌀 Amorfo     | ⚪ Neutro    | Fragmentos de memórias mundanas que vagam sem rumo.          |
 | 2   | **Lágrima de Cristalina (Enygm)**      | 🌀 Amorfo     | 💧 Água     | Uma poça de tristeza que se tornou sólida e hostil.          |
@@ -39,7 +39,7 @@ Esta tabela representa as manifestações da Guerra Invisível que o jogador enf
 | 26  | **Serpente de Intrigas (Vess)**        | 🐗 Bruto      | 🧪 Veneno   | Seu bote injeta dúvidas e desconfiança no coração.           |
 | 27  | **Unicórnio Caído (Silvyr)**           | 🐗 Bruto      | ✨ Sagrado   | Uma criatura majestosa cuja pureza foi corrompida.           |
 | 28  | **Pantera de Pesadelos (Kethas)**      | 🐗 Bruto      | 🌑 Sombrio  | Caçadora invisível que ataca durante o sono da alma.         |
-| 29  | **Cão do Purgatório (Cerber)**         | 🐗 Bruto      | 👻 Fantasma | Um mastim que guarda as fissuras do Véu.                     |
+| 29  | **Cão do Purgatório (Cerber)**         | 🐗 Bruto      | 👻 Fantasma | Um mastim que guarda as fissuras da Visão Natural.           |
 | 30  | **Besta do Sacrilégio (Malak)**        | 🐗 Bruto      | 💀 Maldito  | Uma quimera composta pelos pecados de um vilarejo.           |
 | 31  | **Raiz da Discórdia (Floros)**         | 🌿 Planta     | ⚪ Neutro    | Arbusto que cresce rápido onde há conflitos humanos.         |
 | 32  | **Lótus de Letargia (Nympho)**         | 🌿 Planta     | 💧 Água     | Flor que flutua em águas paradas, induzindo ao esquecimento. |
@@ -90,7 +90,7 @@ Esta tabela representa as manifestações da Guerra Invisível que o jogador enf
 | 77  | **Inquisidor de Julgamento (Judas)**   | 👤 Humanoide  | ✨ Sagrado   | Condenam os outros para esconder o próprio pecado.           |
 | 78  | **Assassino de Silêncio (Mute)**       | 👤 Humanoide  | 🌑 Sombrio  | Matam a esperança antes que ela possa ser proferida.         |
 | 79  | **Eremita de Solidão (Mono)**          | 👤 Humanoide  | 👻 Fantasma | Perderam a conexão com os outros e com a realidade.          |
-| 80  | **Apóstata de Blasmêmia (Exodus)**     | 👤 Humanoide  | 💀 Maldito  | Líderes que conheciam a Verdade e a desprezaram.             |
+| 80  | **Apóstata de Blasfêmia (Exodus)**     | 👤 Humanoide  | 💀 Maldito  | Líderes que conheciam a Verdade e a desprezaram.             |
 | 81  | **Guardião Caído (Uriel)**             | 👼 Anjo       | ⚪ Neutro    | Um protetor que esqueceu o que estava protegendo.            |
 | 82  | **Serafim de Lágrimas (Cryel)**        | 👼 Anjo       | 💧 Água     | Chora pela beleza que ajudou a destruir na Queda.            |
 | 83  | **Potestade de Barro (Golel)**         | 👼 Anjo       | ⛰️ Terra    | Preso à matéria física, esqueceu sua origem celestial.       |
@@ -98,36 +98,32 @@ Esta tabela representa as manifestações da Guerra Invisível que o jogador enf
 | 85  | **Virtude de Vento (Ariel)**           | 👼 Anjo       | 🌬️ Vento   | Um mensageiro cujas palavras agora trazem confusão.          |
 | 86  | **Dominação de Peçonha (Toxiel)**      | 👼 Anjo       | 🧪 Veneno   | Administrador que agora governa através do medo.             |
 | 87  | **Principado de Arrogância (Superb)**  | 👼 Anjo       | ✨ Sagrado   | Reivindica adoração para si, distorcendo o culto.            |
-| 88  | **Querubim Sombrio (Umbrael)**         | 👼 Anjo       | 🌑 Sombrio  | O antigo conhecimento agora usado para o mal.                |
+| 101: | **Querubim Sombrio (Umbrael)**        | 👼 Anjo       | 🌑 Sombrio  | O antigo conhecimento agora usado para o mal.                |
 | 89  | **Anjo de Vazio (Nilel)**              | 👼 Anjo       | 👻 Fantasma | Uma casca de glória que não contém mais vida.                |
 | 90  | **Heraldo da Queda (Zaral)**           | 👼 Anjo       | 💀 Maldito  | Proclama a destruição do mundo com prazer maligno.           |
 | 91  | **Serpe de Terra (Terrax)**            | 🐲 Dragão     | ⚪ Neutro    | A força bruta da natureza sem direção divina.                |
 | 92  | **Dragão de Marés (Tidal)**            | 🐲 Dragão     | 💧 Água     | Controla as inundações que apagam a história.                |
 | 93  | **Montanha Viva (Lithox)**             | 🐲 Dragão     | ⛰️ Terra    | Um dragão tão antigo que se tornou parte da paisagem.        |
-| 94  | **Dragão de Enxofre (Sulfur)**         | 🐲 Dragão     | 🔥 Fogo     | O antigo fogo da santidade agora arde em destruição.         |
+| 94  | **Dragão de Enxofre (Sulfur)**         | 🐲 Dragão     | 🔥 Fogo     | O fogo que deveria purificar agora consome em ódio.          |
 | 95  | **Serpente de Nuvens (Cumulo)**        | 🐲 Dragão     | 🌬️ Vento   | Domina os céus, impedindo que a luz do Rei chegue.           |
 | 96  | **Basilisco de Corrupção (Rot)**       | 🐲 Dragão     | 🧪 Veneno   | Tudo o que toca apodrece instantaneamente.                   |
 | 97  | **Wyvern de Luz Falsa (Glare)**        | 🐲 Dragão     | ✨ Sagrado   | Brilha tanto que cega os viajantes no deserto.               |
 | 98  | **Dragão de Eclipses (Luna)**          | 🐲 Dragão     | 🌑 Sombrio  | Sua presença traz a noite eterna para as cidades.            |
-| 99  | **Dragão de Ethereo (Wraith)**         | 🐲 Dragão     | 👻 Fantasma | Uma lenda que se materializa para devorar esperança.         |
-| 100 | **Draco de Condenação (Xeno)**         | 🐲 Dragão     | 💀 Maldito  | O ápice da hierarquia de monstros: um principado dragão.     |
+| 99  | **Dragão de Etéreo (Wraith)**          | 🐲 Dragão     | 👻 Fantasma | Uma lenda que se materializa para devorar esperança.         |
+| 100 | **Draco de Condenação (Xeno)**         | 🐲 Dragão     | 💀 Maldito  | O ápice da distorção: um dragão que zomba da Parusia.        |
 
----
-
-## 🏁 Estatísticas Finais
-- **Monstros Originais Criados:** 100
-- **Raças Abrangidas:** 10 (Total de categorias técnicas do Ragnarok)
-- **Elementos Abrangidos:** 10 (Total de elementos do sistema rAthena)
-- **Cobertura:** 100% da matriz de probabilidades.
-
----
+## 🏁 Estatísticas de Design
+- **Total de Monstros:** 100
+- **Fidelidade Técnica:** 100% rAthena (10 raças / 10 elementos).
+- **Consistência:** Todos os nomes refletem distorções da estrutura de **Advenia**.
 
 ## 🔗 Conexões Relacionadas
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
+- 🌍 **Conceito:** Realismo Espiritual; Guerra Invisível; Visão Natural
 
 ---
 ## 🧠 Análise do Agente
-> Esta matriz é o coração do seu ecossistema de inimigos. Em vez de termos monstros aleatórios, temos uma progressão temática. O jogador pode sentir que, ao enfrentar um "Apóstata de Blasfêmia" (Humanoide/Maldito), ele está lidando com uma corrupção muito mais pessoal e trágica do que ao enfrentar um "Lobo da Gula" (Bruto/Neutro). Isso enriquece a jornada de santificação.
+> Esta matriz é a prova de que MMORPG clássico e Lore bíblica podem coexistir perfeitamente. Em vez de "Morcegos" e "Slimes", o jogador enfrenta "Ecos da Vaidade" e "Fanáticos de Pira". O Realismo Espiritual transforma o bestiário em uma galeria de pecados e distorções, tornando cada expulsão um ato narrativo significativo.
 
-*Última atualização: {{date}}*
+*Última atualização: 2026-05-01*

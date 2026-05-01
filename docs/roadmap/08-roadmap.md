@@ -1,59 +1,50 @@
 # 🗺 08 - Roadmap
 
 > [!ABSTRACT] 💡 Em uma frase
-> Ordem de construção e planejamento técnico para a sincronização entre o rAthena e a Godot Engine.
+> Planejamento técnico e narrativo para a sincronização entre o servidor rAthena e o cliente Godot, visando a materialização de **Advenia**.
 
 ---
 
-## 📝 Descrição
-Este documento descreve as fases de desenvolvimento do projeto Advento, unindo os marcos de progresso do jogo com a implementação técnica necessária para o cliente.
+## 🏗️ Fases de Desenvolvimento
 
-### 📅 Marcos de Desenvolvimento
-1. **Fase 1** – Login + andar no mapa (Sincronização Base)
-2. **Fase 2** – Combate básico + Entidades
-3. **Fase 3** – Inventário + Banco de Dados
-4. **Fase 4** – NPC funcional + Interação
-5. **Fase 5** – Primeira cidade jogável + Tradução
-6. **Fase 6** – Beta fechado
+O projeto segue uma ordem de construção pragmática, priorizando a estabilidade de rede antes da expansão de conteúdo:
 
----
+### 🛠️ Fase 1: Sincronização Base (O Despertar)
+- **Objetivo:** Login e movimentação sem latência perceptível.
+- **Técnico:** Handshake rAthena; Interpolação de movimento no Godot; Pathfinding validado por GAT.
+- **Narrativo:** O Discípulo acorda em **Primórdia** (Orizon) sob a **Visão Natural**.
 
-## 🏗️ Detalhamento Técnico
+### ⚔️ Fase 2: Ecossistema e Visão (A Realidade)
+- **Objetivo:** Spawn de entidades e ativação da **Visão Verdadeira**.
+- **Técnico:** Implementação do pacote `tier_espiritual`; **Shader de Desaturação Global**; Gerenciador de Entidades.
+- **Narrativo:** O rasgar da Visão Natural e a detecção de ameaças espirituais.
 
-### 🛠️ Fase 1: Sincronização e Movimentação (O Essencial)
-Antes de itens ou monstros, o personagem precisa se mover sem desincronizar.
-- **rAthena**: Configurar `speed` no `char_db` e pacotes `0x85` (walk request).
-- **Godot**:
-    - **Input Handling**: Capturar o clique no chão.
-    - **Pathfinding**: NavigationAgent validado com dados de GAT do rAthena.
-    - **Interpolação**: Suavizar o movimento (ler posição do servidor e interpolar localmente).
+### 🎒 Fase 3: Dados e Reivindicação (O Coração)
+- **Objetivo:** Inventário reativo e banco de dados SQL.
+- **Técnico:** Sincronização do `item_db`; UI de **Fardo** e **Integridade do Vaso** (HP/SP).
+- **Narrativo:** Coleta de **Matéria Sequestrada** e gestão de recursos.
 
-### ⚔️ Fase 2: Entidades e Unidades (O Ecossistema)
-Visualização de outros jogadores e NPCs.
-- **rAthena**: Entender `clif_spawn_unit` (Range de Visão).
-- **Godot**: Gerenciador de Entidades (`units = {}`) e Pooling de cenas.
+### 🎇 Fase 4: Combate e Dons (A Guerra)
+- **Objetivo:** Skills funcionais e fórmulas de dano baseadas em **Santidade**.
+- **Técnico:** Sistema de Timers (Animação vs Pacote de Dano); VFX de Shekinah; Customização de `battle.conf`.
+- **Narrativo:** O exercício da autoridade ministerial através d'**O Livro**.
 
-### 🎒 Fase 3: Dados e Inventário (O Coração)
-União do MySQL com a UI.
-- **rAthena**: Manipular `item_db.conf` e pacotes `0xa0` (inventory list).
-- **Godot**: UI Reativa e Dicionário Local (JSON/Resource) para tradução de IDs em sprites/nomes.
+### 🌐 Fase 5: Tradução e Identidade (A Ponte)
+- **Objetivo:** Implementação da **Dual Nomenclatura** e primeira cidade completa.
+- **Técnico:** `advento_translations` SQL; `TranslationServer` da Godot; Finalização da UI Mobile/PC.
+- **Narrativo:** Consolidação da cultura e terminologia de **Advenia**.
 
-### 🎇 Fase 4: Combate e Habilidades (A Alma)
-- **rAthena**: Customizar `battle.conf` para fórmulas de dano.
-- **Godot**: Sistema de Timers (Animação Visual vs Pacote `0x8a` de dano real) e VFX.
-
-### 🌐 Fase 5: Sistema de Tradução (A Ponte)
-- **Backend**: Tabelas SQL (`advento_translations`) e funções de script.
-- **Frontend**: `TranslationServer` da Godot com arquivos `.csv`/.po mapeando chaves como `ITM_NAME_501`.
-
----
+### 🧪 Fase 6: Beta Fechado (A Comunhão)
+- **Objetivo:** Teste de estresse e balanceamento de **Comunhão** (Party) e **Resistência** (Guilda).
 
 ## 🔗 Conexões Relacionadas
 - ⬅️ **Pai:** [ADVENTO](../index.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
+- ⚙️ **Técnico:** [Sistema Técnico](../sistema-tecnico/05-sistema-tecnico.md)
+- ⚙️ **Arquitetura:** [Arquitetura Geral](../sistema-tecnico/arquitetura/arquitetura-geral.md)
 
 ---
 ## 🧠 Análise do Agente
-> O roadmap técnico está bem estruturado, priorizando os fundamentos de rede (movimentação e sincronia) antes dos sistemas de dados. A principal barreira será a latência na interpolação, que deve ser tratada com cuidado no cliente para evitar o efeito de "Rubber Banding".
+> Este roadmap garante que a "mágica" visual da Visão Verdadeira (Fase 2) seja construída sobre uma base de rede sólida (Fase 1). Ao focar na tradução e UI Dual apenas na Fase 5, permitimos que o desenvolvimento técnico flua com nomes padrão rAthena antes da "maquiagem" final da Lore ser aplicada sistematicamente.
 
-*Última atualização: 12/03/2026*
+*Última atualização: 2026-05-01*

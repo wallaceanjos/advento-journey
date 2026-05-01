@@ -7,27 +7,28 @@
 
 ## 📝 O Nome: O Que é o "Advento"?
 
-**Advento** é o nome do jogo e o nome do evento central da narrativa:
+**Advento** é o nome do jogo e o nome da era em que a narrativa ocorre:
 
-> O **Advento** é a chegada iminente do Rei — a Parusia. O jogo acontece no período de espera entre a Primeira Vinda (a Cruz) e a Segunda Vinda (a Glória). O jogador é um Discípulo que vive e combate nesse intervalo, sabendo que a vitória final não está em suas mãos — mas que cada batalha importa até que ela chegue.
+> O **Advento** é a era da espera ativa — o intervalo profético entre a Primeira Vinda (a Cruz) e a Segunda Vinda (a Parusia). O jogo acontece exatamente no "Agora, mas ainda não": a vitória já foi conquistada na Cruz, mas a resistência continua em Advenia até que o Rei retorne em glória.
 
-**Duplo significado:**
-1. **Advento histórico:** O período litúrgico de espera pela vinda de Cristo.
-2. **Advento no jogo:** O nome que os Discípulos dão à era em que vivem — a era da resistência antes da Parusia.
+**Ponto no Tempo:**
+- **Contexto:** Aproximadamente **12 séculos após a Ascensão**, em um mundo que esqueceu sua origem mas ainda retém os fragmentos do Jardim. 
+- **Tecnologia:** Era pré-pólvora. A guerra é decidida pelo aço, pela estratégia e pela autoridade espiritual. Não existem armas de fogo; o poder à distância é manifestado através de arcos, bestas ou dons espirituais (Visão Verdadeira).
+- **Estado do Mundo:** Advenia está sob a "Cegueira da **Visão Natural**", onde a maioria vive como se o espiritual não existisse, enquanto a Guerra Invisível atinge seu ápice.
 
 ---
 
-## 🌐 A Dualidade de Realidades
+## 🌐 Realismo Espiritual: A Fantasia como Verdade
 
-O conceito central propõe que a realidade visível é apenas uma camada superficial:
+Diferente de outras fantasias que criam mundos "falsos" para escapar da realidade, Advento propõe que os elementos de "fantasia" são, na verdade, a realidade bíblica superior.
 
-| Plano | Nome | Percepção |
+- **O Paradoxo da Realidade:** O que o mundo chama de "fantasia" (anjos, exércitos espirituais, autoridade de expulsão), a Bíblia chama de Verdade. 
+- **Sobreposição:** O mundo espiritual não está em "outro lugar", mas sobreposto ao físico, oculto apenas pela limitação da nossa percepção caída.
+
+| Visão | Nome | Experiência do Jogador |
 |---|---|---|
-| Superficial | Mundo de Ilusão | Colorido, belo, incompleto — o que todos veem |
-| Profundo | Mundo Real | Monocromático, verdadeiro — o que O Livro revela |
-| Estado do humano | Véu da Cegueira | Incapacidade de ver a guerra em andamento |
-| Capacidade do Discípulo | Visão Verdadeira | Percepção ativa do plano espiritual |
-| Rasgos no plano | Fissuras | Onde o espiritual transborda para o físico |
+| **Visão Natural** | O Mundo sob o Véu | O que os olhos físicos veem: um mundo medieval comum, belo mas limitado e decaído. |
+| **Visão Verdadeira** | A Realidade Superior | O que a **Visão Verdadeira** revela: a física do plano espiritual, luz Shekinah, versículos sustentando a matéria e a Guerra Invisível. |
 
 ### O Véu e a Percepção
 - **A Cegueira Herdada:** A humanidade vive sob o Véu — uma limitação espiritual pós-Queda.
@@ -57,7 +58,7 @@ O Livro é o que torna o humano um **Player**. Ele fornece:
 
 - ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
-- 📖 **Lore:** [O Véu](../../lore/capitulos/01-o-veu.md) (5 termos cosmológicos); [O Chamado](../../lore/capitulos/05-o-chamado.md) (O Livro)
+- 📖 **Lore:** *O Véu* (5 termos cosmológicos); [O Chamado](../../lore/capitulos/05-o-chamado.md) (O Livro)
 - 🌍 **Conceito:** Parusia; Visão Verdadeira; Santidade
 - ⚙️ **Mecânica:** [Sistema de Combate](../../gameplay/sistema-de-combate.md)
 
@@ -65,4 +66,4 @@ O Livro é o que torna o humano um **Player**. Ele fornece:
 ## 🧠 Análise do Agente
 > Este conceito remove a barreira entre "Lore" e "Gameplay". Em vez de ler um texto para entender o jogo, o jogo *é* o texto sendo aplicado. O Livro como interface dá um sentido sagrado até para o menu de configurações do jogador. O nome "Advento" como era de espera é o que dá sentido ao loop de MMO: o jogador não está preso num ciclo vazio — está resistindo até o Rei chegar.
 
-*Última atualização: 2026-04-19*
+*Última atualização: 2026-05-01*

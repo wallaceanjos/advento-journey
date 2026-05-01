@@ -1,13 +1,13 @@
-# 🗺️ Geografia do Caminho: Aethelgard Decodificada
+# 🗺️ Geografia do Caminho: Advenia Decodificada
 
 > [!ABSTRACT] 💡 Em uma frase
-> **Aethelgard** ("Jardim Eterno"): O berço da civilização após o Advento, onde a jornada física do Discípulo é um retorno profético ao Jardim original — e cada cidade é uma estação dessa caminhada.
+> **Advenia** ("Jardim Eterno"): O berço da civilização após o Advento, onde a jornada física do Discípulo é um retorno profético ao Jardim original — e cada cidade é uma estação dessa caminhada.
 
 ---
 
 ## 🧭 O Sistema de Nomenclatura Dual
 
-Aethelgard possui duas visões: a **Visão Natural (NaturalVision)**, percebida pelos olhos humanos, e a **TrueVision**, revelada através d'O Livro. Cada local tem dois nomes que coexistem — o jogador aprende o Nome de Revelação conforme sua Santidade cresce.
+Advenia possui duas visões: a **Visão Natural**, percebida pelos olhos humanos, e a **Visão Verdadeira**, revelada através d'O Livro. Cada local tem dois nomes que coexistem — o jogador aprende o Nome de Revelação conforme sua Santidade cresce.
 
 ---
 
@@ -17,7 +17,7 @@ Aethelgard possui duas visões: a **Visão Natural (NaturalVision)**, percebida 
 **Bioma:** Planícies verdejantes, florestas, costa atlântica  
 **Tema espiritual:** *"O início da jornada começa com o reconhecimento de que há mais do que a Visão Natural alcança."*
 
-| Local (NaturalVision) | Nome de Revelação | Papel narrativo e notas técnicas |
+| Local (Visão Natural) | Nome de Revelação | Papel narrativo e notas técnicas |
 |---|---|---|
 | **Primórdia (Capital)** | **Vila do Despertar** | Cidade inicial; onde O Despertar (prólogo) ocorre. Arquitetura medieval clássica. Ponto de entrada (char-server). Foco: onboarding completo |
 | **Valéria** | **Campo da Instrução** | Vila agrícola nos arredores; primeira zona de farm. NPCs de coleta e consumíveis básicos. Tema: a semente da Palavra sendo plantada |
@@ -36,7 +36,7 @@ Aethelgard possui duas visões: a **Visão Natural (NaturalVision)**, percebida 
 **Bioma:** Cordilheiras, minas profundas, cidades a vapor  
 **Tema espiritual:** *"O fogo não consome o ouro — revela o que sempre esteve lá."* (Is 48:10)
 
-| Local (NaturalVision) | Nome de Revelação | Papel narrativo e notas técnicas |
+| Local (Visão Natural) | Nome de Revelação | Papel narrativo e notas técnicas |
 |---|---|---|
 | **Ferrum (Capital)** | **Bastião da Forja** | Capital construída dentro de uma montanha. Hub político; tensão entre a Igreja e o poder secular de Krost. Foco técnico: iluminação dinâmica, normal maps |
 | **Estige** | **Vale da Humilhação** | Cidade sombria próxima a minas corrompidas. Alta concentração de Principados industriais. Foco: dungeons instanciadas, combate de alto nível |
@@ -55,7 +55,7 @@ Aethelgard possui duas visões: a **Visão Natural (NaturalVision)**, percebida 
 **Bioma:** Desertos dourados, oásis, ruínas de civilização antiga  
 **Tema espiritual:** *"Não é o fim — é o limiar. O que está por vir é maior do que o que passou."*
 
-| Local (NaturalVision) | Nome de Revelação | Papel narrativo e notas técnicas |
+| Local (Visão Natural) | Nome de Revelação | Papel narrativo e notas técnicas |
 |---|---|---|
 | **Heliópolis (Capital)** | **Cidade do Rei Amado** | Capital de endgame; arquitetura dourada monumental. Hub social de alto nível, leilões, guildas. Foco técnico: shaders de alta performance, reflexos |
 | **Oásis de Miragem** | **Lugar do Refrigério** | Oásis no deserto; Zona No-PvP permanente. Área de descanso, craft, socialização. Tema: o descanso de quem perseverou |
@@ -70,7 +70,7 @@ Aethelgard possui duas visões: a **Visão Natural (NaturalVision)**, percebida 
 
 ## 🌳 A Convergência do Jardim
 
-A progressão geográfica de Aethelgard espelha a progressão espiritual do Discípulo:
+A progressão geográfica de Advenia espelha a progressão espiritual do Discípulo:
 
 ```
 GÊNESE (Orizon)         → PROVAÇÃO (Krost)        → GLÓRIA (Solari)

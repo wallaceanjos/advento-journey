@@ -1,7 +1,7 @@
 # 👥 Sistema de Grupos
 
 > [!ABSTRACT] 💡 Em uma frase
-> No Advento, grupos não são conveniências mecânicas — são Comunhões: o reflexo de que a guerra espiritual não foi desenhada para ser vencida sozinha.
+> No Advento, grupos não são conveniências mecânicas, mas **Comunhões**: o reflexo de que a Guerra Invisível em **Advenia** não foi desenhada para ser vencida solitariamente.
 
 ---
 
@@ -9,69 +9,53 @@
 
 > *"Porque onde estiverem dois ou três reunidos em meu nome, ali estou no meio deles."* — Mt 18:20
 
-O sistema de grupo no Advento recebe o nome de **Comunhão**. Uma party de 5 jogadores operando em sinergia não é uma otimização de DPS — é a Igreja em miniatura, cada membro exercendo seu ministério para que o corpo funcione.
+O sistema de grupo em Advenia recebe o nome de **Comunhão**. Uma equipe de 5 jogadores operando em sinergia não é apenas uma otimização de DPS — é o Corpo de Cristo em miniatura, onde cada membro exerce seu **Grau de Ministério** para que o todo prevaleça contra os Principados.
 
 ---
 
-## 👥 Estrutura de Grupo (Comunhão)
+## 👥 Estrutura de Comunhão
 
-| Parâmetro | Valor |
-|---|---|
-| Tamanho mínimo | 1 (solo) |
-| Tamanho ideal | 5 (composição balanceada) |
-| Tamanho máximo | 12 (raids / eventos de Fissura) |
-| Nome técnico (rAthena) | Party |
-| Nome de Lore | Comunhão |
-
----
-
-## ⚔️ Composição Recomendada (5 membros)
-
-| Slot | Classe | Função |
+| Parâmetro | Nome de Lore | Função em Advenia |
 |---|---|---|
-| Linha de frente | Guerreiro (Paladino) | Tank — absorve dano, mantém atenção dos inimigos |
-| Suporte | Clérigo (Sacerdote) | Healer — restaura Integridade do Vaso |
-| DPS ranged | Caçador (Elite) | Dano à distância; revela MVPs |
-| DPS mágico | Sábio (Profeta) | Dano em área; revela fraquezas |
-| DPS/utility | Justiceiro (Executor) | Dano burst; mobilidade; controle de mob |
+| **Party (rAthena)** | **Comunhão** | União estratégica para libertação de Masmorras. |
+| **Guild (rAthena)** | **Corpo de Resistência** | Organização formal que ocupa e santifica territórios. |
+| **Guild Master** | **Legado / Ancião** | O guardião da visão e autoridade do grupo. |
 
 ---
 
-## 🏆 Guildas (Congregações)
+## ⚔️ Composição de Comunhão Ideal (5 Membros)
 
-| Parâmetro | Valor |
-|---|---|
-| Nome técnico (rAthena) | Guild |
-| Nome de Lore | Congregação / Exército |
-| Tamanho máximo | 50 membros |
-| Hierarquia | Líder (Apóstolo) → Oficiais (Anciões) → Membros (Discípulos) |
+A sinergia ministerial é a chave para enfrentar ameaças de Tier 2 (Vermelho):
 
-**Funções de Guilda:**
-- **Controle de Território:** Guildas podem dominar um mapa/dungeon ao manter o MVP expulso por tempo suficiente — reduz spawn local e aumenta qualidade dos drops para membros.
-- **Bank de Guilda:** Depósito compartilhado de Resíduos, materiais e itens comuns.
-- **Missões de Guilda:** Missões coletivas com recompensas que beneficiam todos os membros.
-- **Base de Operações:** Sala de guilda no servidor com NPCs exclusivos (A Ordem, A Igreja representados na base).
+1. **Zeloso (Paladino):** A âncora; absorve a pressão espiritual e protege os irmãos.
+2. **Intercessor (Sacerdote):** O restaurador; mantém a **Integridade do Vaso** (HP) e a **Unção** (SP).
+3. **Vigilante (Guardião):** O rastreador; detecta Fissuras ocultas e fraquezas de MVPs.
+4. **Erudito (Profeta):** O revelador; manifesta a Palavra em área para dissipar enxames.
+5. **Executor (Inquisidor):** O purificador; aplica dano concentrado para expulsar generais das trevas.
 
 ---
 
-## ⚡ Sinergias entre Classes
+## 🏆 Corpos de Resistência (Guildas)
 
-| Combinação | Sinergia |
-|---|---|
-| Paladino + Sacerdote | Tank sustentado quase imbatível — linha de frente de Comunhão |
-| Profeta + Caçador Elite | Elite revela fraqueza → Profeta aplica magia exploitando o elemento |
-| Inquisitor + Monge | Purificação em área dupla — AoE de alta cobertura para farm |
-| Executor + Guardião | Controle + dano concentrado — counter perfeito para MVPs |
-| Qualquer combo com Sacerdote | O Sacerdote é o multiplier de toda party — sem ele, a durabilidade cai 40% |
+As Guildas em Advenia têm um papel político e espiritual ativo:
+- **Ocupação Territorial:** Ao limpar sistematicamente uma Masmorra e seu MVP, o Corpo de Resistência pode "adotar" a região, tornando a **Visão Natural** mais leve para todos e aumentando a **Provisão** local.
+- **Congregação de Recursos:** Armazéns compartilhados para **Matéria Sequestrada** e **Resíduos da Queda** destinados à purificação em massa.
+- **Hierarquia de Serviço:** As patentes refletem níveis de maturidade espiritual e responsabilidade no cuidado com os novos Discípulos.
 
----
+## ⚡ Sinergias Ministeriais
+
+- **Zeloso + Intercessor:** A "Linha de Frente Inabalável" — proteção e cura constante.
+- **Erudito + Vigilante:** "Revelação Absoluta" — o Vigilante detecta e o Erudito purifica.
+- **Executor + Zeloso:** "Justiça Protegida" — o Zeloso cria o espaço para o Executor agir com precisão.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Gameplay](04-gameplay.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
 - ⚔️ **Classes:** [Classes e Evoluções](classes-e-evolucoes.md)
-- ⚙️ **Mecânica:** *Dungeons* (party obrigatória para alto nível)
-- 🌍 **Conceito:** [A Guerra Invisível](../lore/capitulos/06-a-guerra-invisivel.md) (guildas como igrejas de campo)
+- 🌍 **Conceito:** Visão Natural; Realismo Espiritual; Guerra Invisível
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Este sistema transforma o multiplayer em um exercício de eclesiologia prática. O jogador entende que sua build individual só atinge o potencial máximo quando em Comunhão. A mecânica de "Ocupação Territorial" dá às Guildas um motivo nobre para o farm: eles não estão apenas "dominando um castelo", estão mantendo um pedaço de Advenia livre da Cegueira.
+
+*Última atualização: 2026-05-01*

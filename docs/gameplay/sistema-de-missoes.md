@@ -1,62 +1,56 @@
 # 📋 Sistema de Missões
 
 > [!ABSTRACT] 💡 Em uma frase
-> Missões no Advento são relatórios de campo da Guerra Invisível — cada tarefa tem uma razão espiritual, não apenas um objetivo de gameplay.
+> Missões em **Advento** são relatórios de campo da Guerra Invisível — cada tarefa tem uma razão espiritual e narrativa, não sendo apenas um mecanismo de progressão mecânica em **Advenia**.
 
 ---
 
-## 🌿 Filosofia
+## 🌿 Filosofia da Vocação
 
-Em um MMORPG padrão, missões são mecanismos de progressão. No Advento, missões são formas de narrativa distribuída: o jogador aprende sobre os Principados, os Corrompidos e a história de Aethelgard através do que é pedido a ele. Nenhuma missão é "mate X monstros" sem contexto — sempre há um porquê teológico ou narrativo.
-
----
-
-## 📋 Os Três Tipos de Missão
-
-### 1. Missões de Reino (Quests Principais)
-Entregues por NPCs das cidades — Guardas, Prefeitos, Sábios locais:
-
-- **Função:** Introduzem o território, revelam a história do reino, desbloqueiam novas áreas.
-- **Estrutura:** Cadeia sequencial (A → B → C → evento narrativo).
-- **Recompensa:** EXP de Santidade (Alinhamento Espiritual) + Moeda (Estatério) + história.
-- **Exemplo:** *"A Mina de Estige está produzindo ferro com auras estranhas. Investigue e reporte à Ordem."* → descoberta de Principado industrial.
-
-### 2. Missões de A Ordem (Quests de Pesquisa)
-Entregues pelos Sábios da Ordem em cada capital de reino:
-
-- **Função:** Pesquisa espiritual; identificar fraquezas de novos inimigos; mapear avanço do Adversário.
-- **Estrutura:** Missões independentes (não em cadeia); repetivelmente para reputação.
-- **Recompensa:** Cartas (Ecos da Revelação) + Reputação com A Ordem + itens especiais.
-- **Exemplo:** *"Colete 10 Resíduos de Principado Industrial (drop de Estige). A Ordem precisa analisar a composição espiritual."* → Carta de fraqueza do tipo Dragão/Fogo.
-
-### 3. Missões de A Igreja (Quests de Purificação e Resgate)
-Entregues pelos Sacerdotes e Pastores da Igreja nas cidades:
-
-- **Função:** Purificação de regiões; missões de resgate de Corrompidos de baixo nível (se mecânica de Libertação for implementada); bênçãos coletivas.
-- **Estrutura:** Missões de evento (timing fixo por dia/semana).
-- **Recompensa:** Bênçãos temporárias (buffs de Santidade) + Reputação com A Igreja + equipamentos sagrados.
-- **Exemplo:** *"Uma família em Valéria está sendo atormentada por um Espírito de Amargura. Vá, expulse-o, e traga-os para receber oração."*
+Em Advenia, nenhuma missão é "mate X monstros" sem contexto. Seguindo o **Realismo Espiritual**, cada pedido de ajuda é um ponto de pressão na Guerra Invisível. O Discípulo atua como um braço da restauração do Rei, e suas ações têm consequências diretas na densidade da **Visão Natural** da região.
 
 ---
 
-## 🏆 Sistema de Reputação
+## 📋 Os Três Eixos de Missão
 
-| Fação | Missões | Recompensa máxima de reputação |
+### 1. Missões de Reino (Caminhada do Peregrino)
+Entregues por autoridades locais (Prefeitos, Guardas, Anciãos):
+- **Função:** Introduzem a história de cada cidade e os Principados que as oprimem.
+- **Progressão:** Sequencial; define o avanço do jogador pelos 3 Reinos (**Orizon → Krost → Solari**).
+- **Recompensa:** EXP de **Santidade** + **Estatério** (Provisão) + Desbloqueio de Mapas.
+
+### 2. Missões d'A Ordem (Pesquisa e Autoridade)
+Entregues pelos Sábios da Ordem dos Discípulos:
+- **Função:** Mapear a anatomia da corrupção. O jogador coleta **Resíduos da Queda** para análise.
+- **Foco:** Obter **Ecos da Revelação** (Cartas de Monstros) e aumentar a autoridade sobre tipos específicos de inimigos.
+- **Recompensa:** Reputação com A Ordem + Receitas de Craft + Cartas Especiais.
+
+### 3. Missões d'A Igreja (Purificação e Resgate)
+Entregues por Sacerdotes e Intercessores:
+- **Função:** Atos diretos de misericórdia e libertação. Focadas no resgate de **Corrompidos** e na limpeza de Fissuras.
+- **Foco:** Fortalecer a comunidade e reduzir a Cegueira na região.
+- **Recompensa:** Bênçãos (Buffs temporários de Santidade) + Reputação com A Igreja + Equipamentos Sagrados.
+
+---
+
+## 🏆 Sistema de Reputação e Títulos
+
+A maturidade ministerial é reconhecida pelas instituições de Advenia:
+
+| Fação | Foco de Atuação | Recompensa de Prestígio |
 |---|---|---|
-| **A Ordem** | Pesquisa, análise espiritual | Acesso ao arquivo de Cartas raras; título "Sábio da Ordem" |
-| **A Igreja** | Purificação, resgate, bênçãos | Equipamentos sagrados exclusivos; título "Servo da Igreja" |
-| **Reino de Orizon** | Missões principais de nível 1–40 | Montaria de Orizon; insígnias de Cavaleiro do Reino |
-| **Império de Krost** | Missões principais de nível 41–70 | Armaduras de Krost; acesso às Minas Profundas |
-| **Teocracia de Solari** | Missões principais de nível 71–99 | Acesso ao Sacrário Perdido; títulos de endgame |
-
----
+| **A Ordem** | Conhecimento e Autoridade | Título: *Sábio de Advenia*; acesso a Cartas Raras. |
+| **A Igreja** | Purificação e Suporte | Título: *Servo Fiel*; buffs permanentes de Unção (SP). |
+| **Reinos** | Estabilidade Territorial | Acesso às Capitais (Ferrum, Solari); montarias reais. |
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Gameplay](04-gameplay.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- 🏛️ **Fações:** *A Ordem*; *A Igreja*
-- 🌍 **Mundo:** [Geografia do Caminho](../mundo/geografia-do-caminho.md) (contexto geográfico das missões)
-- ⚙️ **Mecânica:** *Economia* (recompensas de missão); [Sistema de Combate](sistema-de-combate.md) (combate como resultado das missões)
+- 🌍 **Mundo:** [Mundo](../mundo/03-mundo.md)
+- ⚙️ **Mecânica:** [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Este sistema de três eixos garante que o jogador sempre tenha um motivo para agir. Se ele quer poder bruto, serve à Ordem (Cartas). Se ele quer sustento e suporte, serve à Igreja. Se ele quer ver o fim da história, segue as missões de Reino. Todas as estradas, no entanto, levam ao aumento da Santidade e à glória do Rei.
+
+*Última atualização: 2026-05-01*

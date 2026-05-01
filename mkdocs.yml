@@ -78,7 +78,7 @@ nav:
     - 'Visão Geral': visao-geral/01-visao-geral.md
   - 'Lore':
     - 'Capítulos':
-      - 'O Véu': lore/capitulos/01-o-veu.md
+      - 'A Visão Natural': lore/capitulos/01-a-visao-natural.md
       - 'Principados': lore/capitulos/02-principados.md
       - 'O Adversário': lore/capitulos/03-o-adversario.md
       - 'A Queda': lore/capitulos/04-a-queda.md
@@ -100,11 +100,11 @@ nav:
     - 'Geografia do Caminho': mundo/geografia-do-caminho.md
   - 'Gameplay':
     - 'Classes':
-      - 'Caçador': gameplay/classes/cacador.md
-      - 'Clerigo': gameplay/classes/clerigo.md
-      - 'Guerreiro': gameplay/classes/guerreiro.md
-      - 'Justiceiro': gameplay/classes/justiceiro.md
-      - 'Sábio': gameplay/classes/sabio.md
+      - 'Erudito': gameplay/classes/erudito.md
+      - 'Executor': gameplay/classes/executor.md
+      - 'Intercessor': gameplay/classes/intercessor.md
+      - 'Vigilante': gameplay/classes/vigilante.md
+      - 'Zeloso': gameplay/classes/zeloso.md
     - 'Gameplay': gameplay/04-gameplay.md
     - 'Sistema de Combate': gameplay/sistema-de-combate.md
     - 'Inventário e Equipamentos': gameplay/inventario-e-equipamentos.md

@@ -1,58 +1,56 @@
 # 🏛 Linha Filosófica
 
 > [!ABSTRACT] 💡 Em uma frase
-> O mal distorce, nunca cria — e esse princípio ontológico é a razão pela qual o mundo do Advento pode ser simultaneamente belo e corrompido.
+> O mal distorce, nunca cria — e o **Realismo Espiritual** é a lente que revela a arquitetura divina sob a corrupção de doze séculos.
 
 ---
 
-## 📝 O Fundamento
+## 📝 O Fundamento: Ontologia do Mal
 
-O projeto se baseia em uma premissa teológica cristã clássica:
+O projeto se baseia em uma premissa teológica clássica:
 
-> **O mal não tem poder criativo.** Ele apenas distorce o que é bom.
+> **O mal não tem poder criativo.** Ele apenas distorce o que é originalmente bom.
 
-Tudo no mundo de Aethelgard — os monstros, os Corrompidos, as Fissuras — são distorções de algo que originalmente era bom. Não existe criação genuína do lado da escuridão; existe apenas torção, inversão e corrompimento do que O Rei criou.
+Tudo no mundo de Advenia — as entidades decaídas, os Corrompidos, as anomalias geográficas — são distorções de algo que foi criado puro. No *Advento*, o mal é um "parasita" da realidade; ele precisa da estrutura do Rei para existir, mesmo enquanto tenta subvertê-la.
+
+---
+
+## 🌐 O Pilar do Realismo Espiritual
+
+Esta filosofia justifica a presença de elementos "fantásticos" em um cenário cristão:
+
+1. **A Fantasia como Verdade Superior:** O que a **Visão Natural** interpreta como "magia" ou "fantasia", a **Visão Verdadeira** revela como a física do plano espiritual sustentada pela Palavra (Hebreus 1:3).
+2. **O Mundo não é Fake:** Advento não é uma fuga da realidade, mas um mergulho nela. A jornada do Discípulo é o processo de remover as escamas dos olhos para ver o mundo como ele realmente é.
+3. **A Bíblia como Decodificador:** As Escrituras fornecem a "lógica" por trás das mecânicas. Se um Principado é expulso pelo Nome, não é um "feitiço", é o exercício de uma autoridade legal delegada pelo Rei.
 
 ---
 
 ## 🎮 Implicações de Design
 
-Esta filosofia resolve vários problemas de design ao mesmo tempo:
-
-| Problema | Solução filosófica |
+| Pergunta de Design | Resposta do Realismo Espiritual |
 |---|---|
-| Por que o mundo parece bonito se está corrompido? | O Mundo de Ilusão mostra o bem distorcido, não destruído |
-| Por que inimigos têm formas reconhecíveis (lobos, dragões)? | São criaturas reais distorcidas pelo mal, não inventadas |
-| Por que Corrompidos ainda parecem humanos parcialmente? | Porque a humanidade ainda está lá — apenas torcida |
-| Por que o mal "respeita" certas regras? | Porque opera dentro da criação; não pode sair dela |
-| Por que o jogador nunca destrói definitivamente o mal? | Porque a destruição definitiva é ato criativo — só o Rei pode |
+| Por que o mundo é belo se há guerra? | Porque a **Visão Natural** ainda reflete a beleza da criação, embora distorcida. |
+| Por que os inimigos têm formas reais? | Porque são criaturas originais (fauna/flora) sob a opressão de Principados. |
+| Por que a progressão é Santidade? | Porque a autoridade espiritual depende da integridade do Discípulo com o Rei. |
+| Por que o mal respeita regras? | Porque opera dentro da criação e está sujeito às leis espirituais do Rei. |
 
 ---
 
-## 🌍 Pilares
+## ⚖️ Pilares Filosóficos
 
-1. **Distorção vs. Criação:** O mal não tem poder criativo — só pode distorcer o bom.
-2. **A Queda:** Gerou limitação na percepção humana (O Véu), não destruição total da criação.
-3. **Autoridade:** Funciona por alinhamento espiritual e integridade moral — não por força bruta.
-4. **Invisibilidade:** A guerra espiritual é estrutural, operando nos fundamentos do mundo.
-5. **Restauração:** O estado original (pré-Queda) existe e será restaurado na Parusia.
-
----
-
-## 🌿 Como É Apresentado ao Jogador
-
-Toda esta filosofia é transmitida **organicamente** — através do ambiente, diálogos de NPCs, nomes de itens, animações de expulsão e eventos de jogo. Nunca imposta de forma didática ou religiosa.
-
-*Um jogador que nunca leu teologia ainda entende intuitivamente que o mal aqui é parasita, não criador.*
-
----
+1. **Distorção vs. Criação:** O mal é parasita; o bem é soberano.
+2. **Realismo Espiritual:** A Bíblia define a "física" do jogo.
+3. **Autoridade Delegada:** O jogador age em nome de Outro, não por poder próprio.
+4. **Visibilidade Gradual:** Ver a Verdade é um processo de amadurecimento (Santificação).
+5. **Restauração (Parusia):** O objetivo final é o retorno ao estado original de Advenia.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
-- 📖 **Lore:** [A Queda](../../lore/capitulos/04-a-queda.md) (origem do mal no mundo); [O Véu](../../lore/capitulos/01-o-veu.md) (a distorção visual)
-- 🌍 **Conceito:** Linha Filosófica (wiki); A Queda; Parusia
-- 🎬 **Cena:** [O Despertar](../../lore/cenas/o-despertar.md) (onde o jogador percebe intuitivamente esta filosofia)
+- 🌍 **Conceito:** Visão Natural; Visão Verdadeira; Realismo Espiritual
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> Esta linha filosófica remove o risco de o jogo parecer "fábula" ou "lenda". Ao tratar o espiritual como "Realismo", elevamos o peso das ações do jogador. Ele não está brincando de herói; ele está operando em uma realidade estrutural e profunda onde cada decisão moral ressoa no plano visível.
+
+*Última atualização: 2026-05-01*

@@ -1,71 +1,56 @@
 # 👤 NPCs Principais
 
 > [!ABSTRACT] 💡 Em uma frase
-> As figuras centrais que movem a narrativa e auxiliam o jogador na Guerra Invisível — de A Presença ao Evangelista do prólogo.
+> As figuras centrais que movem a narrativa e auxiliam o Discípulo na Guerra Invisível — da manifestação d'A Presença ao Evangelista do prólogo.
 
 ---
 
 ## 👥 Personagens de Destaque
 
 ### 🕊️ A Presença (O Espírito Santo)
+Não é um NPC corporificado, mas a manifestação constante do Rei entre os Discípulos. Sua voz é o guia interno que confirma a autoridade d'O Livro.
 
-Mais do que um NPC guia — é a manifestação constante do Rei entre os Discípulos. Sua presença é sentida mas raramente vocalizada.
-
-- **Papel narrativo:** Guia invisível que confirma a missão do jogador a cada etapa da jornada.
-- **Mecânica de Morte (O Reencontro):** Ao ter a Integridade do Vaso (HP) zerada, o jogador não "renasce" simplesmente. É transportado para um **Espaço de Paz** — uma transição visual única, fora do mundo — onde se encontra com A Presença.
-- **Diálogo de Ressurreição:** *"A sua missão ainda não acabou, meu filho."* — e concede o **Sopro de Vida (Resurrect)**, enviando o jogador de volta ao ponto de restauração.
-- **Visual:** Luz difusa, sem forma definida. Nunca corporificado. A câmera abre levemente e a saturação do mundo sobe para 100% durante o encontro — o único momento em que o Véu desaparece completamente.
-- **Referência bíblica:** João 14:26; Romanos 8:26.
+- **Papel Narrativo:** O Consolador e Guia que acompanha o jogador em toda **Advenia**.
+- **Mecânica de Ressurreição (O Reencontro):** Ao ter a **Integridade do Vaso** (HP) zerada, o jogador não "renasce" burocraticamente. Ele é transportado para o **Espaço de Paz** — uma dimensão fora do tempo onde a **Visão Natural** desaparece completamente, revelando a glória Shekinah.
+- **Interação:** A Presença concede o **Sopro de Vida**, restaurando o Discípulo e enviando-o de volta à missão com uma nova chance de resistência.
+- **Visual:** Luz difusa e onipresente. Durante este encontro, a saturação do mundo atinge 100% — o único momento em que o jogador vê a Realidade Superior sem o filtro da Cegueira.
 
 ---
 
 ### 👑 Jesus Cristo (O Rei que Virá)
+A figura central histórica e o fundamento de **Advenia**. Seu sacrifício na cruz há doze séculos é o que permitiu que o caminho de retorno ao Jardim fosse reaberto.
 
-A figura central histórica e espiritual. Seu sacrifício é o que permitiu que O Livro (Bíblia) fosse aberto e o Véu pudesse ser atravessado pelos jogadores. Todo o poder do Discípulo emana da vitória d'Ele na cruz.
-
-- **Presença in-game:** O Rei não aparece diretamente antes da Parusia. Sua presença é:
-  - **O Livro** (cada habilidade é uma manifestação de Sua autoridade)
-  - **A Presença** (Seu Espírito que acompanha o jogador)
-  - **A promessa da Parusia** (o evento final que os jogadores aguardam)
-- **Evento final:** Ao atingir a Teocracia de Solari e o Sacrário Perdido, cutscenes narrativas se aprofundam na expectativa da volta do Rei.
-- **Status no GDD:** Nunca retratado visualmente antes da Parusia — essa ausência intencional é parte da narrativa.
+- **Presença In-game:** O Rei não aparece fisicamente antes da Parusia. Sua autoridade é manifestada através:
+    - **D'O Livro:** A fonte direta de poder do Discípulo.
+    - **Da Presença:** Seu Espírito que habita e guia os jogadores.
+    - **Da Esperança:** O motor que move a resistência contra os Principados.
+- **A Parusia:** O evento final aguardado por todos, onde a ausência intencional do Rei terminará com Sua vitória visível sobre o Adversário.
 
 ---
 
 ### 🧭 O Irmão (O Evangelista)
+O primeiro NPC que o jogador encontra — o gatilho d'O Chamado no prólogo "O Despertar".
 
-O primeiro NPC que o jogador encontra — o gatilho do Chamado.
+- **Papel:** É quem entrega **O Livro** ao jogador e revela que a **Visão Natural** é apenas uma casca sobre a Guerra Invisível.
+- **Referência:** Inspirado no Evangelista de *O Peregrino*. Um guia fiel que aponta a Porta Estreita e desaparece, deixando o Discípulo com a Palavra.
+- **Visual:** Um homem comum, de vestes simples. Somente na **Visão Verdadeira** o jogador percebe que ele carrega uma marca de autoridade espiritual distinta.
 
-- **Papel:** Aparece no prólogo "O Despertar". É quem revela a existência da Guerra Invisível ao jogador e entrega O Livro.
-- **Identidade:** Nome canônico: **O Irmão**. Referência narrativa direta ao Evangelista de *O Peregrino* (John Bunyan) — um guia que aponta o caminho sem percorrê-lo pelo jogador.
-- **Visual:** Comum, sem destaque visual. Só na Visão Verdadeira é possível ver que ele emana uma luz diferente.
-- **Pós-prólogo:** Desaparece após o Chamado. Pode ser reencontrado em missões específicas de lore mais avançadas — não é um NPC permanente nas cidades.
-- **Diálogo chave:** *"Você sempre soube que o mundo não era o que parecia. Agora você pode ver."*
+## 📋 NPCs de Suporte (Funcionários da Ordem)
 
----
-
-## 📋 NPCs de Suporte (A Expandir)
-
-| NPC | Localização | Papel | Status |
-|---|---|---|---|
-| **Mercador da Provisão** | Todas as cidades | Loja geral; compra Matéria Sequestrada | A definir |
-| **Sábio da Ordem** | Cidades principais | Missões de lore, vende Cartas | A definir |
-| **Sacerdotisa da Igreja** | Todas as cidades | Purificação de Resíduos, buffs de bênção | A definir |
-| **Guardião da Fissura** | Dungeons | Marca entrada, dá contexto da dungeon | A definir |
-
----
+| NPC | Localização | Função de Realismo Espiritual |
+|---|---|---|
+| **Mercador da Provisão** | Cidades | Facilita a troca de Matéria Sequestrada por Estatério. |
+| **Sábio da Ordem** | Capitais | Decifra os **Ecos da Revelação** (Cartas de Monstros). |
+| **Sacerdotisa d'A Ordem**| Vilarejos | Purifica o Discípulo e restaura a **Unção** (SP). |
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
-- 🎬 **Cena:** [O Despertar](../cenas/o-despertar.md) (prólogo onde O Irmão aparece)
-- 📖 **Item:** *O Livro* (entregue por O Irmão)
+- 🎬 **Cena:** [O Despertar](../cenas/o-despertar.md) (Prólogo)
 - ⚙️ **Mecânica:** *Morte e Ressurreição* (A Presença)
-- 🏛️ **Entidades:** A Igreja; A Ordem
 
 ---
 ## 🧠 Análise do Agente
-> Separar os NPCs por relevância narrativa ajuda a mapear quem são os aliados. A distinção entre A Presença (sempre presente, nunca corporificada) e Jesus Cristo (ausente até a Parusia) cria uma tensão narrativa que nenhum outro MMORPG explora: o boss final não é inimigo, é aliado — e sua chegada significa o fim do jogo como ele existe.
+> A distinção entre a ausência física do Rei e a presença espiritual d'A Presença cria uma dinâmica única de "Vigilância". O jogador sente que está sendo cuidado, mas que a batalha final ainda exige sua fidelidade. O encontro com A Presença na morte transforma a falha mecânica em um momento de renovação narrativa.
 
-*Última atualização: 2026-04-19*
+*Última atualização: 2026-05-01*

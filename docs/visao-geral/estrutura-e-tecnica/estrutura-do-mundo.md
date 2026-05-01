@@ -1,62 +1,63 @@
 # 🌍 Estrutura do Mundo
 
 > [!ABSTRACT] 💡 Em uma frase
-> Aethelgard — 3 reinos, 9 cidades, sistema de nomes duais — onde cada centímetro do mapa é reinterpretado narrativamente pela lore da guerra espiritual.
+> Advenia: 3 reinos, 9 cidades e a sobreposição da Visão Natural e Visão Verdadeira como motor da exploração e revelação.
 
 ---
 
-## 📝 Os 3 Reinos
+## 📝 Os 3 Reinos (A Jornada de 12 Séculos)
 
-| Reino | Progressão | Tema espiritual | Referência bíblica |
+A geografia de Advenia espelha a maturidade espiritual do Discípulo na sua caminhada de retorno ao Jardim:
+
+| Reino | Progressão | Tema Espiritual | Realismo Espiritual |
 |---|---|---|---|
-| **Orizon** (O Alvorecer) | Nível 1–40 | Despertar e fé simples | *"A sabedoria começa no temor do Senhor"* |
-| **Krost** (O Ferro) | Nível 41–70 | Refino e provação | *"O fogo não consome o ouro, revela o que estava lá"* (Is 48:10) |
-| **Solari** (A Luz) | Nível 71–99 | Glória e vigília da Parusia | *"Vinde, Senhor Jesus"* (Ap 22:20) |
+| **Orizon** (O Alvorecer) | Nível 1–40 | Despertar e Fé Simples | O mundo parece um paraíso medieval, mas a corrupção é sutil e insidiosa. |
+| **Krost** (O Ferro) | Nível 41–70 | Refino e Provação | Onde a realidade espiritual se torna mais densa e o "aço" da fé é testado pelo fogo. |
+| **Solari** (A Luz) | Nível 71–99 | Glória e Vigília | O limiar da Parusia, onde a **Visão Verdadeira** é quase onipresente. |
 
 ---
 
 ## 🌐 Sistema de Nomenclatura Dual
 
-Cada cidade e região tem dois nomes:
-- **Sob o Véu:** Nome histórico/geográfico visível para todos.
-- **Nome de Revelação:** Significado espiritual, revelado pelo Livro conforme a Santidade cresce.
+Cada centímetro de Advenia possui duas camadas de significado que coexistem:
 
-*Exemplo: "Porto Âncora" → "Porto da Entrega" — onde muitos Discípulos receberam O Chamado sem saber.*
+- **Visão Natural:** O nome histórico, geográfico e "caído" do lugar, usado por habitantes comuns há doze séculos.
+- **Visão Verdadeira (Nome de Revelação):** O significado eterno do local, revelado n'**O Livro** conforme o jogador cresce em Santidade.
+
+*Exemplo: "Porto Âncora" (Visão Natural) → "Porto da Entrega" (Visão Verdadeira) — o ponto onde o Discípulo abandona suas amarras para seguir águas profundas.*
 
 ---
 
-## 🏙️ As 9 Cidades
+## 🏙️ As 9 Cidades de Advenia
 
-| Cidade | Nome de Revelação | Reino | Faixa de Nível |
+| Cidade (Visão Natural) | Nome de Revelação | Reino | Papel Técnico |
 |---|---|---|---|
-| Primórdia | Vila do Despertar | Orizon | 1–15 |
-| Valéria | Campo da Instrução | Orizon | 10–25 |
-| Porto Âncora | Porto da Entrega | Orizon | 20–40 |
-| Ferrum | Bastião da Forja | Krost | 41–55 |
-| Estige | Vale da Humilhação | Krost | 50–65 |
-| Observatório de Zênite | Alto da Vigilância | Krost | 60–70 |
-| Heliópolis | Cidade do Rei Amado | Solari | 71–85 |
-| Oásis de Miragem | Lugar do Refrigério | Solari | 80–90 |
-| Sacrário Perdido | Limiar da Eternidade | Solari | 90–99 |
+| Primórdia | Vila do Despertar | Orizon | Hub Inicial / Tutorial |
+| Valéria | Campo da Instrução | Orizon | Zona de Farm Inicial |
+| Porto Âncora | Porto da Entrega | Orizon | Hub de Transporte / Marítimo |
+| Ferrum | Bastião da Forja | Krost | Crafting Avançado / Política |
+| Estige | Vale da Humilhação | Krost | Dungeons de Grupo / Opressão |
+| Zênite | Alto da Vigilância | Krost | Hub de Observação / PvP Ético |
+| Heliópolis | Cidade do Rei Amado | Solari | Hub de Endgame / Social |
+| Oásis de Miragem | Lugar do Refrigério | Solari | Área de Descanso / No-PvP |
+| Sacrário Perdido | Limiar da Eternidade | Solari | Entrada para a Masmorra Final |
 
 ---
 
 ## 🏰 Princípio de Território
 
-Cada região tem um Principado dominante que define:
-- **Tipo de corrupção local** (ex: Krost = Principado industrial, corrupção pela ganância)
-- **Tipo de monstros predominantes** (ex: Krost = Dragão/Terra, Morto-Vivo/Fogo)
-- **Tema visual e narrativo** (ex: Estige = sombrio, opressivo, com névoa de influência)
+Cada região é administrada por um Principado que corrompe a estrutura original da criação. A missão do jogador é reverter essa distorção através de Missões de Purificação e da Expulsão de MVPs.
 
 Ver detalhes completos: [Geografia do Caminho](../../mundo/geografia-do-caminho.md)
 
----
-
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Visão Geral](../01-visao-geral.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
 - 🗺️ **Detalhes:** [Mundo](../../mundo/03-mundo.md); [Geografia do Caminho](../../mundo/geografia-do-caminho.md)
-- 🌍 **Conceito:** Parusia (endgame em Solari)
+- 🌍 **Conceito:** Parusia; Realismo Espiritual; Santidade
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> A estrutura 3x3 (3 reinos, 9 cidades) é matematicamente simbólica e mecanicamente sólida para um MMORPG. Ao vincular o nome da cidade à "percepção" (Natural vs Verdadeira), transformamos a exploração de mapas em uma busca por significado bíblico, não apenas por novos monstros.
+
+*Última atualização: 2026-05-01*

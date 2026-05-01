@@ -1,67 +1,46 @@
 # 📖 07 - Os Corrompidos
 
 > [!ABSTRACT] 💡 Em uma frase
-> Humans que cruzaram a **Visão Natural (NaturalVision)** através de transgressão e corrupção, tornando-se servos da guerra invisível — a categoria de inimigo mais trágica do jogo.
+> Humanos que buscaram o plano espiritual através da transgressão, tornando-se servos da Guerra Invisível em **Advenia** — a categoria de inimigo mais trágica do jogo.
 
 ---
 
-## 📝 Descrição
+## 📝 Descrição: A Sombra d'O Chamado
 
-![Conceito: Corrompido Iniciado](file:///c:/xampp/htdocs/advento/advento-llm/raw/assets/concept_corrompido_iniciado.png)
+Nem todos que cruzam para a **Visão Verdadeira** o fazem pela luz d'**O Livro**. Existem aqueles que, ao longo dos doze séculos de Advenia, buscaram interação com o plano espiritual através de meios ilícitos e proibidos pelo Rei:
 
-Nem todos que cruzam para a **TrueVision** o fazem pela luz da Verdade. Existem aqueles que buscam a interação com o plano espiritual através de meios proibidos:
-
-- **Transgressão Maior:** O uso de ocultismo, paganismo e práticas satânicas para obter poder espiritual ilegítimo.
-- **Corrupção da Alma:** Ao buscar poder por esses meios, o humano não se torna um "Player" (agente de santidade), mas um **Corrompido**.
-- **Perda da Humanidade:** Esses indivíduos tornam-se mobs dentro do jogo. Enxergam a **TrueVision**, mas o fazem como extensões da vontade do Adversário.
+- **Transgressão Sistêmica:** O uso de ocultismo e práticas proibidas para obter poder espiritual sem passar pelo processo de **Santificação**.
+- **O Preço da Ilusão:** Ao buscar atalhos para a Realidade Superior, o humano não recebe a autoridade do Rei, mas torna-se um hospedeiro para a vontade dos Principados. Ele torna-se um **Corrompido**.
+- **Visual Distorcido:** Na **Visão Verdadeira**, os Corrompidos não emitem a luz Shekinah dos Discípulos, mas uma distorção cromática escura, revelando como sua essência humana foi "sequestrada" pelo Adversário.
 
 ---
 
-## ⚖️ O Contraste com o Discípulo
+## ⚖️ O Contraste de Autoridade
 
-| | Discípulo | Corrompido |
+| Atributo | Discípulo | Corrompido |
 |---|---|---|
-| **Via de acesso à TrueVision** | O Livro + Santidade | Ocultismo + Transgressão |
-| **Resultado** | Lente da Verdade | Distorção + Servidão |
-| **Relação com a NaturalVision** | Transpõe a **NaturalVision** pela santidade | Rasga a **NaturalVision** pelo pecado |
-| **Função no mundo** | Agente de libertação | Extensão da vontade do Adversário |
-| **Visual na TrueVision** | Sem overlay (aliado) | Overlay distorcido; forma monstruosa |
-| **Destino** | Santificação → Parusia | Corrupção progressiva → servidão total |
+| **Fonte de Percepção** | O Livro + Santidade | Ocultismo + Transgressão |
+| **Poder vs Autoridade** | Autoridade Delegada pelo Rei | Poder Ilegítimo dos Principados |
+| **Relacão com a Realidade** | Restaura a estrutura original | Aprofunda a distorção parasita |
+| **Visual (Visão Verdadeira)** | Nítido e Centrado | Instável, Borrado e Sombrio |
 
 ---
 
-## 🎭 Tipos de Corrompidos
+## ⚔️ Mecânica: Expulsão vs. Libertação
 
-Os Corrompidos formam uma sub-categoria do bestiário humanoide. Variam de agentes simples a generais menores:
+A interação com Corrompidos em Advenia carrega um peso moral único:
 
-- **Iniciados da Escuridão:** Humanos recém-corrompidos que ainda mantêm forma humana parcial. Mobs comuns de baixo nível.
-- **Servos do Principado:** Corrompidos avançados que perderam traços humanos visíveis. Atuam como mini-bosses em zonas de alta influência.
-- **Generais das Trevas:** Completamente transformados; servem diretamente a um Principado. Próximos em poder a um MVP; visualmente irreconhecíveis como humanos.
-
----
-
-## ⚔️ Mecânica de Combate: Expulsão vs. Libertação [DEFINIDO]
-
-A interação mecânica com Corrompidos segue a **Opção B — Libertação diferenciada**:
-
-- **Corrompidos de baixo grau (Iniciados):** Têm chance de "libertação" ao final do combate. Isso gera uma recompensa especial (*Fragment of Redemption*) e conta para missões de resgate narrativo.
-- **Corrompidos avançados (Servos/Generais):** Perderam a humanidade residual e são apenas **expulsos** como demônios comuns (Mt 12:43).
-
-> **Status:** Mecânica consolidada em 30/04/2026.
-
----
+1. **Iniciados (Possibilidade de Libertação):** Humanos que ainda retêm traços de sua humanidade residual. Ao serem derrotados, há uma chance de serem **libertados** da influência, gerando recompensas de redenção.
+2. **Servos e Generais (Expulsão Necessária):** Aqueles que cruzaram o ponto de retorno. Não são mais tratados como "vítimas", mas como extensões puras dos Principados. Devem ser **expulsos** (Mateus 12:43) para as regiões áridas.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
-- 📖 **Contraste com:** [O Chamado](../capitulos/05-o-chamado.md) (mesma capacidade espiritual, direção oposta)
-- ⚙️ **Mecânica:** [Sistema de Combate](../../gameplay/sistema-de-combate.md) (expulsão vs. libertação)
-- 🌍 **Conceito:** A Queda; Guerra Invisível
-- 👿 **Bestiário:** [Matriz de Monstros Originais](matriz-de-monstros-originais.md) (raça Humanoide inclui Corrompidos)
+- ⚙️ **Mecânica:** [Sistema de Combate](../../gameplay/sistema-de-combate.md) (Expulsão vs. Libertação)
+- 🌍 **Conceito:** Visão Natural; Visão Verdadeira; Realismo Espiritual; Santidade
 
 ---
 ## 🧠 Análise do Agente
-> A distinção entre Discípulo e Corrompido é vital para o ecossistema do jogo: explica por que existem inimigos humanos tratados como monstros. O "ocultismo" aqui funciona como um "hack" espiritual de baixo nível que cobra o preço da sanidade e da forma humana. Cada Corrompido é uma versão trágica do que o jogador poderia ter sido sem O Chamado — o que torna cada encontro moralmente pesado.
+> O Corrompido é o espelho sombrio do jogador. Ele prova que a Visão Verdadeira existe, mas que sem a bússola d'O Livro, o contato com o espiritual é fatal para a alma. Isso solidifica o Realismo Espiritual: o sobrenatural não é "seguro" nem "neutro"; ele é uma zona de guerra onde a autoridade legal do Rei é a única proteção.
 
-*Última atualização: 2026-04-30*
+*Última atualização: 2026-05-01*

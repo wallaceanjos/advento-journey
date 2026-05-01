@@ -1,81 +1,56 @@
 # 📚 Glossário de Termos
 
 > [!ABSTRACT] 💡 Em uma frase
-> Definições rápidas dos principais conceitos teológicos e técnicos do universo ADVENTO.
+> A "Pedra de Roseta" do projeto: tradução dos conceitos técnicos do rAthena para a linguagem do Realismo Espiritual de **Advenia**.
 
 ---
 
 ## 📝 Termos Fundamentais
 
-### 🌌 O Véu
-A limitação espiritual que obscurece a realidade plena. No jogo, justifica a UI e a percepção seletiva de monstros.
-
-- **O Livro (Escrituras):** A fonte de autoridade do Discípulo. Não é apenas um item, mas o canal de revelação.
-- **Proporção 2:1:** A realidade espiritual onde para cada Principado do Mal, existem dois do Bem (baseado em Apocalipse 12:4).
-- **Matéria Sequestrada:** A matéria física que espíritos corrompidos usam para se manifestar sob o Véu. Ao derrotá-los, a matéria é "reivindicada" pela criação original.
-- **Resíduos da Queda:** Itens materiais sem valor direto para o Discípulo, mas úteis para a Ordem e a Igreja em processos de purificação e estudo.
-- **Estatério (Provisão):** O milagre da manifestação de recursos financeiros (moedas/Many) a partir de ações de fé e obediência, como o combate espiritual (Mateus 17:27).
-
----
-
-## 🔗 Conexões Relacionadas
-- ⬅️ **Pai:** [Lore](../02-lore.md)
-- 🏠 **Home:** [ADVENTO](../../index.md)
+- **A Visão Natural:** A percepção limitada que obscurece a realidade plena. Justifica a interface e a detecção de monstros.
+- **A Visão Verdadeira:** A percepção da Realidade Superior, concedida pel'**O Livro**.
+- **O Livro (Escrituras):** A fonte de autoridade do Discípulo; o canal de revelação e interface de progresso.
+- **Proporção 2:1:** Realidade espiritual onde para cada agente do mal, existem dois da luz.
+- **Matéria Sequestrada:** Matéria física libertada da corrupção após a expulsão de um monstro.
+- **Estatério (Provisão):** A manifestação de recursos financeiros a partir de atos de obediência.
 
 ---
 
 ## 🎨 Regra de Interface (HUD vs. Lore)
 
-Para garantir uma boa experiência de usuário (UX) e não confundir jogadores veteranos de MMORPG, adotamos a seguinte regra:
+Para equilibrar a experiência do usuário (UX) com a imersão narrativa:
 
-1. **HUD e Janelas (Técnico):** Termos como **Level**, **HP**, **SP**, **STR**, **AGI** permanecem visíveis na interface principal.
-2. **Descrições e Hints (Lore):** Ao passar o mouse ou ler a descrição detalhada, o termo de lore é apresentado como um "hint" ou contextualização.
-   - *Exemplo:* Na barra de HP, o texto de hover diz: *"Integridade do Vaso: Representa o vigor físico e espiritual do Discípulo sob o Véu."*
+1. **HUD e Janelas (Técnico):** Termos clássicos (**Level**, **HP**, **SP**, **STR**) permanecem visíveis para facilitar a leitura rápida em combate.
+2. **Descrições e Tooltips (Lore):** Ao passar o mouse, o termo de Lore contextualiza o dado técnico.
+    - *Exemplo:* Na barra de HP, o hover diz: *"Integridade do Vaso (2Co 4:7): A resistência física e espiritual do Discípulo."*
 
 ---
 
-## 📊 Tabela de Analogias (Mecânica vs. Lore)
+## 📊 Tabela de Analogias (Mecânica ↔ Lore)
 
-Para manter a imersão, resignificamos os termos técnicos do Ragnarok Online para conceitos do ADVENTO.
-
-| Termo Técnico (rAthena) | Equivalente no ADVENTO          | Significado na Lore                                           |
+| Termo Técnico (rAthena) | Equivalente em ADVENTIA         | Significado no Realismo Espiritual                            |
 | :---------------------- | :------------------------------ | :------------------------------------------------------------ |
-| **Base Level**          | **Alinhamento Espiritual**      | O grau de sintonia e maturidade do Discípulo com o Rei.         |
-| **Job Level**           | **Grau de Ministério**          | A competência técnica na função específica (ex: Guerreiro).   |
-| **Experience (EXP)**    | **Revelação / Vivência**        | O que o jogador "aprende" ao enfrentar as trevas.             |
-| **HP (Health Points)**  | **Integridade do Vaso**         | A resistência física/espiritual do corpo do Discípulo.          |
-| **SP (Skill Points)**   | **Unção / Fluxo**               | A energia espiritual disponível para manifestar dons.         |
-| **Skills**              | **Dons / Autoridade**           | Manifestações de poder concedidas pelo uso do Livro.          |
-| **Loot (Drops)**        | **Matéria Sequestrada**         | Recursos da criação que foram libertos da corrupção.          |
+| **Base Level**          | **Santidade**                   | O grau de autoridade e maturidade espiritual do Discípulo.    |
+| **Job Level**           | **Grau de Ministério**          | A competência na função específica (Justiça, Zelo, etc).      |
+| **Experience (EXP)**    | **Vivência / Revelação**        | O aprendizado prático na Guerra Invisível.                    |
+| **HP (Health Points)**  | **Integridade do Vaso**         | A vitalidade física do corpo sob a Visão Natural.             |
+| **SP (Skill Points)**   | **Unção / Fluxo**               | A capacidade de manifestar dons espirituais.                  |
+| **Skills**              | **Dons / Autoridade**           | Manifestações de poder concedidas pel'O Livro.                |
+| **Loot (Drops)**        | **Matéria Sequestrada**         | Recursos da criação libertos da corrupção.                    |
 | **Zeny / Moeda**        | **Estatério / Provisão**        | Recursos manifestados para o sustento da jornada.             |
-| **MVP (Boss)**          | **Principado / Fortaleza**      | Uma entidade de alta hierarquia que domina uma região.        |
-| **Party / Grupo**       | **Comunhão**                    | A união de dois ou mais em nome da missão comum.              |
-| **Guild / Clã**         | **Congregação / Exército**      | Uma organização formal de Discípulos para fins maiores.         |
-| **Dungeon**             | **Fenda / Zona de Opressão**    | Local onde o Véu é mais fino e a corrupção é densa.           |
-| **Cards (Cartas)**      | **Ecos da Revelação**           | O entendimento profundo sobre a fraqueza de um mal.           |
-| **Weight (Peso)**       | **Fardo**                       | A capacidade de carregar recursos sem perder o vigor.         |
-
----
-
-## 🎮 Regra de Implementação (Godot + rAthena)
-
-A regra de dupla nomenclatura se aplica em todas as camadas do sistema:
-
-- **rAthena (servidor):** Usa termos técnicos internamente (`base_level`, `hp`, `sp`, `zeny`).
-- **Godot (cliente / UI):** A HUD exibe termos técnicos por padrão para não confundir jogadores veteranos de MMORPG.
-- **Tooltips e Descrições:** Ao hover ou na leitura detalhada, o termo de lore aparece: *"Integridade do Vaso: Representa o vigor físico e espiritual do Discípulo sob o Véu."*
-- **NPCs e Diálogos:** Usam exclusivamente termos de lore. Um NPC nunca diz "você subiu de level" — ele diz "seu Alinhamento Espiritual cresceu."
-- **Fase 5 do Roadmap:** O módulo `advento_translations` SQL + `TranslationServer` do Godot é onde essa injeção de termos ocorre sistematicamente.
+| **MVP (Boss)**          | **Principado / Fortaleza**      | Entidade de alta hierarquia que domina uma região.            |
+| **Party / Grupo**       | **Comunhão**                    | A união de Discípulos em nome da missão comum.                |
+| **Guild / Clã**         | **Corpo de Resistência**        | Organização formal para libertação de territórios.            |
+| **Dungeon**             | **Masmorra / Zona de Opressão** | Local onde a Visão Natural é densa e opressiva.               |
+| **Cards (Cartas)**      | **Ecos da Revelação**           | O entendimento sobre as fraquezas das trevas.                 |
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
 - ⚙️ **Técnico:** [Arquitetura Geral](../../sistema-tecnico/arquitetura/arquitetura-geral.md); [HUD Técnica](../../sistema-tecnico/modulos/hud-tecnica.md)
-- ⚙️ **Mecânica:** *Sistema de Analogias*
 
 ---
 ## 🧠 Análise do Agente
-> Este glossário de analogias é fundamental para que o desenvolvimento técnico (scripts de NPCs, nomes de itens) caminhe lado a lado com a imersão. Ao falar "ganhei alinhamento" em vez de "upei level", o jogador se sente dentro de um propósito sagrado, não apenas em um simulador de números.
+> Este glossário garante que o desenvolvimento não perca a alma. Ao transformar "Level" em "Santidade", cada nível ganho deixa de ser um "up" mecânico e torna-se um degrau na escada da autoridade espiritual do jogador. A regra dual (HUD técnica / Tooltip lore) é o equilíbrio perfeito para veteranos e novos jogadores.
 
-*Última atualização: 2026-04-19*
+*Última atualização: 2026-05-01*

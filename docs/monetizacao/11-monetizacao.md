@@ -1,72 +1,56 @@
 # 💰 11 - Monetização
 
 > [!ABSTRACT] 💡 Em uma frase
-> Modelo F2P ético: o jogador não compra vantagem — compra identidade. Nenhuma mecânica de pay-to-win em um jogo sobre santidade.
+> Modelo F2P Ético: O Discípulo não compra autoridade — ele investe em sua identidade. Nenhuma mecânica de *Pay-to-Win* em um jogo sobre **Santidade** em **Advenia**.
 
 ---
 
-## 🌿 Princípio Central
+## 🌿 Princípio do Mordomo (Ética de Advenia)
 
 > *"Não podeis servir a Deus e ao dinheiro."* — Mt 6:24
 
-O modelo de monetização do Advento precisa ser coerente com a lore. Um jogo sobre santidade, resistência espiritual e vigília pela Parusia não pode ter mecânicas predatórias que compram poder. A monetização deve ser:
+A monetização de **Advento** deve ser coerente com o framework de **Realismo Espiritual**. Se a **Santidade** é o fruto da caminhada e da resistência, ela não pode ser comprada. O sustento do projeto vem do desejo dos jogadores de apoiar a causa e personalizar sua jornada:
 
-1. **Ética:** Nenhum item pago afeta o balanceamento de combate.
-2. **Coerente com a lore:** O que é vendido tem nome e significado dentro do universo.
-3. **Opcional:** O jogador 100% free-to-play tem a experiência completa.
-4. **Sustentável:** Gera receita suficiente para manter servidores e desenvolvimento.
-
----
-
-## 💎 O que Pode Ser Monetizado
-
-### Cosméticos (Skins e Aparências)
-- **Vestes Especiais do Ministério:** Skins de armadura/roupas para cada classe — visual diferente, stats iguais.
-- **Instrumentos Sagrados:** Skins de armas — aparência única, desempenho idêntico.
-- **Títulos:** Títulos cosméticos acima do nome (ex: *"Peregrino do Alvorecer"*, *"Vigília de Solari"*).
-- **Efeitos de aura:** Partículas decorativas ao redor do personagem (não afetam a Visão Verdadeira de outros).
-
-### Passes de Temporada (Conteúdo Narrativo)
-- **Passes de Evento:** Acesso a missões especiais de evento com lore expandida.
-- **Passes de Reino:** Missões extras de cada reino com história adicional e recompensas cosméticas.
-- **Sem expiração de conteúdo:** O conteúdo adquirido nunca expira.
-
-### QoL (Qualidade de Vida)
-- **Expansão de inventário (Fardo Extra):** Slots adicionais de inventário — limitado para não criar desvantagem severa.
-- **Pets cosméticos:** Companheiros sem stats de combate.
-- **Slots de personagem extras:** Além dos 3 iniciais.
+1. **Autoridade Não se Compra:** Itens pagos nunca afetam o dano, a defesa ou o Tier Espiritual.
+2. **História Gratuita:** A revelação do Rei (Lore principal) é acessível a todos os Discípulos.
+3. **Transparência de Votos:** Sem mecânicas de azar (Loot Boxes) ou Gacha predatório.
 
 ---
 
-## 🚫 O que NÃO Pode Ser Monetizado
+## 💎 Apoio à Resistência (O que pode ser adquirido)
 
-| Proibido | Razão |
+### Cosméticos (Identidade Visual)
+- **Vestes Ministeriais:** Skins exclusivas para as classes, com estética Shekinah ou regional (Orizon/Krost/Solari).
+- **Instrumentos do Rei:** Aparências únicas para espadas, cajados e arcos.
+- **Efeitos de Glória:** Partículas visuais decorativas (Auras) que não interferem na **Visão Verdadeira**.
+
+### Conveniência e QoL (Qualidade de Vida)
+- **Fardo Extra:** Expansão moderada do inventário.
+- **Companheiros de Vigília:** Pets cosméticos que acompanham o Discípulo sem oferecer bônus de combate.
+- **Vagas de Discípulo:** Slots adicionais de personagem na conta.
+
+### Passes de Temporada (Narrativa Expandida)
+- **Encargos da Guerra:** Missões paralelas que aprofundam a história de NPCs secundários e concedem recompensas estéticas únicas.
+
+---
+
+## 🚫 Práticas Proibidas
+
+| Proibição | Justificativa de Realismo Espiritual |
 |---|---|
-| XP Boost / Santidade acelerada | Pagamento para crescer espiritualmente mais rápido contradiz a lore |
-| Itens de combate superiores | Pay-to-win quebra o balanceamento e a mensagem do jogo |
-| Loot boxes / Gacha | Mecânicas de azar com pagamento real são incompatíveis com a ética do projeto |
-| Conteúdo de lore exclusivo para pagantes | A história de Deus não é paga — é revelada |
-| Revive / Continue pago | A morte é um encontro com A Presença; não deve ter preço |
-
----
-
-## 💰 Modelo Sugerido
-
-| Produto | Preço estimado | Recorrência |
-|---|---|---|
-| Pack de Cosméticos (skin básica) | R$ 15–30 | One-time |
-| Passe de Temporada | R$ 30–50 / temporada | Trimestral |
-| Expansão de Inventário | R$ 20 | One-time |
-| Pack de Slot Extra | R$ 10 | One-time |
-| Doação direta (suporte) | Livre | Mensal/avulso |
-
----
+| **Aceleração de Santidade**| Pagamento para acelerar a maturidade espiritual é uma heresia narrativa. |
+| **Itens de Combate Pagos** | O poder em Advenia emana d'O Livro e da Fé, não do cartão de crédito. |
+| **Gacha / Sorteio Pago** | O acaso pago é incompatível com a providência e a ética do projeto. |
+| **Revive Pago** | A morte é um encontro sagrado com A Presença; não deve ter preço. |
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [ADVENTO](../index.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- ⚙️ **Gameplay:** [Gameplay](../gameplay/04-gameplay.md) (loop que não deve ser quebrado por monetização)
-- 💰 **Economia in-game:** [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md)
+- ⚙️ **Mecânica:** [Gameplay](../gameplay/04-gameplay.md)
+- 💰 **Economia:** [Economia Espiritual](../lore/bestiario-e-entidades/economia-espiritual.md)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> A monetização em Advenia deve ser vista como uma "oferta voluntária" para manter os servidores acesos. Ao remover qualquer possibilidade de comprar poder, protegemos a integridade da progressão de Santidade. O jogador que gasta dinheiro em Advenia o faz porque ama o mundo e quer que ele continue existindo, não porque quer ser "melhor" que o irmão ao lado.
+
+*Última atualização: 2026-05-01*

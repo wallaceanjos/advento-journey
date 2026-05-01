@@ -1,95 +1,65 @@
 # 🎨 06 - Arte & Estilo
 
 > [!ABSTRACT] 💡 Em uma frase
-> 3D Stylized com câmera isométrica — um visual vibrante no Mundo de Ilusão que se transforma em monocromático na Visão Verdadeira, usando Bloodborne e Persona 5 como referências de tom.
+> 3D Stylized com câmera isométrica — um visual vibrante na **Visão Natural** que se transmuta em uma realidade desaturada e nítida na **Visão Verdadeira**, materializando o **Realismo Espiritual**.
 
 ---
 
-## 🎨 Direção Visual (Decisões Confirmadas)
+## 🎨 Direção Visual (O Dualismo de Advenia)
 
-| Decisão | Escolha | Justificativa |
+O principal pilar artístico de **Advento** é que o mesmo espaço precisa manifestar duas realidades distintas através de Shaders:
+
+### 1. A Visão Natural (O Estado da Queda)
+- **Estética:** Stylized Anime (vibrante, saturado, cores quentes).
+- **Iluminação:** Suave e difusa; sombras leves.
+- **Propósito:** Representar a beleza da criação que, embora caída, ainda reflete o brilho do Rei, mas serve como uma "maquiagem" que oculta a Guerra Invisível.
+- **Sensação:** Conforto, aventura clássica, segurança ilusória.
+
+### 2. A Visão Verdadeira (A Realidade Superior)
+- **Estética:** Realismo Desaturado (tons de cinza, contrastes duros, nitidez absoluta).
+- **Iluminação:** Direcional e dramática; sombras nítidas revelando a estrutura espiritual.
+- **Propósito:** Mostrar o mundo como ele realmente é: um campo de batalha entre a luz e as trevas.
+- **Destaque:** Inimigos recebem overlays de Tier (Cinza, Âmbar, Vermelho), tornando-se os únicos pontos de cor em um mundo monocromático.
+- **Sensação:** Urgência, vigilância e verdade nua.
+
+---
+
+## 🗺️ Estética dos Três Reinos
+
+| Reino | Paleta Dominante | Atmosfera Narrativa |
 |---|---|---|
-| **Estilo** | 3D Stylized | Escala bem entre mobile e PC; permite shaders expressivos |
-| **Câmera** | Isométrica | Familiar para jogadores de MMORPG; mapas legíveis |
-| **Paleta principal** | Vibrante, saturada | Representa o Mundo de Ilusão — aparentemente belo |
-| **Paleta em combate** | Desaturada (tons de cinza) | Representa o Mundo Real — a verdade visível pela Visão Verdadeira |
-| **Pixel Art** | ❌ Descartado | Escalabilidade limitada, animações de troca de equip complexas, shaders de Visão Verdadeira difíceis de implementar |
+| **Orizon** | Verde, Azul Celeste, Branco | Alvorecer e Esperança (Início da Jornada). |
+| **Krost** | Cinza Ferro, Laranja Brasa | Refino e Provação (O Deserto de Advenia). |
+| **Solari** | Dourado, Branco Luminoso | Glória e Proximidade (A Ante-sala da Parusia). |
 
 ---
 
-## 🌑 O Sistema Visual de Dois Mundos
+## 🎭 Entidades sob a Lente da Verdade
 
-O principal desafio artístico do Advento é que o mesmo espaço precisa parecer dois mundos distintos:
-
-### Mundo de Ilusão (estado padrão)
-- Paleta: colorida, vibrante, quente.
-- Iluminação: suave, dia claro ou noite atmosférica.
-- NPCs: aparência comum e normal.
-- Sensação: um MMORPG bonito e aconchegante.
-
-### Mundo Real / Visão Verdadeira (estado de combate/Fissura)
-- Shader de desaturação global aplicado ao cenário (não à HUD).
-- Paleta: tons de cinza e sombra; contrastes mais duros.
-- Inimigos: overlays de cor aplicados (Tier 0 cinza, Tier 1 âmbar, Tier 2 vermelho).
-- Fissuras: efeito de distorção visual na borda da zona de evento.
-- Sensação: a beleza sumiu — a guerra está exposta.
-
----
-
-## 🎨 Paleta de Cores por Reino
-
-| Reino | Cor dominante | Tom espiritual |
+| Entidade | Visual na Visão Natural | Revelação na Visão Verdadeira |
 |---|---|---|
-| **Orizon** | Verde, azul celeste, branco | Alvorecer, esperança, fé nova |
-| **Krost** | Cinza ferro, laranja brasa, vermelho carvão | Refino, provação, força |
-| **Solari** | Dourado, areia, branco luminoso | Glória, proximidade, descanso |
+| **Monstros** | Criaturas "selvagens" comuns. | Entidades distorcidas com glow de corrupção. |
+| **Corrompidos**| Humanos comuns ou NPCs. | Formas trágicas e parasitadas. |
+| **O Irmão** | Um homem simples e humilde. | Emana a luz Shekinah (Sinal de Autoridade). |
+| **Fissuras** | Distorção de calor no ar. | Rasgo nítido na realidade com partículas de sombra. |
 
 ---
 
-## 🎭 Identidade por Tipo de Entidade
+## 🖼️ Referências Artísticas
 
-| Tipo | Visual base | Visual na Visão Verdadeira |
-|---|---|---|
-| Monstros comuns | Criaturas normais do mundo | Distorcidos, com glow escuro |
-| MVPs | Imponentes, design marcante | Aura de corrompimento intensa |
-| Corrompidos | Humanos com distorção parcial | Forma humana visível mas monstruosa |
-| Discípulo (jogador) | Normal, com equipamento | Sem overlay — aliado |
-| NPCs | Completamente normais | Sem distorção — civis |
-| O Irmão | Normal para todos | Emana luz sutil — só visível na Visão Verdadeira |
-
----
-
-## 🖼️ Referências Visuais Confirmadas
-
-| Referência | Elemento específico |
-|---|---|
-| **Bloodborne** | Atmosfera de mundo com camada oculta; arte de inimigos com formas reconhecíveis distorcidas |
-| **Persona 5** | Transição impactante entre mundo comum e mundo espiritual; UI expressiva |
-| **Ragnarok Online** | Estilo MMORPG isométrico de referência; conforto do sistema |
-| **Prototype** (Infected Vision) | Shader de percepção especial aplicado ao mundo; inspiração direta para Visão Verdadeira |
-
-| ![Pasted image 20260228214903](../assets/images/pasted-image-20260228214903.png) | ![Pasted image 20260228214931](../assets/images/pasted-image-20260228214931.png) |
-| ------------------------------------ | ------------------------------------ |
-| ![Pasted image 20260228215150](../assets/images/pasted-image-20260228215150.png) | |
-
----
-
-## 🔧 Diretrizes Técnicas (Godot)
-
-- **Shader de desaturação:** Global (pós-processamento); `WorldEnvironment` node com `Environment.saturation` interpolado.
-- **Overlay de tier:** Material individual por entidade; parâmetro `overlay_color` via shader customizado.
-- **Iluminação:** Stylized — sem PBR fotorrealista; flat shading com contornos sutis.
-- **Animações:** Rigged 3D; mínimo 4 animações por classe (idle, walk, attack, skill).
-- **Fissuras:** Partículas + distortion shader; VFX com `GPUParticles3D`.
-
----
+- **Bloodborne:** A atmosfera de um mundo com camadas ocultas e terror espiritual.
+- **Persona 5:** A transição estilosa e impactante entre a vida comum e o mundo espiritual (Metaverso).
+- **Ragnarok Online:** A câmera isométrica e o "conforto" visual de um mundo habitável.
+- **Realismo Espiritual:** A crença de que o espiritual é mais "sólido" que o material.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [ADVENTO](../index.md)
 - 🏠 **Home:** [ADVENTO](../index.md)
-- ⚙️ **Mecânica:** [Sistema de Combate](../gameplay/sistema-de-combate.md) (shader de Visão Verdadeira)
-- ⚙️ **Técnico:** [Comunicação Client-Server](../sistema-tecnico/arquitetura/comunicacao-client-server.md) (pacote tier_cor)
-- 📱 **UI:** [UI](../ui/07-ui.md)
+- ⚙️ **Técnico:** [Sistema Técnico](../sistema-tecnico/05-sistema-tecnico.md) (Implementação de Shaders)
+- ⚔️ **Mecânica:** [Sistema de Combate](../gameplay/sistema-de-combate.md) (Tiers de Cor)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> A arte em Advenia não é apenas estética; é gameplay. O jogador aprende a "confiar menos no que é bonito" (Visão Natural) e a "buscar o que é real" (Visão Verdadeira). O uso do shader de desaturação global é a nossa maior ferramenta de imersão: quando o mundo perde a cor, o jogador ganha a verdade.
+
+*Última atualização: 2026-05-01*

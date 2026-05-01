@@ -1,81 +1,57 @@
 # 📖 06 - A Guerra Invisível
 
 > [!ABSTRACT] 💡 Em uma frase
-> O conflito territorial silencioso cujas vitórias e derrotas espirituais moldam diretamente a realidade física — e a razão pela qual o jogador entra em dungeons.
+> O conflito territorial silencioso cujas vitórias e derrotas espirituais moldam a realidade visível de **Advenia** — e a razão pela qual o Discípulo entra em combate.
 
 ---
 
-## 📝 Descrição
+## 📝 Descrição: A Batalha pelos Fundamentos
 
-Batalhas espirituais constantes acontecem enquanto cidades prosperam e a vida parece normal. A maioria das pessoas — e até guildas inteiras de aventureiros — luta por territórios físicos sem entender a dimensão espiritual em jogo.
+Enquanto as cidades prosperam e a vida parece normal sob a **Visão Natural**, batalhas espirituais constantes ocorrem nos fundamentos do mundo. A **Guerra Invisível** é o estado permanente de Advenia há doze séculos: um conflito onde cada vitória espiritual enfraquece a mentira dos Principados e cada derrota fortalece a cegueira sobre a região.
 
-A **Guerra Invisível** é o estado permanente do mundo pós-Queda: um conflito territorial em que cada vitória espiritual altera o equilíbrio local e cada derrota fortalece a opacidade do Véu na região.
-
----
-
-## 🏰 Dungeons como Fortalezas Espirituais
-
-No Advento, uma dungeon não é apenas um local de farm — é uma **fortaleza espiritual**:
-
-- **Pontos Críticos:** Dungeons são locais de alta concentração da influência de um Principado. A presença do Véu nessas áreas é máxima — shader de desaturação mais intenso desde a entrada.
-- **O Farm como Resistência:** Cada monstro expulso numa dungeon é uma unidade de influência do Principado removida do território. O jogador não está apenas farmando XP — está literalmente enfrentando a guerra.
-- **Consequência Prática:** Limpar uma dungeon reduz a "pressão" do Principado na região:
-  - Spawn de inimigos comuns fica mais lento na área ao redor.
-  - O Véu fica mais leve (menor desaturação no mapa externo).
-  - O MVP do mapa fica acessível.
-- **Derrota:** Se o jogador é expulso (morre) repetidamente sem limpar a dungeon, a influência se intensifica — mecânica a ser definida em versões futuras.
+O objetivo do inimigo é tornar a **Visão Natural** tão densa que a humanidade esqueça completamente a existência do Rei. O papel do Discípulo é o oposto: rasgar essa densidade através da autoridade espiritual.
 
 ---
 
-## ⚔️ O Loop Central da Guerra
+## 🏰 Masmorras como Fortalezas Espirituais
+
+No Advento, uma masmorra (dungeon) não é apenas um local de farm — é uma **fortaleza de opressão**:
+
+- **Nódulos de Corrupção:** Dungeons são locais onde a influência de um Principado é máxima. Nessas áreas, a **Visão Natural** é tão pesada que o cenário atinge níveis máximos de desaturação desde a entrada.
+- **Resistência Territorial:** Cada entidade expulsa dentro de uma masmorra representa uma unidade de autoridade maligna removida do solo de Advenia. O jogador não está apenas "ganhando XP"; ele está libertando o território.
+- **Efeito Visual Dinâmico:** Limpar uma masmorra reduz a "pressão" na região externa. O shader de desaturação recua levemente, tornando as cores do mapa mais nítidas e próximas da Realidade Superior.
+
+---
+
+## ⚔️ O Loop de Libertação
 
 ```
-Jogador entra na Fissura/Dungeon
-    → Expulsa monstros (resistência territorial)
-    → Enfraquece o Principado local
-    → Encontra e enfrenta o MVP
-    → Expulsa o MVP → território temporariamente limpo
-    → Véu mais leve na região → melhor drop de Matéria Sequestrada
-    → Principado eventualmente recupera o território (respawn justificado pela Parusia)
-    → Loop recomeça
+Discípulo detecta uma Fissura ou entra em uma Masmorra
+    → Ativa a Visão Verdadeira (identifica Tiers de ameaça)
+    → Expulsa Entidades Decaídas (enfraquece o Principado local)
+    → Enfrenta o MVP (âncora da autoridade maligna)
+    → Expulsa o MVP → território é temporariamente Santificado
+    → Visão Natural torna-se mais leve → revela segredos e melhores recompensas
+    → O mal eventualmente tenta retornar (respawn) → a vigilância recomeça
 ```
 
 ---
 
-## 🌍 Impacto no Mundo
+## 👥 Comunidades de Resistência (Guildas)
 
-A Guerra Invisível é o motor narrativo que justifica a estrutura de MMORPG aberto:
-
-| Ação do jogador | Efeito espiritual | Efeito visual |
-|---|---|---|
-| Expulsar monstros comuns | Reduz pressão do Principado | Shader levemente mais saturado |
-| Expulsar MVP | Principado temporariamente recua | Véu notavelmente mais leve na região |
-| Ignorar dungeons | Influência se expande | Spawn aumenta, Fissuras mais frequentes |
-| Cidades bem defendidas | Estruturas sociais mais saudáveis | Não há distorção visual nos NPCs |
-
----
-
-## 👥 A Dimensão Coletiva
-
-A guerra não é apenas individual:
-
-- **Guildas como igrejas de campo:** Grupos de jogadores que sistematicamente limpam territórios funcionam como a Igreja organizada combatendo em conjunto.
-- **Territórios abandonados:** Mapas que ninguém visita por tempo suficiente podem ter sua influência de Principado máxima — incentivo a exploração.
-- **Eventos de Fissura:** Fissuras abertas são emergências de guerra — o mal transbordou do plano espiritual e precisa ser contido imediatamente.
-
----
+A guerra não é travada apenas solitariamente:
+- **Corpo de Resistência:** Guildas funcionam como comunidades de intercessão e combate organizado. Grupos que sistematicamente limpam masmorras mantêm cidades inteiras seguras da influência dos Principados.
+- **Territórios Esquecidos:** Mapas ignorados pelos jogadores tornam-se "Zonas Mortas", onde a influência do Adversário é absoluta e as Fissuras são constantes.
+- **Vigilância Ativa:** A Guerra Invisível exige que os Discípulos não apenas conquistem, mas ocupem e protejam Advenia até a Parusia.
 
 ## 🔗 Conexões Relacionadas
-
 - ⬅️ **Pai:** [Lore](../02-lore.md)
 - 🏠 **Home:** [ADVENTO](../../index.md)
 - 📖 **Anterior:** [O Chamado](05-o-chamado.md)
-- ⚙️ **Mecânicas:** [Sistema de Combate](../../gameplay/sistema-de-combate.md); *Dungeons*; *Expulsão*; *MVPs*
-- 🌍 **Conceito:** Guerra Invisível; Fissuras; Parusia
-- 🌍 **Mundo:** [Mundo](../../mundo/03-mundo.md) (mapa de territórios e dungeons)
+- 🌍 **Conceito:** Visão Natural; Visão Verdadeira; Realismo Espiritual; Parusia; Santidade
 
 ---
 ## 🧠 Análise do Agente
-> Esta página fecha o ciclo lore-mecânica. Ela explica por que o jogador entra em dungeons: não apenas atrás de tesouros, mas para "limpar" a influência de um Principado. O farm torna-se uma forma de resistência espiritual com consequências visíveis no mundo. O shader de desaturação regional é a chave — o mundo literalmente fica mais colorido (mais "real") quando o jogador vence.
+> Este capítulo dá propósito ao "grind". Ao vincular a limpeza de dungeons ao estado visual do mapa (desaturação regional), criamos uma recompensa psicológica clara: o mundo fica mais "bonito" e "real" porque o jogador agiu. A Guerra Invisível deixa de ser um conceito abstrato e torna-se o motor que move a comunidade de jogadores.
 
-*Última atualização: 2026-04-19*
+*Última atualização: 2026-05-01*

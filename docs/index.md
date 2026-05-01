@@ -1,28 +1,25 @@
 # 🏰 ADVENTO
 
-*[imagem não encontrada: advento-logo.png | 500]*
+<center>
+<img src="advento-logo.png" width="200"/>
+</center>
 
 > [!ABSTRACT] 💡 Resumo do Projeto
-> **ADVENTO** é um MMORPG cristão sobre guerra espiritual, construído em rAthena + Godot. O jogador é um Discípulo que, armado com O Livro, rasga o Véu da Cegueira e resiste à corrupção de Principados em Aethelgard — o Jardim Eterno que aguarda a Parusia para ser restaurado.
+> **ADVENTO** é um MMORPG cristão estilizado sobre a guerra invisível, construído em rAthena + Godot. O jogador assume o papel de um Discípulo que, através da **Visão Verdadeira**, enxerga além da **Visão Natural** para resistir à corrupção dos Principados e libertar Advenia — o Jardim Eterno que aguarda a restauração final na Parusia.
 
 ---
 
-## 📖 Sinopse da Lore
+![gameplay](assets/images/gameplay.png)
 
-Em um mundo fragmentado pela Queda, a humanidade caminha sob o domínio do esquecimento.
-O que antes era uma realidade plena e luminosa é agora percebido apenas através do **Véu** —
-uma cegueira espiritual herdada que oculta a verdade da Guerra Invisível em andamento.
+## 📖 Sinopse: O Despertar do Discípulo
 
-De um lado, as hordas do Adversário: Principados que governam territórios, MVPs que os representam,
-e Corrompidos — humanos que cruzaram o Véu pela transgressão e perderam sua humanidade.
-Do outro, o chamado persistente do Rei: um Livro entregue por um estranho, uma Visão que rasga o mundo
-e revela o que sempre esteve lá.
+Em um mundo fragmentado pela Queda, a humanidade caminha confinada à **Visão Natural** — uma percepção limitada que oculta a verdadeira natureza do conflito que nos cerca. O que muitos chamam de "realidade" é apenas a superfície de uma guerra milenar pela alma de Advenia.
 
-Você desperta em Primórdia, a Vila do Despertar, com nada além de O Livro.
-Sua missão não é "zerar" o jogo. É resistir — dungeon por dungeon, Principado por Principado —
-até que o Rei volte e o Jardim Eterno seja restaurado de uma vez por todas.
+De um lado, as hordas do Adversário: Principados que governam territórios através do medo e da dúvida, e os **Corrompidos** — aqueles que, ao buscarem o espiritual por vias ilícitas, rasgaram sua própria humanidade. Do outro, a promessa do Rei: um Chamado que ressoa através d'**O Livro**, concedendo ao Discípulo a **Visão Verdadeira** — a capacidade de enxergar o mundo como ele realmente é: sustentado pela Palavra, mas sob ataque das trevas.
 
-**O Advento está próximo.**
+Você desperta em **Primórdia**, a Vila do Despertar. À sua frente, um caminho que não se mede apenas em quilômetros, mas em Santidade. Sua missão não é a conquista de reinos terrenos, mas a libertação espiritual de Advenia, território por território, até que o **Advento** se complete e o Rei retorne para restaurar todas as coisas.
+
+**A Verdade foi revelada. O Chamado é seu.**
 
 ---
 
@@ -39,7 +36,7 @@ até que o Rei volte e o Jardim Eterno seja restaurado de uma vez por todas.
 > *Inclui:* 7 capítulos, Bestiário (100 monstros), Economia Espiritual, Glossário rAthena↔lore, NPCs, O Despertar (prólogo).
 
 ### 🌍 03 — [Mundo](mundo/03-mundo.md)
-> Aethelgard: 3 reinos, 9 cidades, sistema de nomes duais.
+> Advenia: 3 reinos, 9 cidades, sistema de nomes duais.
 > *Inclui:* Orizon (1–40), Krost (41–70), Solari (71–99); dungeons por reino.
 
 ### ⚔️ 04 — [Gameplay](gameplay/04-gameplay.md)
@@ -81,4 +78,4 @@ até que o Rei volte e o Jardim Eterno seja restaurado de uma vez por todas.
 
 ---
 
-*Última atualização: 2026-04-19*
+*Última atualização: 2026-05-01*

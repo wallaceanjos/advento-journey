@@ -1,96 +1,76 @@
 # 🧠 Comunicação Client-Server
 
 > [!ABSTRACT] 💡 Em uma frase
-> O modelo cliente/servidor do Advento segue o protocolo rAthena padrão com extensões customizadas para suportar a Visão Verdadeira (sistema de tiers de cor).
+> O modelo de comunicação de **Advento** utiliza o protocolo rAthena padrão com extensões customizadas para materializar a **Visão Verdadeira** e o sistema de Tiers Espirituais em **Advenia**.
 
 ---
 
-## Modelo
+## Modelo de Dados
+
+O fluxo de informação segue a estrutura de autoridade do **Realismo Espiritual**:
 
 ```
-Cliente (Godot)
-      ↕ (TCP/UDP — protocolo rAthena)
-Servidor (rAthena)
+Cliente (Godot 4.x)             Servidor (rAthena - C)
+      ↕ (TCP/UDP — Protocolo rAthena Estendido)
 ```
 
-**Nota:** Engine canônica é **Godot** — não Unity (referência a Unity em documentos antigos foi descartada).
+1. **Servidor (Autoridade):** Calcula se o Discípulo tem autoridade sobre a entidade (Diferença de **Santidade**).
+2. **Cliente (Percepção):** Recebe os dados de autoridade e aplica os Shaders de desaturação e overlay correspondentes à **Visão Verdadeira**.
 
 ---
 
-## Responsabilidades do Cliente (Godot)
+## 📦 Pacote Customizado: `tier_espiritual`
 
-- Renderização (3D Stylized, câmera isométrica)
-- Input do jogador (clique no chão, habilidades)
-- UI / HUD (com dual nomenclatura: técnico + lore)
-- Shaders: desaturação global (Visão Verdadeira) + overlay de cor por entidade
-- Feedback visual (VFX de expulsão, partículas)
-- Animações de personagem e entidades
-
-## Responsabilidades do Servidor (rAthena)
-
-- Cálculo de dano e validação de ações
-- Controle de estado global e sincronização
-- Persistência via MySQL (personagens, inventário, progresso)
-- Spawn de entidades (monstros, NPCs, MVPs)
-- Cálculo e envio do `tier_cor` para o cliente
-
----
-
-## 📦 Pacote Customizado: `tier_cor`
-
-O sistema de Visão Verdadeira requer um byte adicional no pacote de spawn de entidades:
+Para suportar a **Visão Verdadeira**, adicionamos um campo de 1 byte ao pacote de spawn de unidades do rAthena:
 
 ```c
 // Extensão do pacote clif_spawn_unit (rAthena)
-// Byte customizado adicionado ao final do pacote padrão
+// Byte customizado injetado para definir a percepção do Discípulo
 struct packet_spawn_unit_advento {
     // [...campos padrão rAthena...]
-    uint8_t tier_cor;  // 0 = cinza, 1 = âmbar, 2 = vermelho
+    uint8_t tier_espiritual;  // 0 = Cinza, 1 = Âmbar, 2 = Vermelho
 };
 ```
 
-**Cálculo de `tier_cor` no servidor:**
+**Lógica de Autoridade no Servidor:**
 ```c
-// Pseudocódigo
-int nivel_mob = mob->level;
-int nivel_jogador = sd->status.base_level;
-int delta = nivel_mob - nivel_jogador;
+// Cálculo baseado na Santidade (base_level)
+int santidade_mob = mob->level;
+int santidade_discípulo = sd->status.base_level;
+int delta = santidade_mob - santidade_discípulo;
 
-if (delta <= -10)      tier_cor = 0;  // Cinza — muito inferior
-else if (delta <= 10)  tier_cor = 1;  // Âmbar — equivalente
-else                   tier_cor = 2;  // Vermelho — superior
+if (delta <= -10)      tier_espiritual = 0;  // Cinza (Matéria Liberta)
+else if (delta <= 10)  tier_espiritual = 1;  // Âmbar (Conflito Equilibrado)
+else                   tier_espiritual = 2;  // Vermelho (Opressão Superior)
 ```
 
-**No Godot:**
-```gdscript
-# Aplicar overlay ao mob baseado no tier_cor recebido
-func set_tier_visual(tier: int):
-    match tier:
-        0: material.set_shader_param("overlay_color", Color(0.7, 0.7, 0.7))  # cinza
-        1: material.set_shader_param("overlay_color", Color(1.0, 0.8, 0.0))  # âmbar
-        2: material.set_shader_param("overlay_color", Color(1.0, 0.1, 0.1))  # vermelho
-```
-
----
-
-## 🔄 Fluxo Principal
-
-```
-Jogador entra em combate/Fissura
-  → Cliente ativa shader de desaturação global
-  → Servidor recalcula tier_cor para todos os mobs visíveis
-  → Envia pacotes spawn (ou update) com tier_cor
-  → Cliente aplica overlay de cor a cada entidade
-  → Saída de combate → Cliente reverte desaturação
+**Processamento Visual no Godot (C#):**
+```csharp
+// Aplicar o Tier Espiritual ao material 3D da entidade
+public void ApplySpiritualTier(int tier) {
+    var shaderMaterial = meshInstance.GetSurfaceOverrideMaterial(0) as ShaderMaterial;
+    if (shaderMaterial != null) {
+        shaderMaterial.SetShaderParameter("spiritual_tier", tier);
+    }
+}
 ```
 
 ---
+
+## 🔄 Fluxo de Revelação em Combate
+
+1. **Entrada em Conflito:** O jogador engaja um monstro ou entra em uma Fissura.
+2. **Ativação da Lente:** O cliente Godot ativa o shader de desaturação global da **Visão Natural**.
+3. **Sincronização de Tiers:** O servidor envia o pacote `tier_espiritual` para todas as entidades visíveis.
+4. **Revelação:** O Discípulo enxerga as cores espirituais dos inimigos sobre o mundo nítido e sem a "maquiagem" das cores saturadas.
 
 ## 🔗 Relacionado
-
 - [Arquitetura Geral](arquitetura-geral.md)
-- [Sistema de Login](../modulos/sistema-de-login.md)
-- [Sistema de Combate](../../gameplay/sistema-de-combate.md) (Visão Verdadeira)
-- [Roadmap](../../roadmap/08-roadmap.md) (Fase 2 — implementação do sistema de entidades)
+- [Sistema de Combate](../../gameplay/sistema-de-combate.md) (Lógica de Tiers)
+- [Roadmap](../../roadmap/08-roadmap.md) (Fase 2)
 
-*Última atualização: 2026-04-19*
+---
+## 🧠 Análise do Agente
+> O pacote `tier_espiritual` é o elo técnico que une a teologia ao código. Ao mover o cálculo de "cor" para o servidor (autoridade), garantimos que o sistema seja seguro contra trapaças e que a percepção do jogador seja sempre um reflexo fiel da sua maturidade espiritual (Santidade).
+
+*Última atualização: 2026-05-01*
