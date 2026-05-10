@@ -1,7 +1,7 @@
 site_name: "Advento"
 site_description: "Lore e documentação oficial do MMORPG cristão Advento"
-site_url: "https://SEU_USUARIO.github.io/advento-journey/"
-repo_url: "https://github.com/SEU_USUARIO/advento-journey"
+site_url: "https://wallaceanjos.github.io/advento-journey/"
+repo_url: "https://github.com/wallaceanjos/advento-journey"
 repo_name: "advento-journey"
 
 theme:
@@ -53,7 +53,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/SEU_USUARIO/advento-journey"
+      link: "https://github.com/wallaceanjos/advento-journey"
 
 nav:
   - 'Home': index.md
